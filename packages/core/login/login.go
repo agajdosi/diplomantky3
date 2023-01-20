@@ -36,7 +36,7 @@ func Main(in Request) *Response {
 	}
 
 	return &Response{
-		Headers:    map[string]string{"location": "https://example.com"},
-		StatusCode: 302,
+		Headers:    map[string]string{"location": "/"},
+		StatusCode: 302, //REDIRECT
 	}
 }

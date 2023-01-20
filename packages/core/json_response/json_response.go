@@ -2,6 +2,7 @@ package main
 
 import (
 	"net/http"
+	"os"
 )
 
 type Request struct {
@@ -37,11 +38,18 @@ func Main(in Request) *Response {
 			Body:       data}
 	}
 
-	data := map[string]string{
-		"success": "logged in"}
+	username_ok := in.Username == os.Getenv("ADMIN_USERNAME")
+	password_ok := in.Password == os.Getenv("ADMIN_PASSWORD")
+	if username_ok && password_ok {
+		return &Response{
+			StatusCode: 200,
+			Headers:    headers,
+			Body:       map[string]string{"result": "logged in"}}
+	}
+
 	return &Response{
 		StatusCode: 200,
 		Headers:    headers,
-		Body:       data,
+		Body:       map[string]string{"result": "wrong credentials"},
 	}
 }
