@@ -8,7 +8,7 @@ functions:
     repo: agajdosi/diplomantky3
   name: diplomantky-functions
   routes:
-  - path: /diplomantky32
+  - path: /fce
   source_dir: /
 name: diplomantky-app
 region: fra
@@ -17,7 +17,7 @@ static_sites:
   github:
     branch: master
     deploy_on_push: true
-    repo: agajdosi/diplomantky.cz
+    repo: agajdosi/diplomantky3
   name: diplomantky-static
   routes:
   - path: /
