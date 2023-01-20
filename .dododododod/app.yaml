@@ -15,7 +15,7 @@ static_sites:
   github:
     branch: main
     deploy_on_push: true
-    repo: agajdosi/diplomantky3
+    repo: agajdosi/diplomantky
   name: diplomantky3
   routes:
   - path: /
