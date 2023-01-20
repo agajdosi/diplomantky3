@@ -12,7 +12,7 @@ packages:
           main: ""
           runtime: go:default
           web: true
-          websecure: false
+          websecure: true
           parameters: {}
           environment: {}
           annotations: {}
