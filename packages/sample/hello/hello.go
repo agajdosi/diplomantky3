@@ -1,25 +1,11 @@
 package main
 
-import (
-	"fmt"
-)
-
-type Request struct {
-	Name string `json:"name"`
-}
-
-type Response struct {
-	StatusCode int               `json:"statusCode,omitempty"`
-	Headers    map[string]string `json:"headers,omitempty"`
-	Body       string            `json:"body,omitempty"`
-}
-
-func Main(in Request) (*Response, error) {
-	if in.Name == "" {
-		in.Name = "stranger"
+func Main(args map[string]interface{}) map[string]interface{} {
+	name, ok := args["name"].(string)
+	if !ok {
+		name = "STRANGER"
 	}
-
-	return &Response{
-		Body: fmt.Sprintf("Hello %s", in.Name),
-	}, nil
+	msg := make(map[string]interface{})
+	msg["body"] = "Hello " + name + "!"
+	return msg
 }
