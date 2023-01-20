@@ -1,0 +1,8 @@
+name: Diplomantky-APP
+static_sites:
+- environment_slug: html
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: agajdosi/diplomantky3
+  name: sample-html
