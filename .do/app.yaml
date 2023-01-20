@@ -1,8 +1,22 @@
-name: Diplomantky-APP
+alerts:
+- rule: DEPLOYMENT_FAILED
+functions:
+- git:
+    branch: master
+    repo_clone_url: https://github.com/digitalocean/sample-functions-golang-helloworld.git
+  name: sample-functions-golang-hellowor
+  routes:
+  - path: /sample-functions-golang-hellowor
+  source_dir: /
+name: DIPLOMANTKY-APP
+region: fra
 static_sites:
 - environment_slug: html
   github:
     branch: main
     deploy_on_push: true
     repo: agajdosi/diplomantky3
-  name: sample-html
+  name: diplomantky3
+  routes:
+  - path: /
+  source_dir: /
