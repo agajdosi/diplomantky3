@@ -15,10 +15,10 @@ region: fra
 static_sites:
 - environment_slug: html
   github:
-    branch: master
+    branch: main
     deploy_on_push: true
     repo: agajdosi/diplomantky3
   name: diplomantky-static
   routes:
   - path: /
-  source_dir: /docs
+  source_dir: /static
