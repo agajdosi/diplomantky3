@@ -1,0 +1,24 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+functions:
+- github:
+    branch: main
+    deploy_on_push: true
+    repo: agajdosi/diplomantky3
+  name: diplomantky-functions
+  routes:
+  - path: /diplomantky32
+  source_dir: /
+name: diplomantky-app
+region: fra
+static_sites:
+- environment_slug: html
+  github:
+    branch: master
+    deploy_on_push: true
+    repo: agajdosi/diplomantky.cz
+  name: diplomantky-static
+  routes:
+  - path: /
+  source_dir: /docs
