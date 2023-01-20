@@ -1,18 +1,16 @@
-parameters: {}
-environment: {}
 packages:
     - name: core
-      shared: false
-      environment: {}
-      parameters: {}
-      annotations: {}
+      environment:
+        ADMIN_USERNAME: "${ADMIN_USERNAME}"
+        ADMIN_PASSWORD: "${ADMIN_PASSWORD}"
       functions:
         - name: login
           binary: false
           main: ""
           runtime: go:default
           web: true
-          parameters: {}
-          environment: {}
-          annotations: {}
-          limits: {}
+        - name: json_response
+          binary: true
+          main: ""
+          runtime: go:default
+          web: true

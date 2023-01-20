@@ -1,9 +1,8 @@
 package main
 
 import (
-	"errors"
-	"fmt"
 	"net/http"
+	"os"
 )
 
 type Request struct {
@@ -17,21 +16,27 @@ type Response struct {
 	Body       string            `json:"body,omitempty"`
 }
 
-func Main(in Request) (*Response, error) {
+func Main(in Request) *Response {
 	if in.Username == "" {
 		return &Response{
 			StatusCode: http.StatusBadRequest,
-			Body:       "missing username"}, errors.New("no username provided")
+			Body:       "missing username"}
 	}
 
 	if in.Password == "" {
 		return &Response{
 			StatusCode: http.StatusBadRequest,
-			Body:       "missing password"}, errors.New("no password provided")
+			Body:       "missing password"}
 	}
 
-	response := &Response{
-		Body: fmt.Sprintf("Hello %s %s", in.Username, in.Password),
+	username_ok := in.Username == os.Getenv("ADMIN_USERNAME")
+	password_ok := in.Password == os.Getenv("ADMIN_PASSWORD")
+	if username_ok && password_ok {
+		return &Response{Body: "Hello ADMIN!"}
 	}
-	return response, nil
+
+	return &Response{
+		Headers:    map[string]string{"location": "https://example.com"},
+		StatusCode: 302,
+	}
 }
