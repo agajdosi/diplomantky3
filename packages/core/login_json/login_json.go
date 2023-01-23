@@ -23,7 +23,7 @@ type Headers struct {
 func Main(in Request) *Response {
 	headers := map[string]string{"ContentType": "application/json"}
 	if in.Username == "" {
-		data := map[string]string{"error": "no username provided"}
+		data := map[string]string{"result": "no username provided"}
 		return &Response{
 			StatusCode: http.StatusBadRequest,
 			Headers:    headers,
@@ -31,7 +31,7 @@ func Main(in Request) *Response {
 	}
 
 	if in.Password == "" {
-		data := map[string]string{"error": "no username provided"}
+		data := map[string]string{"result": "no username provided"}
 		return &Response{
 			StatusCode: http.StatusBadRequest,
 			Headers:    headers,

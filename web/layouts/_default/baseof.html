@@ -42,10 +42,21 @@
     <a href="https://www.favu.vut.cz/" target="_blank">
       <img src="logos/favu.jpg">
     </a>
+    <button onclick="show_login_popup()">LOGIN</button>
   </footer>
+
+  <div id="login_popup">
+    <label for="username">username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">password:</label><br>
+    <input type="password" id="password" name="password">  
+    <button onclick="login()">LOGIN</button>
+    <div id="login_report"></div>
+  </div>
 
 </body>
 
 {{- block `carousel-script` . -}}{{- end -}}
 
+<script src="js/base.js"></script>
 </html>

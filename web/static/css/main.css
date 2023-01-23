@@ -27,6 +27,13 @@ footer {
     background-color: rgba(255, 255, 255, 1);
 }
 
+footer button {
+    position: fixed;
+    height: 20px;
+    right: 10px;
+    margin: 10px 0px;
+}
+
 footer img {
     position: fixed;
     height: 20px;
@@ -195,6 +202,19 @@ p, ul {
 .warning {
     margin: 2rem 0;
 }
+
+
+#login_popup{
+    background-color: grey;
+    display: none;
+    position: fixed;
+    height: 200px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
 @media only screen and (max-width: 1024px) {
     p,ul {

@@ -4,12 +4,12 @@ packages:
         ADMIN_USERNAME: "${ADMIN_USERNAME}"
         ADMIN_PASSWORD: "${ADMIN_PASSWORD}"
       functions:
-        - name: login
-          binary: false
+        - name: login_json
+          binary: true
           main: ""
           runtime: go:default
           web: true
-        - name: json_response
+        - name: login_get
           binary: true
           main: ""
           runtime: go:default
