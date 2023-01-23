@@ -12,13 +12,15 @@ functions:
   source_dir: /
 name: diplomantky-app
 region: fra
+
 static_sites:
-- environment_slug: html
+- build_command: hugo --destination build
+  environment_slug: hugo
   github:
     branch: main
     deploy_on_push: true
     repo: agajdosi/diplomantky3
   name: diplomantky-static
+  source_dir: web
   routes:
   - path: /
-  source_dir: /static

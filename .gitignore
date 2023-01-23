@@ -1,3 +1,4 @@
 .deployed
 .env
 out
+web/build
