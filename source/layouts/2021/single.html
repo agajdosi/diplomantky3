@@ -1,0 +1,12 @@
+{{- define "pageimage" -}}{{ $images := slice }}{{ $path := .Page.File.Dir }}{{ range (readDir (path.Join "content" $path )) }}{{ $image := split .Name "."}}{{ $image_ext := index $image 1 }}{{ if eq $image_ext "jpg" }}{{ $images = $images | append .Name }}{{ end }}{{ end }}{{ $ogImage := path.Join `/` $path (index $images 0) }}{{- absURL $ogImage -}}{{- end -}}
+{{- define "pagetitle" -}}{{.Title}}: {{.Params.artwork}} ({{.Params.year}}) {{end}}
+
+{{ define "content"}}
+
+<h1>
+  {{ .Title }}
+</h1>
+
+{{ .Content }}
+
+{{ end }}

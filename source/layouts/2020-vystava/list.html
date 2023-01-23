@@ -1,0 +1,14 @@
+{{- define "pageimage" -}}{{absURL "/logos/diplomantky.png"}}{{- end -}}
+{{ define "pagetitle"}} {{.Title}} {{end}}
+
+{{ define "content"}}
+
+  {{ range .Pages }}
+    <h1>
+      <a href="{{ .Permalink }}"> {{ .Title }} </a>
+    </h1>
+  {{ end }}
+
+  {{ .Content }}
+
+{{ end }}

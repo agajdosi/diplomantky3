@@ -1,0 +1,26 @@
+[duration]
+other = "In operation"
+
+[hours]
+other = "Opening hours"
+
+[opening]
+other = "Exhibition opening"
+
+[programme]
+other = "Openings programme"
+
+[covid-warning]
+other="COVID19 safety measures:"
+
+[covid]
+other = "On arrival you will be asked to give your name and contact. Entry to the enclosed spaces will be allowed in smaller groups and only with mouth and nose protection. Please, bring your own refreshments and do not share these with others. Bottled beer and soft drinks will be available at each location. Consider using mouth and nose protection in the open-air spaces as well. Refrain from contact with people outside your closest circle and observe the safe distances."
+
+[locationOfExhibition]
+other = "location of FFA Graduates exhibition"
+
+[back]
+other = "back"
+
+[exhibiting-artists]
+other = "Exhibiting artists"

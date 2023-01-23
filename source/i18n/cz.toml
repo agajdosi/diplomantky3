@@ -1,0 +1,26 @@
+[duration]
+other = "V provozu"
+
+[hours]
+other = "Otevírací hodiny"
+
+[opening]
+other = "Vernisáž"
+
+[programme]
+other = "Program vernisáží"
+
+[covid-warning]
+other="Opatření související se šířením koronaviru:"
+
+[covid]
+other = "Při příchodu se vás zeptáme na vaše jméno a kontakt. Do uzavřených prostor bude umožněn vstup po menších skupinkách a jen s ochranou úst a nosu. Doneste si, prosím, vlastní občerstvení a na místě ho s nikým nesdílejte. Na místě bude k dispozici lahvové pivo a limonáda. Zvažte použití ochrany úst a nosu i ve venkovních prostorech. Omezte kontakt s osobami mimo váš nejbližší okruh, dodržujte rozestupy."
+
+[locationOfExhibition]
+other = "lokace výstavy diplomantek FaVU 2020"
+
+[back]
+other = "zpět"
+
+[exhibiting-artists]
+other = "Vystavující"

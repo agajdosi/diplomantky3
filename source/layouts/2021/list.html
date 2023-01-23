@@ -1,0 +1,19 @@
+{{- define "pageimage" -}}{{absURL "/logos/diplomantky.png"}} {{- end -}}
+{{ define "pagetitle"}} {{.Title}} {{end}}
+
+{{ define "content"}}
+
+  {{ $profiles := .Pages}}
+  {{ if gt (len $profiles) 0 }}
+    {{ range sort $profiles ".Params.surname" }}
+    <h1>
+      <a href="{{ .Permalink }}"> {{ .Title }} </a>
+    </h1>
+    {{ end }}
+  {{ else }}
+    {{ range .Translations }}
+    <meta http-equiv="Refresh" content="0; url='{{.Permalink}}'" />
+    {{ end }}
+  {{ end }}
+
+{{ end }}

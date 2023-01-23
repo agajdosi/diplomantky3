@@ -1,0 +1,14 @@
+{{- define "pageimage" -}}{{absURL "/logos/diplomantky.png"}} {{- end -}}
+{{- define "pagetitle" -}}Diplomantky.cz - {{.Title}}{{end}}
+
+{{ define "content"}}
+  <h1 class="h1index">{{.Title}}</h1>
+  {{ range sort .Pages "Weight" "desc"}}
+  {{ if not (eq .Params.hide true ) }}
+  <h2 class="black">
+    <a href="{{ .Permalink }}"> {{ .Params.ShortTitle }} </a>
+  </h2>
+  {{ end }}
+  {{ end }}
+
+{{ end }}

@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178421195-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-178421195-1');
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{- block "pagetitle" . -}}{{- end -}}</title>
+  <meta name="description" content="Diplomantky.cz">
+  <meta name="author" content="Andreas Gajdosik">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{- block `pagetitle` . -}}{{- end -}}" />
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}" />
+  <meta property="og:image" content="{{- block `pageimage` . }}{{- end }}"/>
+  <meta property="og:url" content="{{ .Permalink }}"/>
+
+  <link rel="stylesheet" href="/css/main.css?v=1.8">
+
+  <link rel="icon" href="https://www.favu.vut.cz/images/layout_favu_new//favicon/ostra.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="https://www.favu.vut.cz/images/layout_favu_new//favicon/ostra.ico" type="image/x-icon">
+
+  {{- block `carousel-lib` . -}}{{- end -}}
+
+</head>
+
+<body>
+  {{ range .Translations }}
+    <a class="lang" href="{{ .Permalink }}">
+      {{.Language}}
+    </a>
+  {{ end}}
+
+  <a class="back" href="{{ with .Parent }}{{ .Permalink }}{{ end }}">
+    < {{ T "back" }}
+  </a> 
+
+  <div class="main">
+    {{ block "content" .}} {{ end }}
+  </div>
+
+  <footer>
+    <a href="https://www.favu.vut.cz/" target="_blank">
+      <img src="/logos/favu.jpg">
+    </a>
+  </footer>
+
+</body>
+
+{{- block `carousel-script` . -}}{{- end -}}
+
+</html>
