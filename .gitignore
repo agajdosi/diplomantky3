@@ -2,3 +2,4 @@
 .env
 out
 web/build
+web/config/_default/params.yaml

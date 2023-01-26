@@ -2,18 +2,16 @@
 ## Structure
 
 - `./packages`: contains functions
-- `./source`: source files for Hugo generator
-- `./out`: output file with built HTMLs - this gets uploaded into spaces
+- `./web`: source files for Hugo generator
+- `.web/build`: output file with built HTMLs - this gets uploaded into spaces
 
 
 ## Developing function
 
 Functions are stored at `packages/<packaga_name>/<function_name>`.
 
-
 build the function: `doctl serverless deploy . --remote-build`
 or deploy automatically: `doctl serverless watch .`
-
 
 get URL of function: `doctl sls fn get core/login --url`  
 run function: `doctl serverless functions invoke core/login`

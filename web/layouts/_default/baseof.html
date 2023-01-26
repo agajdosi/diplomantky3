@@ -42,7 +42,7 @@
     <a href="https://www.favu.vut.cz/" target="_blank">
       <img src="logos/favu.jpg">
     </a>
-    <button onclick="show_login_popup()">LOGIN</button>
+    <button id="login_open_popup">LOGIN</button>
   </footer>
 
   <div id="login_popup">
@@ -50,7 +50,7 @@
     <input type="text" id="username" name="username"><br>
     <label for="password">password:</label><br>
     <input type="password" id="password" name="password">  
-    <button onclick="login()">LOGIN</button>
+    <button id="login_submit">LOGIN</button>
     <div id="login_report"></div>
   </div>
 
@@ -58,5 +58,7 @@
 
 {{- block `carousel-script` . -}}{{- end -}}
 
-<script src="js/base.js"></script>
+{{ $built := resources.Get "base.js" | js.Build (dict "params" (dict "FUNCS_URL" $.Site.Params.funcs_url )) }}
+<script src="{{ $built.RelPermalink }}" defer></script>
+
 </html>
