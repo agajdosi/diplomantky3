@@ -21,7 +21,7 @@ function login() {
 function validate_response(data) {
     let report = document.getElementById("login_report");
     if (data['result'] === 'ok'){
-        report.innerText = 'Successfully logged in!';
+        report.innerText = 'Successfully logged in! ' + data['cookie'];
         return
     }
     report.innerText = 'Wrong credentials, please try again.'

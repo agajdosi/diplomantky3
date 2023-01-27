@@ -1,8 +1,6 @@
 package main
 
 import (
-	"bytes"
-	"io"
 	"net/http"
 	"os"
 )
@@ -22,7 +20,7 @@ type Headers struct {
 	ContentType string `json:"contentType"`
 }
 
-func Main2(in Request) *Response {
+func Main(in Request) *Response {
 	headers := map[string]string{"ContentType": "application/json"}
 	username := in.Username
 	password := in.Password
@@ -44,22 +42,11 @@ func Main2(in Request) *Response {
 	}
 
 	cookie := generateCookie()
-
-	headers = map[string]string{
-		"ContentType": "application/json",
-		"Set-Cookie":  cookie.String()}
+	headers["Set-Cookie"] = cookie.String()
 	return &Response{
 		StatusCode: 200,
 		Headers:    headers,
-		Body:       map[string]string{"result": "ok"}}
-}
-
-func Main(in Request) *http.Response {
-	resp := http.Response{
-		StatusCode: 200,
-		Header:     http.Header{"Content-Type": []string{"application/json"}},
-		Body:       io.NopCloser(bytes.NewBufferString(`{"result": "ok"}`))}
-	return &resp
+		Body:       map[string]string{"result": "ok", "cookie": "set"}}
 }
 
 func inputsOK(username, password string) bool {
