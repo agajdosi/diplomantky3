@@ -3,7 +3,7 @@
 
 - `./packages`: contains functions
 - `./web`: source files for Hugo generator
-- `.web/build`: output file with built HTMLs - this gets uploaded into spaces
+- `./web/build`: output file with built HTMLs - this gets uploaded into spaces
 
 
 ## Developing function

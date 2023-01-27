@@ -4,7 +4,7 @@ packages:
         ADMIN_USERNAME: "${ADMIN_USERNAME}"
         ADMIN_PASSWORD: "${ADMIN_PASSWORD}"
       functions:
-        - name: login_json
+        - name: login
           binary: true
           main: ""
           runtime: go:default
