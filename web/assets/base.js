@@ -9,7 +9,7 @@ function login() {
         "username": document.getElementById("username").value,
         "password": document.getElementById("password").value,
     };
-    fetch(params.FUNCS_URL + '/core/login_json', {
+    fetch(params.FUNCS_URL + '/core/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json',},
         body: JSON.stringify(data),
@@ -20,7 +20,7 @@ function login() {
 
 function validate_response(data) {
     let report = document.getElementById("login_report");
-    if (data['result'] === 'logged in'){
+    if (data['result'] === 'ok'){
         report.innerText = 'Successfully logged in!';
         return
     }

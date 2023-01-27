@@ -47,7 +47,7 @@ func Main(in Request) *Response {
 	return &Response{
 		StatusCode: 200,
 		Headers:    headers,
-		Body:       map[string]string{"result": "logged in"},
+		Body:       map[string]string{"result": "ok"},
 	}
 
 }
