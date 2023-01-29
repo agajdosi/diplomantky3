@@ -30,7 +30,7 @@ func Main(in Request) *Response {
 	username := in.Username
 	password := in.Password
 	if !inputsOK(username, password) {
-		data := map[string]string{"result": "wrong credentials"}
+		data := map[string]string{"result": "no credentials"}
 		response := &Response{
 			StatusCode: http.StatusBadRequest,
 			Headers:    headers,
@@ -75,15 +75,15 @@ func loginFromEnvVars(username, password string) bool {
 }
 
 func generateCookie(username string) http.Cookie {
-	secret_token, err := Encrypt(username)
-	if err != nil {
-		panic(err)
-	}
+	//secret_token, err := Encrypt(username)
+	//if err != nil {
+	//		panic(err)
+	//	}
 
 	expiresAt := time.Now().Add(48 * time.Hour)
 	cookie := http.Cookie{
 		Name:     "auth_cookie",
-		Value:    secret_token,
+		Value:    "secret_token",
 		Path:     "/",
 		Expires:  expiresAt,
 		Secure:   true,
