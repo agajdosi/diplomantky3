@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 	"os"
+	"time"
 )
 
 type Request struct {
@@ -70,12 +71,13 @@ func loginFromEnvVars(username, password string) bool {
 }
 
 func generateCookie() http.Cookie {
+	secret_token := secret_token()
+	expiresAt := time.Now().Add(48 * time.Hour)
 	cookie := http.Cookie{
-		Name:     "exampleCookie",
+		Name:     "auth_cookie",
 		Value:    "Hello world!",
 		Path:     "/",
-		MaxAge:   3600,
-		HttpOnly: true,
+		Expires:  expiresAt,
 		Secure:   true,
 		SameSite: http.SameSiteLaxMode,
 	}
