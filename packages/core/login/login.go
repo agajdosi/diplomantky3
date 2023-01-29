@@ -1,6 +1,10 @@
 package main
 
 import (
+	"crypto/aes"
+	"crypto/cipher"
+	"crypto/rand"
+	"encoding/hex"
 	"net/http"
 	"os"
 	"time"
@@ -42,7 +46,7 @@ func Main(in Request) *Response {
 			Body:       map[string]string{"result": "wrong credentials"}}
 	}
 
-	cookie := generateCookie()
+	cookie := generateCookie(username)
 	headers["Set-Cookie"] = cookie.String()
 	return &Response{
 		StatusCode: 200,
@@ -70,12 +74,16 @@ func loginFromEnvVars(username, password string) bool {
 	return true
 }
 
-func generateCookie() http.Cookie {
-	secret_token := secret_token()
+func generateCookie(username string) http.Cookie {
+	secret_token, err := Encrypt(username)
+	if err != nil {
+		panic(err)
+	}
+
 	expiresAt := time.Now().Add(48 * time.Hour)
 	cookie := http.Cookie{
 		Name:     "auth_cookie",
-		Value:    "Hello world!",
+		Value:    secret_token,
 		Path:     "/",
 		Expires:  expiresAt,
 		Secure:   true,
@@ -84,12 +92,62 @@ func generateCookie() http.Cookie {
 	return cookie
 }
 
-/*
-func unusedMain(in Request) *http.Response {
-	resp := http.Response{
-		StatusCode: 200,
-		Header:     http.Header{"Content-Type": []string{"application/json"}},
-		Body:       io.NopCloser(bytes.NewBufferString(`{"result": "ok"}`))}
-	return &resp
+func Encrypt(value string) (string, error) {
+	secretKey := getSecret()
+	block, err := aes.NewCipher(secretKey)
+	if err != nil {
+		return "", err
+	}
+
+	aesgcm, err := cipher.NewGCM(block)
+	if err != nil {
+		return "", err
+	}
+
+	iv := make([]byte, aesgcm.NonceSize())
+	if _, err := rand.Read(iv); err != nil {
+		return "", err
+	}
+
+	data, err := hex.DecodeString(value)
+	if err != nil {
+		return "", err
+	}
+	ciphertext := aesgcm.Seal(iv, iv, data, nil)
+	secret := hex.EncodeToString(ciphertext)
+	return secret, nil
 }
-*/
+
+func Decrypt(encryptedKey []byte) ([]byte, error) {
+	secretKey := getSecret()
+	block, err := aes.NewCipher(secretKey)
+	if err != nil {
+		return nil, err
+	}
+	aesgcm, err := cipher.NewGCM(block)
+	if err != nil {
+		return nil, err
+	}
+	if len(encryptedKey) < aesgcm.NonceSize() {
+		panic("Malformed encrypted key")
+	}
+
+	return aesgcm.Open(
+		nil,
+		encryptedKey[:aesgcm.NonceSize()],
+		encryptedKey[aesgcm.NonceSize():],
+		nil,
+	)
+}
+
+func getSecret() []byte {
+	secret := os.Getenv("SECRET_STRING")
+	if secret == "" {
+		panic("Error: Must provide a secret key under env variable SECRET_STRING")
+	}
+	secret_byte, err := hex.DecodeString(secret)
+	if err != nil {
+		panic(err)
+	}
+	return secret_byte
+}
