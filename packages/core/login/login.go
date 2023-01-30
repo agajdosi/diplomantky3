@@ -26,7 +26,7 @@ type Headers struct {
 }
 
 func Main(in Request) *Response {
-	headers := map[string]string{"ContentType": "application/json"}
+	headers := map[string]string{"Content-Type": "application/json"}
 	username := in.Username
 	password := in.Password
 	if !inputsOK(username, password) {
@@ -81,7 +81,7 @@ func generateCookie(username string) http.Cookie {
 	}
 
 	expiresAt := time.Now().Add(48 * time.Hour)
-	cookie := http.Cookie{
+	return http.Cookie{
 		Name:     "auth_cookie",
 		Value:    secret_token,
 		Path:     "/",
@@ -89,7 +89,6 @@ func generateCookie(username string) http.Cookie {
 		Secure:   true,
 		SameSite: http.SameSiteLaxMode,
 	}
-	return cookie
 }
 
 func Encrypt(value string) (string, error) {
