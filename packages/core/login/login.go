@@ -5,7 +5,6 @@ import (
 	"crypto/cipher"
 	"crypto/rand"
 	"encoding/hex"
-	"fmt"
 	"net/http"
 	"os"
 	"time"
@@ -48,8 +47,7 @@ func Main(in Request) *Response {
 	}
 
 	cookie := generateCookie(username)
-	fmt.Println(cookie)
-	//headers["Set-Cookie"] = cookie.String()
+	headers["Set-Cookie"] = cookie.String()
 	return &Response{
 		StatusCode: 200,
 		Headers:    headers,
