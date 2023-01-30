@@ -3,6 +3,8 @@ import * as params from '@params';
 
 document.getElementById("login_open_popup").onclick = show_login_popup;
 document.getElementById("login_submit").onclick = login;
+document.getElementById("edit_button").onclick = edit;
+document.getElementById("save_button").onclick = save;
 
 function login() {
     let data = {
@@ -21,7 +23,7 @@ function login() {
 function validate_response(data) {
     let report = document.getElementById("login_report");
     if (data['result'] === 'ok'){
-        report.innerText = 'Successfully logged in! ' + data['cookie'];
+        report.innerText = 'Successfully logged in!';
         return
     }
     report.innerText = 'Wrong credentials, please try again.'
@@ -36,3 +38,22 @@ function show_login_popup() {
 
     popup.style.display = "block";
 };
+
+function edit(){
+    console.log('edit')
+}
+
+function save() {
+    fetch(params.FUNCS_URL + '/core/validate_cookie', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json',},
+        body: JSON.stringify({}),
+    })
+    .then((response) => response.json())
+    .then((data) => { 
+        console.log(data)
+    });
+}
+
+
+

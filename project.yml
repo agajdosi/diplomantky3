@@ -10,3 +10,8 @@ packages:
           main: ""
           runtime: go:default
           web: true
+        - name: validate_cookie
+          binary: true
+          main: ""
+          runtime: go:default
+          web: true
