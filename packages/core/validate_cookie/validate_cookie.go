@@ -10,14 +10,16 @@ type Response struct {
 	Body       map[string]string `json:"body,omitempty"`
 }
 
-// func Main(args map[string]interface{}) *Response {
-func Main(in Request) *Response {
+func Main(args map[string]interface{}) *Response {
 	out_headers := map[string]string{"Content-Type": "application/json"}
-
-	headers := in.Headers
+	in_headers := args["__ow_headers"].(map[string]interface{})
+	cookie := in_headers["Cookie"].(string)
 	return &Response{
 		StatusCode: 200,
 		Headers:    out_headers,
-		Body:       map[string]string{"result": headers},
+		Body: map[string]string{
+			"result": "ok",
+			"cookie": cookie,
+		},
 	}
 }
