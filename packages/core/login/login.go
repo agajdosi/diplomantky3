@@ -51,7 +51,7 @@ func Main(in Request) *Response {
 	return &Response{
 		StatusCode: 200,
 		Headers:    headers,
-		Body:       map[string]string{"result": "ok", "cookie": "set"}}
+		Body:       map[string]string{"result": "ok"}}
 }
 
 func inputsOK(username, password string) bool {
