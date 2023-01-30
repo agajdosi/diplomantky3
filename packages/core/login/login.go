@@ -109,10 +109,7 @@ func Encrypt(value string) (string, error) {
 		return "", err
 	}
 
-	data, err := hex.DecodeString(value)
-	if err != nil {
-		return "", err
-	}
+	data := []byte(value)
 	ciphertext := aesgcm.Seal(iv, iv, data, nil)
 	secret := hex.EncodeToString(ciphertext)
 	return secret, nil
@@ -124,10 +121,12 @@ func Decrypt(encryptedKey []byte) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
+
 	aesgcm, err := cipher.NewGCM(block)
 	if err != nil {
 		return nil, err
 	}
+
 	if len(encryptedKey) < aesgcm.NonceSize() {
 		panic("Malformed encrypted key")
 	}
@@ -149,5 +148,6 @@ func getSecret() []byte {
 	if err != nil {
 		panic(err)
 	}
+
 	return secret_byte
 }

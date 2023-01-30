@@ -3,13 +3,9 @@ packages:
       environment:
         ADMIN_USERNAME: "${ADMIN_USERNAME}"
         ADMIN_PASSWORD: "${ADMIN_PASSWORD}"
+        SECRET_KEY: "${SECRET_KEY}"
       functions:
         - name: login
-          binary: true
-          main: ""
-          runtime: go:default
-          web: true
-        - name: login_get
           binary: true
           main: ""
           runtime: go:default
