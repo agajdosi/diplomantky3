@@ -17,10 +17,10 @@ func Main(args map[string]interface{}) *Response {
 	headers := map[string]string{"Content-Type": "application/json"}
 	//h := in.Headers
 	//fmt.Println(h)
-
+	result := fmt.Sprint(args, args["__ow_headers"])
 	return &Response{
 		StatusCode: 200,
 		Headers:    headers,
-		Body:       map[string]string{"result": args["__ow_headers"].(string)},
+		Body:       map[string]string{"result": result},
 	}
 }
