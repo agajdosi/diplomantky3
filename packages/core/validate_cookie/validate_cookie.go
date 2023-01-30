@@ -1,9 +1,7 @@
 package main
 
-import "fmt"
-
 type Request struct {
-	Headers string `json:"__ow_headers"`
+	Cookie string `json:"__ow_headers.cookie"`
 }
 
 type Response struct {
@@ -12,15 +10,15 @@ type Response struct {
 	Body       map[string]string `json:"body,omitempty"`
 }
 
-func Main(args map[string]interface{}) *Response {
-	fmt.Println("FUNCTION CALLED", args)
+// func Main(args map[string]interface{}) *Response {
+func Main(in Request) *Response {
 	headers := map[string]string{"Content-Type": "application/json"}
 	//h := in.Headers
 	//fmt.Println(h)
-	result := fmt.Sprint(args, args["__ow_headers"])
+	cookie := in.Cookie
 	return &Response{
 		StatusCode: 200,
 		Headers:    headers,
-		Body:       map[string]string{"result": result},
+		Body:       map[string]string{"result": cookie},
 	}
 }
