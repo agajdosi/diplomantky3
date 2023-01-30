@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"strings"
+)
 
 type Request struct {
 	OwHeaders map[string]interface{} `json:"__ow_headers,omitempty"`
@@ -17,19 +19,27 @@ func Main(in Request) *Response {
 	out_headers := map[string]string{"Content-Type": "application/json"}
 
 	cookieValue, cookieExists := in.OwHeaders["cookie"]
-
-	if cookieExists {
-		fmt.Println("Cookie value:", cookieValue)
-	} else {
-		fmt.Println("Cookie not found in headers")
+	if !cookieExists {
+		return &Response{
+			StatusCode: 200,
+			Headers:    out_headers,
+			Body: map[string]string{
+				"result": "cookie not exists",
+			},
+		}
 	}
+
+	cookiePair := strings.Split(cookieValue.(string), "=")
+	name := cookiePair[0]
+	value := cookiePair[1]
 
 	return &Response{
 		StatusCode: 200,
 		Headers:    out_headers,
 		Body: map[string]string{
-			"result": "ok",
-			"data":   cookieValue.(string),
+			"result":       "ok",
+			"cookie_name":  name,
+			"cookie_value": value,
 		},
 	}
 }
