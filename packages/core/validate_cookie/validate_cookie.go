@@ -6,6 +6,10 @@ import (
 
 type Request struct {
 	OwHeaders map[string]interface{} `json:"__ow_headers,omitempty"`
+	OwPath    string                 `json:"__ow_path,omitempty"`
+	OwMethod  string                 `json:"__ow_method,omitempty"`
+	OwBody    interface{}            `json:"__ow_body,omitempty"`
+	OwQuery   string                 `json:"__ow_query,omitempty"`
 }
 
 type Response struct {
