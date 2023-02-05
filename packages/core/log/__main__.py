@@ -51,6 +51,6 @@ def get_database():
     MONGO_CONNECTION_STRING = environ.get('MONGO_CONNECTION_STRING')
     if MONGO_CONNECTION_STRING is None:
         raise Exception('MONGO_CONNECTION_STRING is not set')
-    client = MongoClient(MONGO_CONNECTION_STRING)
+    client = MongoClient(MONGO_CONNECTION_STRING, connectTimeoutMS=100)
     return client['diplomantky']
 
