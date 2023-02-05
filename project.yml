@@ -4,11 +4,17 @@ packages:
         ADMIN_USERNAME: "${ADMIN_USERNAME}"
         ADMIN_PASSWORD: "${ADMIN_PASSWORD}"
         SECRET_KEY: "${SECRET_KEY}"
+        MONGO_CONNECTION_STRING: "${MONGO_CONNECTION_STRING}"
       functions:
         - name: login
           binary: true
           main: ""
           runtime: go:default
+          web: true
+        - name: log
+          binary: true
+          main: ""
+          runtime: python:3.9
           web: true
         - name: validate_cookie
           binary: true

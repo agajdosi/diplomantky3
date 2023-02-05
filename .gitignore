@@ -3,3 +3,4 @@
 out
 web/build
 web/config/_default/params.yaml
+__deployer__.zip
