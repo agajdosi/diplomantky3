@@ -17,8 +17,6 @@ def main(args):
 
     db = get_database()
     users = db.get_collection('users')
-
-    print("finding one")
     user = users.find_one({'username': username}, max_time_ms=100)
     if user is None:
         return {

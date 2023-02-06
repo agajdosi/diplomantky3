@@ -3,4 +3,7 @@
 out
 web/build
 web/config/_default/params.yaml
+__deployer__
 __deployer__.zip
+virtualenv
+

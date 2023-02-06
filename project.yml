@@ -7,12 +7,6 @@ packages:
         MONGO_CONNECTION_STRING: "${MONGO_CONNECTION_STRING}"
       functions:
         - name: login
-          binary: true
-          main: ""
-          runtime: go:default
-          web: true
-        - name: log
-          binary: true
           main: ""
           runtime: python:3.9
           web: true
