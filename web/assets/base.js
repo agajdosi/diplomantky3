@@ -23,8 +23,9 @@ function login() {
 function validate_response(data) {
     let report = document.getElementById("login_report");
     if (data['result'] === 'ok'){
+        let token = data['token'];
+        document.cookie = `jwt=${token}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`;
         report.innerText = 'Successfully logged in!';
-        document.cookie = 'demon=666; expires=Sun, 1 Jan 2025 00:00:00 UTC; SameSite=Lax; Domain=localhost; path=/'
         return
     }
     report.innerText = 'Wrong credentials, please try again.'

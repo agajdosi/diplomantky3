@@ -10,8 +10,9 @@
 
 Functions are stored at `packages/<packaga_name>/<function_name>`.
 
-build the function: `doctl serverless deploy . --remote-build`
-or deploy automatically: `doctl serverless watch .`
+Build the functions: `doctl serverless deploy . --remote-build`
+Warning: use the `--remote-build` flag as otherwise the dependencies will not be installed properly.
+
 
 get URL of function: `doctl sls fn get core/login --url`  
 run function: `doctl serverless functions invoke core/login`
