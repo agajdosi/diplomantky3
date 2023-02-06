@@ -7,11 +7,7 @@ packages:
         MONGO_CONNECTION_STRING: "${MONGO_CONNECTION_STRING}"
       functions:
         - name: login
-          main: ""
-          runtime: python:3.9
-          web: true
-        - name: validate_cookie
           binary: true
           main: ""
-          runtime: go:default
+          runtime: python:3.9
           web: true

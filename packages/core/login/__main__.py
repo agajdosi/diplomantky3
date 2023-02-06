@@ -1,6 +1,12 @@
 from os import environ
 from pymongo import MongoClient
 from http import HTTPStatus
+from datetime import datetime, timezone, timedelta
+import jwt
+
+
+SECRET_KEY = environ['SECRET_KEY']
+MONGO_CONNECTION_STRING = environ['MONGO_CONNECTION_STRING']
 
 def main(args):
     headers = {'Content-Type': 'application/json'}
@@ -15,8 +21,10 @@ def main(args):
             }
         }
 
-    db = get_database()
-    users = db.get_collection('users')
+    client = MongoClient(MONGO_CONNECTION_STRING, connectTimeoutMS=100)
+    database = client.get_database('diplomantky')
+    users = database.get_collection('users')
+
     user = users.find_one({'username': username}, max_time_ms=100)
     if user is None:
         return {
@@ -36,19 +44,20 @@ def main(args):
             }
         }
 
+    data = {
+        'username': username,
+        "exp": datetime.now(tz=timezone.utc) + timedelta(days=30),
+    }
+    token = jwt.encode(data, SECRET_KEY, algorithm='HS256')
+
     return {
         'statusCode': HTTPStatus.OK,
         'headers': headers,
         'body': {
-            "result": "fakin ok",
+            "result": "ok",
+            "token": token,
         }
     }
 
 
-def get_database():
-    MONGO_CONNECTION_STRING = environ.get('MONGO_CONNECTION_STRING')
-    if MONGO_CONNECTION_STRING is None:
-        raise Exception('MONGO_CONNECTION_STRING is not set')
-    client = MongoClient(MONGO_CONNECTION_STRING, connectTimeoutMS=100)
-    return client['diplomantky']
-
+    #claims = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
