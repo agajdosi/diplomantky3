@@ -6,9 +6,7 @@ import jwt
 
 
 SECRET_KEY = environ['SECRET_KEY']
-print(SECRET_KEY)
 MONGO_CONNECTION_STRING = environ['MONGO_CONNECTION_STRING']
-print(MONGO_CONNECTION_STRING)
 
 def main(args):
     headers = {'Content-Type': 'application/json'}

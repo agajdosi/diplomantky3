@@ -1,0 +1,2 @@
+pyjwt==2.6.0
+pymongo[srv]==4.3.3

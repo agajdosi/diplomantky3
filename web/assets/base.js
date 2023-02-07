@@ -46,12 +46,14 @@ function edit(){
 }
 
 function save() {
-    let x = document.cookie;
-    console.log(x);
-    fetch(params.FUNCS_URL + '/core/validate_cookie', {
+    let jwt = document.cookie.split('; ').find(row => row.startsWith('jwt=')).split('=')[1];
+    let data = {
+        "token": jwt,
+    };
+    fetch(params.FUNCS_URL + '/core/save', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json',},
-        body: JSON.stringify({}),
+        body: JSON.stringify(data),
     })
     .then((response) => response.json())
     .then((data) => { 

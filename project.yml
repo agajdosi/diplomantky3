@@ -11,3 +11,8 @@ packages:
           main: ""
           runtime: python:3.9
           web: true
+        - name: save
+          binary: true
+          main: ""
+          runtime: python:3.9
+          web: true
