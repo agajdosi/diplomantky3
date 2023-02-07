@@ -17,19 +17,23 @@ function login() {
         body: JSON.stringify(data),
     })
     .then((response) => response.json())
-    .then((data) => validate_response(data));
+    .then((data) => validate_login_response(data));
 };
 
-function validate_response(data) {
+
+function validate_login_response(data) {
     let report = document.getElementById("login_report");
     if (data['result'] === 'ok'){
         let token = data['token'];
-        document.cookie = `jwt=${token}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`;
+        let canEditURL = data['canEditURL'];
+        document.cookie = `jwt=${token}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
+        document.cookie = `canEditURL=${canEditURL}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
         report.innerText = 'Successfully logged in!';
         return
     }
     report.innerText = 'Wrong credentials, please try again.'
 };
+
 
 function show_login_popup() {
     let popup = document.getElementById('login_popup');
@@ -41,9 +45,11 @@ function show_login_popup() {
     popup.style.display = "block";
 };
 
+
 function edit(){
     console.log('edit')
 }
+
 
 function save() {
     let jwt = document.cookie.split('; ').find(row => row.startsWith('jwt=')).split('=')[1];

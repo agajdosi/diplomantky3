@@ -33,12 +33,17 @@ def main(args):
         response['body'] = {"result": "wrong credentials"}
         return response
 
+    canEditURL = user.get('canEditURL') 
+    if canEditURL is None:
+        response['body'] = {"result": "no canEditURL"}
+        return response
+
     data = {
         'username': username,
         "exp": datetime.now(tz=timezone.utc) + timedelta(days=30),
     }
     token = jwt.encode(data, SECRET_KEY, 'HS256')
 
-    response['body'] = {"result": "ok", "token": token}
+    response['body'] = {"result": "ok", "token": token, "canEditURL": canEditURL}
     response['statusCode'] = HTTPStatus.OK
     return response
