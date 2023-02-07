@@ -7,36 +7,46 @@ import jwt
 SECRET_KEY = environ['SECRET_KEY']
 MONGO_CONNECTION_STRING = environ['MONGO_CONNECTION_STRING']
 
+
 def main(args):
-    headers = {'Content-Type': 'application/json'}
+    response = {
+        'statusCode': HTTPStatus.BAD_REQUEST,
+        'headers': {'Content-Type': 'application/json'},
+        'body': {},
+    }
+
     token = args.get('token')
     if token is None:
-        return {
-            'statusCode': HTTPStatus.BAD_REQUEST,
-            'headers': headers,
-            'body': {
-                "result": "no token",
-            }
-        }
+        response['body'] = {"result": "no token"}
+        return response
 
     try:
-        claims = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
+        options = {"require": ["exp"]}
+        claims = jwt.decode(token, SECRET_KEY, algorithms=['HS256'], options=options)
+    except jwt.exceptions.ExpiredSignatureError as e:
+        response['body'] = {"result": "token expired", "message": str(e)}
+        return response
+    except jwt.exceptions.InvalidTokenError as e:
+        response['body'] = {"result": "invalid token", "message": str(e)}
+        return response  
     except Exception as e:
-        print(e)
-        return {
-            'statusCode': HTTPStatus.BAD_REQUEST,
-            'headers': headers,
-            'body': {
-                "result": "invalid token",
-            }
-        }
+        response['body'] = {"result": "token error", "message": str(e)}
+        return response
+
+    username = claims.get('username')
+    if username is None:
+        response['body'] = {"result": "missing username in token"}
+        return response
     
-    print(f'claims: {claims}')
-    
-    return {
-        'statusCode': HTTPStatus.OK,
-        'headers': headers,
-        'body': {
-            "result": "token ok",
-        }
-    }
+    ok = save()
+    if not ok:
+        response['body'] = {"result": "save failed"}
+        return response
+
+    response['statusCode'] = HTTPStatus.OK
+    response['body'] = {"result": "ok"}
+    return response
+
+def save():
+    """Here we will save the data."""
+    return True
