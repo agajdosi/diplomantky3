@@ -9,17 +9,16 @@ SECRET_KEY = environ['SECRET_KEY']
 MONGO_CONNECTION_STRING = environ['MONGO_CONNECTION_STRING']
 
 def main(args):
-    headers = {'Content-Type': 'application/json'}
+    response = {
+        'statusCode': HTTPStatus.BAD_REQUEST,
+        'headers': {'Content-Type': 'application/json'},
+        'body': {},
+    }
     username = args.get('username')
     password = args.get('password')
     if username is None or password is None:
-        return {
-            'statusCode': HTTPStatus.BAD_REQUEST,
-            'headers': headers,
-            'body': {
-                "result": "no credentials",
-            }
-        }
+        response['body'] = {"result": "no credentials"}
+        return response
 
     client = MongoClient(MONGO_CONNECTION_STRING, connectTimeoutMS=200)
     database = client.get_database('diplomantky')
@@ -27,37 +26,19 @@ def main(args):
 
     user = users.find_one({'username': username}, max_time_ms=100)
     if user is None:
-        return {
-            'statusCode': HTTPStatus.BAD_REQUEST,
-            'headers': headers,
-            'body': {
-                "result": "user does not exist",
-            }
-        }
+        response['body'] = {"result": "user does not exist"}
+        return response
 
     if password != user.get('password'):
-        return {
-            'statusCode': HTTPStatus.BAD_REQUEST,
-            'headers': headers,
-            'body': {
-                "result": "wrong password",
-            }
-        }
+        response['body'] = {"result": "wrong credentials"}
+        return response
 
     data = {
         'username': username,
         "exp": datetime.now(tz=timezone.utc) + timedelta(days=30),
     }
-    token = jwt.encode(data, SECRET_KEY, algorithm='HS256')
+    token = jwt.encode(data, SECRET_KEY, 'HS256')
 
-    return {
-        'statusCode': HTTPStatus.OK,
-        'headers': headers,
-        'body': {
-            "result": "ok",
-            "token": token,
-        }
-    }
-
-
-    #claims = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
+    response['body'] = {"result": "ok", "token": token}
+    response['statusCode'] = HTTPStatus.OK
+    return response
