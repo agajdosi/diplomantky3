@@ -1,8 +1,6 @@
 packages:
     - name: core
       environment:
-        ADMIN_USERNAME: "${ADMIN_USERNAME}"
-        ADMIN_PASSWORD: "${ADMIN_PASSWORD}"
         SECRET_KEY: "${SECRET_KEY}"
         MONGO_CONNECTION_STRING: "${MONGO_CONNECTION_STRING}"
       functions:

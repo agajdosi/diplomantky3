@@ -1,5 +1,4 @@
 from os import environ
-from pymongo import MongoClient
 from http import HTTPStatus
 import jwt
 
