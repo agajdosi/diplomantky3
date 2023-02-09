@@ -5,7 +5,6 @@ document.getElementById("login_open_popup").onclick = show_login_popup;
 document.getElementById("login_submit").onclick = login;
 document.getElementById("edit_button").onclick = edit;
 document.getElementById("save_button").onclick = save;
-window.onload = documentLoaded;
 
 
 function login() {
@@ -70,6 +69,3 @@ function save() {
 }
 
 
-function documentLoaded() {
-    console.log("DOCUMENT LOADED")
-}
