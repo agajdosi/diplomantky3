@@ -14,7 +14,8 @@
   <meta property="og:image" content="{{- block `pageimage` . }}{{- end }}"/>
   <meta property="og:url" content="{{ .Permalink }}"/>
 
-  <link rel="stylesheet" href="css/main.css?v=1.8">
+  {{ $css := resources.Get "main.css" }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
   <link rel="icon" href="https://www.favu.vut.cz/i/images/favicon_ostra.ico" type="image/x-icon">
   <link rel="shortcut icon" href="https://www.favu.vut.cz/i/images/favicon_ostra.ico" type="image/x-icon">
