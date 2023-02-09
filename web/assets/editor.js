@@ -8,6 +8,11 @@ function documentLoaded() {
     return;
   }
 
+  let content = document.getElementById('content');
+  let editor = document.getElementById('editor'); 
+
+  editor.innerHTML = content.innerHTML;
+
   tinymce.init({
     selector: 'textarea#editor',
     height: 500,
@@ -31,7 +36,7 @@ function getCanEditURLCookie() {
   let cookies = cookie.split('; ');
   let row = cookies.find(row => row.startsWith('canEditURL='));
   if (!row) return;
-  
+
   let value = row.split('=');
   if (value.length < 2) return;
 

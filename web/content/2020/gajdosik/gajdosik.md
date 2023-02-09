@@ -15,30 +15,23 @@ study: "mga"
 location: "kanal"
 ---
 
+### Just do it
+
+adasda
+asdasdasd
+a
+sdasdasdasd
+
+### Something else
+
+
+asdasdas
+asdasd
+asdasdasd
+\
+asdasd
+asda
+
 {{< raw_html >}}
-
-
-
-
-
-<textarea id="editor">
-<h1>Just do it</h1>
-
-<p>asdasd asda sd asd asdasd asd</p>
-
-<p>10971203971 211309831029381 0281 -2981029830192 01283 1092 109230 9178230912 </p>
-
-</textarea>
-
-
-
-
-
-
-
-
-
-
-
 
 {{< /raw_html >}}
