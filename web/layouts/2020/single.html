@@ -9,4 +9,10 @@
 
 {{ .Content }}
 
+<script src="/tinymce/tinymce.min.js" defer></script>
+{{ $editor := resources.Get "editor.js" }}
+<script src="{{ $editor.RelPermalink }}" defer></script>
+
 {{ end }}
+
+
