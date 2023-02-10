@@ -8,9 +8,10 @@ function documentLoaded() {
     return;
   }
 
-  let content = document.getElementById('content');
-  let editor = document.getElementById('editor'); 
-
+  let mainContainer = document.getElementById('main');
+  let editor = document.createElement('textarea');
+  editor.setAttribute('id', 'editor');
+  mainContainer.appendChild(editor);
   editor.innerHTML = content.innerHTML;
 
   tinymce.init({

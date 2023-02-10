@@ -35,8 +35,10 @@
     < {{ T "back" }}
   </a> 
 
-  <div class="main" id="content">
-    {{ block "content" .}} {{ end }}
+  <div class="main" id="main">
+    <div id="content">
+      {{ block "content" .}} {{ end }}
+    </div>
   </div>
 
   <footer>
