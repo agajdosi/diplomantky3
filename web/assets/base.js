@@ -3,9 +3,6 @@ import * as params from '@params';
 
 document.getElementById("login_open_popup").onclick = show_login_popup;
 document.getElementById("login_submit").onclick = login;
-document.getElementById("edit_button").onclick = edit;
-document.getElementById("save_button").onclick = save;
-
 
 function login() {
     let data = {
@@ -21,7 +18,6 @@ function login() {
     .then((data) => validate_login_response(data));
 };
 
-
 function validate_login_response(data) {
     let report = document.getElementById("login_report");
     if (data['result'] === 'ok'){
@@ -35,7 +31,6 @@ function validate_login_response(data) {
     report.innerText = 'Wrong credentials, please try again.'
 };
 
-
 function show_login_popup() {
     let popup = document.getElementById('login_popup');
     if (popup.style.display === "block") {
@@ -45,27 +40,4 @@ function show_login_popup() {
 
     popup.style.display = "block";
 };
-
-
-function edit(){
-    console.log('edit')
-}
-
-
-function save() {
-    let jwt = document.cookie.split('; ').find(row => row.startsWith('jwt=')).split('=')[1];
-    let data = {
-        "token": jwt,
-    };
-    fetch(params.FUNCS_URL + '/core/save', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json',},
-        body: JSON.stringify(data),
-    })
-    .then((response) => response.json())
-    .then((data) => { 
-        console.log(data)
-    });
-}
-
 
