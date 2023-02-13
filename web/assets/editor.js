@@ -1,17 +1,21 @@
 import * as params from '@params';
 
 window.onload = documentLoaded;
-document.getElementById("edit_button").onclick = edit;
-document.getElementById("save_button").onclick = save;
 
 function documentLoaded() {
   let canEditURL = getCanEditURLCookie();
   if (!canEditURL) {
+    console.log('getCanEditURLCookie is False');
     return;
   }
+
+  addEditButton();
 }
 
-function edit(){
+
+function editButtonClicked(event){
+  console.log(event);
+  event.target.innerText = 'PREVIEW'
   addEditorTextArea();
   tinymce.init({
     selector: 'textarea#editor',
@@ -66,6 +70,24 @@ function getCanEditURLCookie() {
   return value[1];
 }
 
+function addEditButton() {
+  let editButton = document.createElement('button');
+  editButton.setAttribute('id', 'edit_button');  
+  editButton.addEventListener("click", editButtonClicked);
+  editButton.innerText = 'EDIT';
+  let footerMenu = document.getElementById('footer_menu');
+  footerMenu.append(editButton);
+}
+
+function addSaveButton() {
+  let footerMenu = document.getElementById('footer_menu');
+  let saveButton = document.createElement('button');
+  saveButton.setAttribute('id', 'save_button');  
+  saveButton.onclick = save;
+  saveButton.innerText = 'SAVE';
+  footerMenu.append(saveButton);
+}
+
 function addEditorTextArea() {
   let editor = document.getElementById('editor');
   if (editor) return;
@@ -76,5 +98,14 @@ function addEditorTextArea() {
   mainContainer.prepend(editor);
   editor.innerHTML = content.innerHTML;
 }
+
+function enterEditorMode() {
+
+}
+
+function enterPreviewMode() {
+
+}
+
 
 
