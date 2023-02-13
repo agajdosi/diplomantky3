@@ -15,18 +15,26 @@ function edit(){
   addEditorTextArea();
   tinymce.init({
     selector: 'textarea#editor',
-    height: 500,
+    height: '80vh',
     menubar: false,
-    plugins: [
-      'autolink',
-      'wordcount'
+    promotion: false,
+    menu: {
+      file: { title: 'File', items: 'save cancel | restoredraft | preview ' },
+      edit: { title: 'Edit', items: 'undo redo | cut copy paste | selectall | searchreplace' },
+      view: { title: 'View', items: 'code | visualaid visualchars visualblocks | spellchecker | preview fullscreen' },
+      insert: { title: 'Insert', items: 'image link media template codesample inserttable | charmap emoticons hr | pagebreak nonbreaking anchor toc | insertdatetime' },
+      format: { title: 'Format', items: 'bold italic underline strikethrough superscript subscript codeformat | formats blockformats fontformats fontsizes align lineheight | forecolor backcolor | removeformat' },
+      tools: { title: 'Tools', items: 'spellchecker spellcheckerlanguage | code wordcount' },
+    },
+    plugins: ['save', 'autolink', 'wordcount'],
+    statusbar: true,
+    toolbar: [
+      {name: 'formatting', items: ['bold', 'italic', 'underline', 'strikethrough', 'subscript', 'superscript']},
+      {name: 'alignment', items: ['alignleft', 'aligncenter', 'alignright', 'alignjustify']},
+      {name: 'indentation', items: ['outdent', 'indent']},
+      {name: 'history', items: ['undo', 'redo', 'cancel']},
     ],
-    toolbar: 'undo redo | formatselect | ' +
-    'bold italic backcolor | alignleft aligncenter ' +
-    'alignright alignjustify | bullist numlist outdent indent | ' +
-    'removeformat | help',
     content_css: "/main.css",
-    //content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
   });
 }
 
