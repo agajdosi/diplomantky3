@@ -10,36 +10,19 @@ function documentLoaded() {
   }
 
   addEditButton();
+  initTinyMCE();
 }
 
-
 function editButtonClicked(event){
-  console.log(event);
-  event.target.innerText = 'PREVIEW'
-  addEditorTextArea();
-  tinymce.init({
-    selector: 'textarea#editor',
-    height: '80vh',
-    menubar: false,
-    promotion: false,
-    menu: {
-      file: { title: 'File', items: 'save cancel | restoredraft | preview ' },
-      edit: { title: 'Edit', items: 'undo redo | cut copy paste | selectall | searchreplace' },
-      view: { title: 'View', items: 'code | visualaid visualchars visualblocks | spellchecker | preview fullscreen' },
-      insert: { title: 'Insert', items: 'image link media template codesample inserttable | charmap emoticons hr | pagebreak nonbreaking anchor toc | insertdatetime' },
-      format: { title: 'Format', items: 'bold italic underline strikethrough superscript subscript codeformat | formats blockformats fontformats fontsizes align lineheight | forecolor backcolor | removeformat' },
-      tools: { title: 'Tools', items: 'spellchecker spellcheckerlanguage | code wordcount' },
-    },
-    plugins: ['save', 'autolink', 'wordcount'],
-    statusbar: true,
-    toolbar: [
-      {name: 'formatting', items: ['bold', 'italic', 'underline', 'strikethrough', 'subscript', 'superscript']},
-      {name: 'alignment', items: ['alignleft', 'aligncenter', 'alignright', 'alignjustify']},
-      {name: 'indentation', items: ['outdent', 'indent']},
-      {name: 'history', items: ['undo', 'redo', 'cancel']},
-    ],
-    content_css: "/main.css",
-  });
+  let currentText = event.target.innerText;
+  if (currentText === 'EDIT') {
+    enterEditorMode(event);
+    return;
+  }
+  if (currentText === 'PREVIEW') {
+    enterPreviewMode(event);
+    return;
+  }
 }
 
 function save() {
@@ -88,23 +71,57 @@ function addSaveButton() {
   footerMenu.append(saveButton);
 }
 
-function addEditorTextArea() {
-  let editor = document.getElementById('editor');
-  if (editor) return;
-
+function initTinyMCE() {
   let mainContainer = document.getElementById('main');
   editor = document.createElement('textarea');
   editor.setAttribute('id', 'editor');
   mainContainer.prepend(editor);
+  let content = document.getElementById('content');
   editor.innerHTML = content.innerHTML;
+  editor.style.display = 'none';
+  tinymce.init({
+    selector: 'textarea#editor',
+    height: '80vh',
+    menubar: false,
+    promotion: false,
+    menu: {
+      file: { title: 'File', items: 'save cancel | restoredraft | preview ' },
+      edit: { title: 'Edit', items: 'undo redo | cut copy paste | selectall | searchreplace' },
+      view: { title: 'View', items: 'code | visualaid visualchars visualblocks | spellchecker | preview fullscreen' },
+      insert: { title: 'Insert', items: 'image link media template codesample inserttable | charmap emoticons hr | pagebreak nonbreaking anchor toc | insertdatetime' },
+      format: { title: 'Format', items: 'bold italic underline strikethrough superscript subscript codeformat | formats blockformats fontformats fontsizes align lineheight | forecolor backcolor | removeformat' },
+      tools: { title: 'Tools', items: 'spellchecker spellcheckerlanguage | code wordcount' },
+    },
+    plugins: ['save', 'autolink', 'wordcount'],
+    statusbar: true,
+    toolbar: [
+      {name: 'formatting', items: ['bold', 'italic', 'underline', 'strikethrough', 'subscript', 'superscript']},
+      {name: 'alignment', items: ['alignleft', 'aligncenter', 'alignright', 'alignjustify']},
+      {name: 'indentation', items: ['outdent', 'indent']},
+      {name: 'history', items: ['undo', 'redo', 'cancel']},
+    ],
+    content_css: "/main.css",
+  });
 }
 
-function enterEditorMode() {
-
+function enterEditorMode(event) {
+  let editor = document.getElementById('editor');
+  let content = document.getElementById('content');
+  editor = document.getElementById('editor');
+  editor.style.display = 'block';
+  event.target.innerText = 'PREVIEW';
+  content.innerHTML = '';
+  tinymce.activeEditor.show();
 }
 
-function enterPreviewMode() {
-
+function enterPreviewMode(event) {
+  tinymce.activeEditor.hide();
+  let editor = document.getElementById('editor');
+  let content = document.getElementById('content');
+  editor.style.display = 'none';
+  event.target.innerText = 'EDIT';
+  content.innerHTML = tinymce.activeEditor.getContent();
+  addSaveButton();
 }
 
 
