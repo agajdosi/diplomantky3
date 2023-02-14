@@ -14,24 +14,10 @@ year: "2020"
 study: "mga"
 location: "kanal"
 ---
-
-### Just do it
-
-adasda
-asdasdasd
-a
-sdasdasdasd
-
-### Something else
-
-
-asdasdas
-asdasd
-asdasdasd
-\
-asdasd
-asda
-
 {{< raw_html >}}
-
+<h1>Andreas Gajdosik</h1>
+<h3 id="just-do-it">Just do it</h3>
+<p>adasda asdasdasd a sdasdasdasd</p>
+<h3 id="something-else">Something else</h3>
+<p>asdasdas asdasd asdasdasd <br>asdasd asda</p>
 {{< /raw_html >}}

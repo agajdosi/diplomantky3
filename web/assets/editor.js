@@ -3,13 +3,11 @@ import * as params from '@params';
 window.addEventListener('load', editorPageLoaded);
 
 function editorPageLoaded() {
-  console.log('documentLoaded')
   let canEditURL = getCanEditURLCookie();
+  console.log(`getCanEditURLCookie is ${canEditURL}`);
   if (!canEditURL) {
-    console.log('getCanEditURLCookie is False');
     return;
   }
-
   addEditButton();
   initTinyMCE();
 }
@@ -28,9 +26,11 @@ function editButtonClicked(event){
 
 function save() {
   let jwt = document.cookie.split('; ').find(row => row.startsWith('jwt=')).split('=')[1];
+  let content = tinymce.activeEditor.getContent();
   let data = {
       "token": jwt,
-  };
+      "content": content,
+  }; 
   fetch(params.FUNCS_URL + '/core/save', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json',},

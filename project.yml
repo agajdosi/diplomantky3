@@ -2,6 +2,7 @@ packages:
     - name: core
       environment:
         SECRET_KEY: "${SECRET_KEY}"
+        GH_TOKEN: "${GH_TOKEN}"
         MONGO_CONNECTION_STRING: "${MONGO_CONNECTION_STRING}"
       functions:
         - name: login
@@ -9,8 +10,12 @@ packages:
           main: ""
           runtime: python:3.9
           web: true
+          limits:
+            memory: 128
         - name: save
           binary: true
           main: ""
           runtime: python:3.9
           web: true
+          limits:
+            memory: 128
