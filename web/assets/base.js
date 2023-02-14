@@ -1,8 +1,35 @@
 import * as params from '@params';
 
-
-document.getElementById("login_open_popup").onclick = show_login_popup;
+window.addEventListener('load', anyPageLoaded);
 document.getElementById("login_submit").onclick = login;
+
+function anyPageLoaded() {
+    if (window.location.pathname === '/') {
+        addLoginOpenPopupButton();
+    }
+}
+
+function addLoginOpenPopupButton() {
+    let loginButton = document.createElement('button');
+    loginButton.setAttribute('id', 'login_open_popup');
+    loginButton.addEventListener("click", loginPopupButtonClicked);
+    loginButton.innerText = 'LOGIN';
+    document.getElementById('footer_menu').appendChild(loginButton);
+}
+
+function loginPopupButtonClicked(event) {
+    //TODO: Add popup window
+    let popup = document.getElementById('login_popup');
+    let button = event.target;
+    if (button.innerText === 'LOGIN') {
+        button.innerText = 'CLOSE';
+        popup.style.display = "block";
+        return;
+    }
+    button.innerText = 'LOGIN';
+    popup.style.display = "none";
+};
+
 
 function login() {
     let data = {
@@ -30,14 +57,3 @@ function validate_login_response(data) {
     }
     report.innerText = 'Wrong credentials, please try again.'
 };
-
-function show_login_popup() {
-    let popup = document.getElementById('login_popup');
-    if (popup.style.display === "block") {
-        popup.style.display = "none";
-        return
-    }
-
-    popup.style.display = "block";
-};
-

@@ -1,8 +1,9 @@
 import * as params from '@params';
 
-window.onload = documentLoaded;
+window.addEventListener('load', editorPageLoaded);
 
-function documentLoaded() {
+function editorPageLoaded() {
+  console.log('documentLoaded')
   let canEditURL = getCanEditURLCookie();
   if (!canEditURL) {
     console.log('getCanEditURLCookie is False');
