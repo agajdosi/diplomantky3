@@ -18,7 +18,7 @@ location: "kanal"
 {{< raw_html >}}
 <h1>Andreas Gajdosik</h1>
 <h3 id="just-do-it">Bio</h3>
-<p>my bio</p>
+<p>my biom</p>
 <h3 id="something-else">Something else</h3>
 <p>asdasdas asdasd asdasdasd <br>asdasd asda</p>
 {{< /raw_html >}}
