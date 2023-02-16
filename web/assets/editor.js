@@ -3,11 +3,11 @@ import * as params from '@params';
 window.addEventListener('load', editorPageLoaded);
 
 function editorPageLoaded() {
-  let canEditURL = getCanEditURLCookie();
-  console.log(`getCanEditURLCookie is ${canEditURL}`);
-  if (!canEditURL) {
-    return;
-  }
+  let loggedAs = getLoggedAsCookie();
+  if (!loggedAs) return;
+  let pageOwner = document.querySelector("meta[name='owner']").getAttribute('content');
+  if (!pageOwner) return;
+  if (loggedAs !== pageOwner) return;
   addEditButton();
   initTinyMCE();
 }
@@ -42,15 +42,15 @@ function save() {
   });
 }
 
-function getCanEditURLCookie() {
+function getLoggedAsCookie() {
   let cookie = document.cookie;
   let cookies = cookie.split('; ');
-  let row = cookies.find(row => row.startsWith('canEditURL='));
+  let row = cookies.find(row => row.startsWith('loggedAs='));
   if (!row) return;
 
   let value = row.split('=');
   if (value.length < 2) return;
-
+  
   return value[1];
 }
 

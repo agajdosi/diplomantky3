@@ -8,6 +8,7 @@
   <title>{{- block "pagetitle" . -}}{{- end -}}</title>
   <meta name="description" content="Diplomantky.cz">
   <meta name="author" content="Andreas Gajdosik">
+  <meta name="owner" content="{{- block `owner` . }}{{- end }}">
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{- block `pagetitle` . -}}{{- end -}}" />
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}" />

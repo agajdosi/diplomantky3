@@ -49,9 +49,9 @@ function validate_login_response(data) {
     let report = document.getElementById("login_report");
     if (data['result'] === 'ok'){
         let token = data['token'];
-        let canEditURL = data['canEditURL'];
+        let loggedAs = data['loggedAs'];
         document.cookie = `jwt=${token}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
-        document.cookie = `canEditURL=${canEditURL}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
+        document.cookie = `loggedAs=${loggedAs}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
         report.innerText = 'Successfully logged in!';
         return
     }

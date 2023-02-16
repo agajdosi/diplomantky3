@@ -44,10 +44,8 @@ def main(args):
     if username is None:
         response['body'] = {"result": "missing username in token"}
         return response
-    
-    year = "2020"
-    surname = "gajdosik"
-    ok, msg = save(content, year, surname)
+
+    ok, msg = save(content)
     if not ok:
         response['body'] = {"result": "save failed", "message": msg}
         return response
@@ -65,8 +63,10 @@ def githash(data: bytes) -> str:
     s.update(data)
     return s.hexdigest()
 
-def save(content:str, year:str, surname:str):
+def save(content:str):
     """Here we will save the data."""
+    year = "2020"
+    surname = "gajdosik"
     url = f"https://api.github.com/repos/{ORG}/{REPO}/contents/web/content/{year}/{surname}/{surname}.md"
     headers = {
         "Accept": "application/vnd.github+json",
@@ -93,6 +93,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Série vypráví fragmenty příběhů odehrávajících se v kulisách romantických fantasy scenerií a kombinovaných se současnými subkulturními a volnočasovými motivy."
 draft: false
 url: "andreas-gajdosik"
+owner: "xvgajdosik"
 
 name: "Andreas"
 surname: "Gajdosik"
