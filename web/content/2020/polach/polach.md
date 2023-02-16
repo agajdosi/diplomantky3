@@ -1,18 +1,15 @@
 ---
 title: "Jakub Polach"
 date: 2020-08-17T15:02:56+02:00
-description: "Série vypráví fragmenty příběhů odehrávajících se v kulisách romantických fantasy scenerií a kombinovaných se současnými subkulturními a volnočasovými motivy."
 draft: false
-url: "jakub-polach"
 owner: "xvpolach"
 
-name: "Andreas"
-surname: "Gajdosik"
+name: "Jakub"
+surname: "Polach"
+url: "jakub-polach"
 artwork: "You Must Gather Your Party Before Venturing Forth"
-medium: "olejomalba na plátně"
-dimensions: ""
-year: "2020"
-study: "mga"
+description: "Série vypráví fragmenty příběhů odehrávajících se v kulisách romantických fantasy scenerií a kombinovaných se současnými subkulturními a volnočasovými motivy."
+year: "2019"
 location: "kanal"
 ---
 {{< raw_html >}}

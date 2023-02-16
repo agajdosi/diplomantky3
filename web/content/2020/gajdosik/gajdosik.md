@@ -1,18 +1,15 @@
 ---
 title: "Andreas Gajdosik"
 date: 2020-08-17T15:02:56+02:00
-description: "Série vypráví fragmenty příběhů odehrávajících se v kulisách romantických fantasy scenerií a kombinovaných se současnými subkulturními a volnočasovými motivy."
 draft: false
-url: "andreas-gajdosik"
 owner: "xvgajdosik"
 
+url: "andreas-gajdosik"
 name: "Andreas"
 surname: "Gajdosik"
 artwork: "You Must Gather Your Party Before Venturing Forth"
-medium: "olejomalba na plátně"
-dimensions: ""
+description: "Série vypráví fragmenty příběhů odehrávajících se v kulisách romantických fantasy scenerií a kombinovaných se současnými subkulturními a volnočasovými motivy."
 year: "2020"
-study: "mga"
 location: "kanal"
 ---
 {{< raw_html >}}
