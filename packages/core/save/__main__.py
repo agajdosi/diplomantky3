@@ -2,8 +2,9 @@ from os import environ
 from http import HTTPStatus
 from jwt import decode, exceptions
 from requests import get, put
-from base64 import b64encode
+from base64 import b64encode, b64decode
 from hashlib import sha1
+from collections import OrderedDict
 
 
 ORG = 'agajdosi'
@@ -20,11 +21,15 @@ def main(args):
     }
     token = args.get('token')
     content = args.get('content')
+    sourceFilePath = args.get('sourceFile')
     if token is None:
         response['body'] = {"result": "no token"}
         return response
     if content is None:
         response['body'] = {"result": "no content"}
+        return response
+    if sourceFilePath is None:
+        response['body'] = {"result": "no sourceFilePath"}
         return response
 
     try:
@@ -45,7 +50,7 @@ def main(args):
         response['body'] = {"result": "missing username in token"}
         return response
 
-    ok, msg = save(content)
+    ok, msg = save(sourceFilePath, content, username)
     if not ok:
         response['body'] = {"result": "save failed", "message": msg}
         return response
@@ -53,6 +58,7 @@ def main(args):
     response['statusCode'] = HTTPStatus.OK
     response['body'] = {"result": "ok"}
     return response
+
 
 def githash(data: bytes) -> str:
     """Unused right now. Compute the git hash of a blob of data. 
@@ -63,57 +69,47 @@ def githash(data: bytes) -> str:
     s.update(data)
     return s.hexdigest()
 
-def save(content:str):
+
+def save(sourceFilePath: str, content: str, username: str):
     """Here we will save the data."""
-    year = "2020"
-    surname = "gajdosik"
-    url = f"https://api.github.com/repos/{ORG}/{REPO}/contents/web/content/{year}/{surname}/{surname}.md"
+    url = f"https://api.github.com/repos/{ORG}/{REPO}/contents/web/content/{sourceFilePath}"
     headers = {
         "Accept": "application/vnd.github+json",
         "Authorization": f"Bearer {GH_TOKEN}",
         "X-GitHub-Api-Version": "2022-11-28",
         }
-  
     resp = get(url, headers=headers)
     if resp.status_code != 200:
         return False, f"GET file failed: {resp.text}"
-    
     try:
         data = resp.json()
     except Exception as e:
         return False, str(e)
 
     prev_sha = data.get('sha')
+    data = data.get('content')
     if prev_sha is None:
         return False, "Missing previous SHA"
-    
-    file = f"""---
-title: "Andreas Gajdosik"
-date: 2020-08-17T15:02:56+02:00
-description: "Série vypráví fragmenty příběhů odehrávajících se v kulisách romantických fantasy scenerií a kombinovaných se současnými subkulturními a volnočasovými motivy."
-draft: false
-url: "andreas-gajdosik"
-owner: "xvgajdosik"
+    if data is None:
+        return False, "Missing content"
 
-name: "Andreas"
-surname: "Gajdosik"
-artwork: "You Must Gather Your Party Before Venturing Forth"
-medium: "olejomalba na plátně"
-dimensions: ""
-year: "{year}"
-study: "mga"
-location: "kanal"
----
-{{{{< raw_html >}}}}
-{content}
-{{{{< /raw_html >}}}}
-"""
+    prev_content = b64decode(data).decode('utf-8')
+    metadata = parseMarkdownMetadata(prev_content)
+    if metadata.get('owner') != username:
+        return False, "Authenticated user is not owner of this file"
 
-    byte_file = bytes(file, 'utf-8')
-    encoded_file = b64encode(byte_file).decode('utf-8')
+    result = "---\n"
+    for key, value in metadata.items():
+        result += f"{key}: {value}\n"
+    result += "---\n"
+    result += "{{{{< raw_html >}}}}\n"
+    result += content + "\n"
+    result += "{{{{< raw_html >}}}}\n"
 
+    byte_result = bytes(result, 'utf-8')
+    encoded_file = b64encode(byte_result).decode('utf-8')
     data = {
-        "message":"update",
+        "message":f"{username} updating {sourceFilePath}",
         "committer": {
             "name":"Fakulta Vytvarna",
             "email":"andreas.gajdosik+diplomantkycz@gmail.com",
@@ -122,17 +118,26 @@ location: "kanal"
         "sha": prev_sha,
         }
 
-
     resp = put(url, headers=headers, json=data)
     if resp.status_code != 200:
         return False, f"POST file update failed: {resp.text}"
-
     return True, "ok"
 
 
-#year = "2020"
-#surname = "gajdosik"    
-#content = "lololo"
-#results = save(content, year, surname)
+def parseMarkdownMetadata(content: str):
+    """Parse the metadata from the markdown string."""
+    heading = content.split("---", 2)[1].strip()
+    lines = heading.splitlines()
+    metadata = OrderedDict()
+    for line in lines:
+        parts = line.split(": ")
+        if len(parts) != 2:
+            continue
+        key = parts[0].strip()
+        value = parts[1].strip()
+        metadata[key] = value
+    return metadata
+
+#ok, results = save("2020/gajdosik/gajdosik.md", "dasdad", '"xvgajdosik"')
 #print(results)
 

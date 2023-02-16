@@ -30,6 +30,8 @@ function save() {
   let data = {
       "token": jwt,
       "content": content,
+      "sourceFile": sourceFile,
+      "sourceDir": sourceDir,
   }; 
   fetch(params.FUNCS_URL + '/core/save', {
       method: 'POST',

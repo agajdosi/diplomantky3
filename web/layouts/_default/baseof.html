@@ -9,6 +9,14 @@
   <meta name="description" content="Diplomantky.cz">
   <meta name="author" content="Andreas Gajdosik">
   <meta name="owner" content="{{- block `owner` . }}{{- end }}">
+  <meta name="sourceFile" content="{{- block `sourceFile` . }}{{- end }}">
+  <meta name="sourceDir" content="{{- block `sourceDir` . }}{{- end }}">
+
+  <meta name="url" content="{{- block `url` . }}{{- end }}">
+  <meta name="artwork" content="{{- block `artwork` . }}{{- end }}">
+  <meta name="description" content="{{- block `description` . }}{{- end }}">
+  <meta name="year" content="{{- block `description` . }}{{- end }}">
+
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{- block `pagetitle` . -}}{{- end -}}" />
   <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Summary }}{{ end }}" />
