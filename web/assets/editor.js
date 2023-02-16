@@ -27,6 +27,8 @@ function editButtonClicked(event){
 function save() {
   let jwt = document.cookie.split('; ').find(row => row.startsWith('jwt=')).split('=')[1];
   let content = tinymce.activeEditor.getContent();
+  let sourceFile = document.querySelector("meta[name='sourceFile']").getAttribute('content');
+  let sourceDir = document.querySelector("meta[name='sourceDir']").getAttribute('content');
   let data = {
       "token": jwt,
       "content": content,
