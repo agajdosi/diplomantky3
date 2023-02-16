@@ -14,7 +14,7 @@ year: 2020
 {{< raw_html >}}
 <h1>Andreas Gajdosik</h1>
 <h3 id="just-do-it">Bio</h3>
-<p>Finished FaVU.</p>
+<p>Finished FaVU. And started it again.</p>
 <h3 id="something-else">Works</h3>
 <p>Did something.</p>
 <p>Did something else.</p>
