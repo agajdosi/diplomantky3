@@ -32,4 +32,4 @@ location: kanal
   <img src="/2020/broz/4.jpg" alt="">
   <figcaption></figcaption>
 </figure>
-{{< raw_html >}}
+{{< /raw_html >}}

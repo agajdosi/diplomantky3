@@ -102,9 +102,9 @@ def save(sourceFilePath: str, content: str, username: str):
     for key, value in metadata.items():
         result += f"{key}: {value}\n"
     result += "---\n"
-    result += "{{{{< raw_html >}}}}\n"
+    result += "{{< raw_html >}}\n"
     result += content + "\n"
-    result += "{{{{< raw_html >}}}}\n"
+    result += "{{< /raw_html >}}\n"
 
     byte_result = bytes(result, 'utf-8')
     encoded_file = b64encode(byte_result).decode('utf-8')
