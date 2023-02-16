@@ -11,10 +11,11 @@ artwork: You Must Gather Your Party Before Venturing Forth
 description: Série vypráví fragmenty příběhů odehrávajících se v kulisách romantických fantasy scenerií a kombinovaných se současnými subkulturními a volnočasovými motivy.
 year: 2020
 ---
-{{< raw_html >}}
+{{{{< raw_html >}}}}
 <h1>Andreas Gajdosik</h1>
 <h3 id="just-do-it">Bio</h3>
-<p>my biom</p>
-<h3 id="something-else">Something else</h3>
-<p>asdasdas asdasd asdasdasd <br>asdasd asda</p>
-{{< /raw_html >}}
+<p>Finished FaVU.</p>
+<h3 id="something-else">Works</h3>
+<p>Did something.</p>
+<p>Did something else.</p>
+{{{{< raw_html >}}}}
