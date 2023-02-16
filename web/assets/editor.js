@@ -63,17 +63,19 @@ function addEditButton() {
   editButton.setAttribute('id', 'edit_button');  
   editButton.addEventListener("click", editButtonClicked);
   editButton.innerText = 'EDIT';
-  let footerMenu = document.getElementById('footer_menu');
+  let footerMenu = document.getElementById('header');
   footerMenu.append(editButton);
 }
 
 function addSaveButton() {
-  let footerMenu = document.getElementById('footer_menu');
-  let saveButton = document.createElement('button');
-  saveButton.setAttribute('id', 'save_button');  
+  let saveButton = document.getElementById('save_button');
+  if (saveButton!==null) return;
+  let headerMenu = document.getElementById('header');
+  saveButton = document.createElement('button');
+  saveButton.setAttribute('id', 'save_button');
   saveButton.onclick = save;
   saveButton.innerText = 'SAVE';
-  footerMenu.append(saveButton);
+  headerMenu.append(saveButton);
 }
 
 function initTinyMCE() {

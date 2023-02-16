@@ -14,7 +14,7 @@ function addLoginOpenPopupButton() {
     loginButton.setAttribute('id', 'login_open_popup');
     loginButton.addEventListener("click", loginPopupButtonClicked);
     loginButton.innerText = 'LOGIN';
-    document.getElementById('footer_menu').appendChild(loginButton);
+    document.getElementById('header').appendChild(loginButton);
 }
 
 function loginPopupButtonClicked(event) {

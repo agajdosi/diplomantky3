@@ -2,13 +2,25 @@
 {{- define "pagetitle" -}}Diplomantky.cz - {{.Title}}{{end}}
 
 {{ define "content"}}
-  <h1 class="h1index">{{.Title}}</h1>
-  {{ range sort .Pages "Weight" "desc"}}
-  {{ if not (eq .Params.hide true ) }}
-  <h2 class="black">
-    <a href="{{ .Permalink }}"> {{ .Params.ShortTitle }} </a>
-  </h2>
-  {{ end }}
-  {{ end }}
+
+{{ range sort .Pages "Weight" "desc"}}
+{{ if not (eq .Params.hide true ) }}
+
+<div class="contitem">
+  <div class="exhibition half">
+    <h1>
+      <span>➔ </span><a href="{{ .Permalink }}">{{ .Params.ShortTitle }}</a>
+    </h1>
+  </div>
+
+  <div class="graduates half">
+    <h1>
+      <span>➔ </span><a href="{{ .Permalink }}">adasd</a>
+    </h1>
+  </div>
+</div>
+
+{{ end }}
+{{ end }}
 
 {{ end }}

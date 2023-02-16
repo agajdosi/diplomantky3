@@ -1,0 +1,9 @@
+<div id="header">
+    <a href="/">Výstava a databáze diplomantek FaVU</a>
+
+    {{ range .Translations }}
+    <a class="lang" href="{{ .Permalink }}">
+      {{.Language}}
+    </a>
+  {{ end}}
+</div>

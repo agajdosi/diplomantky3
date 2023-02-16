@@ -34,39 +34,16 @@
 </head>
 
 <body>
-  {{ range .Translations }}
-    <a class="lang" href="{{ .Permalink }}">
-      {{.Language}}
-    </a>
-  {{ end}}
+  {{ partial "header.html" . }}
 
-  <a class="back" href="{{ with .Parent }}{{ .Permalink }}{{ end }}">
-    < {{ T "back" }}
-  </a> 
-
-  <div class="main" id="main">
+  <div id="main">
     <div id="content">
       {{ block "content" .}} {{ end }}
     </div>
   </div>
 
-  <footer>
-    <a href="https://www.favu.vut.cz/" target="_blank">
-      <img src="/logos/favu.jpg">
-    </a>
-    <div id="footer_menu">
-    </div>
-  </footer>
-
-  <div id="login_popup">
-    <label for="username">username:</label><br>
-    <input type="text" id="username" name="username"><br>
-    <label for="password">password:</label><br>
-    <input type="password" id="password" name="password">  
-    <button id="login_submit">LOGIN</button>
-    <div id="login_report"></div>
-  </div>
-
+  {{ partial "login.html" . }}
+  {{ partial "footer.html" . }}
 </body>
 
 {{- block `carousel-script` . -}}{{- end -}}
