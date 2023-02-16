@@ -4,6 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Série vypráví fragmenty příběhů odehrávajících se v kulisách romantických fantasy scenerií a kombinovaných se současnými subkulturními a volnočasovými motivy."
 draft: false
 url: "andreas-gajdosik"
+owner: "xvgajdosik"
 
 name: "Andreas"
 surname: "Gajdosik"
