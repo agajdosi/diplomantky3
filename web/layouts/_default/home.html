@@ -3,24 +3,30 @@
 
 {{ define "content"}}
 
-{{ range sort .Pages "Weight" "desc"}}
-{{ if not (eq .Params.hide true ) }}
+{{ range $index, $element := sort .Site.Sections "Weight" "desc" }}
 
-<div class="contitem">
-  <div class="exhibition half">
-    <h1>
-      <span>➔ </span><a href="{{ .Permalink }}">{{ .Params.ShortTitle }}</a>
-    </h1>
+  {{if (modBool $index 2) }}
+  <div class="contitem">
+    <div class="exhibition half">
+      <h1>
+        <span>➔ </span>{{ .Params.ShortTitle }}
+      </h1>
+    </div>
+  {{ end }}
+
+  {{if not (modBool $index 2) }}
+    <div class="graduates half">
+      <h1>
+        <span>➔ </span>{{ .Params.ShortTitle }}
+        {{ partial "recursive.html" . }}
+      </h1>
+    </div>
   </div>
+  {{ end }}
 
-  <div class="graduates half">
-    <h1>
-      <span>➔ </span><a href="{{ .Permalink }}">adasd</a>
-    </h1>
-  </div>
-</div>
 
-{{ end }}
+
+
 {{ end }}
 
 {{ end }}
