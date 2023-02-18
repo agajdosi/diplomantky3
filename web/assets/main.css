@@ -99,6 +99,7 @@ footer {
 .contitem .half {
     flex-grow: 1;
     min-width: 400px;
+    flex: 50%;
 }
 
 .graduates {

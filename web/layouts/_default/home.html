@@ -9,7 +9,7 @@
   <div class="contitem">
     <div class="exhibition half">
       <h1><span>➔ </span>{{ .Params.ShortTitle }}</h1>
-      {{ partial "previews/exhibition.html" . }}
+      {{ .Page.Content }}
     </div>
   {{ end }}
 
@@ -23,9 +23,5 @@
   </div>
   {{ end }}
 
-
-
-
 {{ end }}
-
 {{ end }}

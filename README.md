@@ -1,4 +1,3 @@
-
 ## Structure
 
 - `./packages`: contains functions
@@ -16,7 +15,6 @@ Warning: use the `--remote-build` flag as otherwise the dependencies will not be
 
 get URL of function: `doctl sls fn get core/login --url`  
 run function: `doctl serverless functions invoke core/login`
-
 
 
 ```json
@@ -41,8 +39,6 @@ run function: `doctl serverless functions invoke core/login`
   "name": "Bobby"
 }
 ```
-
-
 
 ## CONFIGURATION
 
