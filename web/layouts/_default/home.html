@@ -2,7 +2,6 @@
 {{- define "pagetitle" -}}Diplomantky.cz - {{.Title}}{{end}}
 
 {{ define "content"}}
-
 {{ range $index, $element := sort .Site.Sections "Weight" "desc" }}
 
   {{if (modBool $index 2) }}

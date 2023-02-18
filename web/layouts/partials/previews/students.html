@@ -1,8 +1,12 @@
 {{ $child_pages := .Pages }}
 <ul>
   {{ range $child_pages.ByTitle }}
-  <li>                                    
+  <li>
+    {{if gt 5 (len .Content)}}
+      {{ .Title }}
+    {{ else }}                                 
     <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+    {{ end }}
   </li>
   {{ end }}
 </ul>
