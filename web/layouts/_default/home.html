@@ -8,9 +8,8 @@
   {{if (modBool $index 2) }}
   <div class="contitem">
     <div class="exhibition half">
-      <h1>
-        <span>➔ </span>{{ .Params.ShortTitle }}
-      </h1>
+      <h1><span>➔ </span>{{ .Params.ShortTitle }}</h1>
+      {{ partial "previews/exhibition.html" . }}
     </div>
   {{ end }}
 
@@ -18,7 +17,7 @@
     <div class="graduates half">
       <h1>
         <span>➔ </span>{{ .Params.ShortTitle }}
-        {{ partial "recursive.html" . }}
+        {{ partial "previews/students.html" . }}
       </h1>
     </div>
   </div>

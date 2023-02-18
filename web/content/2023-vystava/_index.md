@@ -7,3 +7,7 @@ weight: 8
 
 url: "vystava-2023"
 ---
+
+# Exhibition
+This is some content.
+

@@ -1,0 +1,8 @@
+{{ $child_pages := .Pages }}
+<ul>
+  {{ range $child_pages.ByTitle }}
+  <li>                                    
+    <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+  </li>
+  {{ end }}
+</ul>
