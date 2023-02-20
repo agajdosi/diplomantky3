@@ -24,8 +24,6 @@ study: mga
 <h2 style="text-align: center;">&nbsp;</h2>
 <h2 style="text-align: center;">&nbsp;</h2>
 <h2 style="text-align: center;">&nbsp;</h2>
-<h2 style="text-align: center;">&nbsp;</h2>
-<h2 style="text-align: center;">&nbsp;</h2>
 <h2 style="text-align: center;">Contacts</h2>
 <p style="text-align: center;">email: <a href="mailto:jakub@inter.net">jakub@inter.net</a></p>
 <p style="text-align: center;">mobil: 775 666 123</p>
