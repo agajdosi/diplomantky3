@@ -1,9 +1,61 @@
+# HOW TO
+
+## Zmena portfolia - perspektiva diplomantky
+1. diplomantka klikne na LOGIN na homepage a logne se
+2. uspesne lognuti ji presmeruje na jeji profil
+3. v momente, kdy je uzivatelka prihlasena, tak se na profilu zobrazi tlacitko EDIT
+4. pri kliku na EDIT se portfolio nacte do editoru, objevi se tlacitko PREVIEW
+5. pri kliku na PREVIEW skryje editor a zobrazi se portfolio, nyni je moznost dat SAVE anebo opet EDIT
+6. pri kliku na SAVE se vse ulozi, hotovo!
+
+
+### Nevyhody
+- portfolio se uklada na Github, trva to asi 2-5 minut, nez se to zmeni na webu (po refreshi, musime to zminit)
+
+### TODO
+- zatim neni funkce na nahrani obrazku
+- zatim neni moznost editovat Nazev dila, description (zobrazuje se v title a v preview na FB)
+- zatim neni moznost editovat URL a dalsi metadata
+- zatim neni moznost zmenit heslo, zmenit email
+
+## Pridani rocniku - perspektiva admina
+Zatim to nejde pres webove rozhrani, ale jde to pres CLI - pocita se s ucasti Andrease, ktery to bude delat.
+Nemelo by to zabrat dele nez 30 minut.
+
+
+## Administrator perspective
+
+
+# NERD STUFF
+
 ## Structure
 
 - `./packages`: contains functions
 - `./web`: source files for Hugo generator
 - `./web/build`: output file with built HTMLs - this gets uploaded into spaces
 
+
+
+## CONFIGURATION
+
+### project.yml
+
+Pomoci neho asi DO pozna, ze jde o repo s funkcema, ale dost mozna pozdeji uz nebude treba?
+
+### .do/app.yaml
+
+Tohle je app-spec, ktery urcuje, jak bude appka deploynute poprve.
+Dal ale nema zadnej vliv AFAIK.
+
+```
+doct auth init
+doctl apps list
+doctl apps spec get 3adf38e8-ed0c-418f-9a57-53be79f3dacb
+
+
+doctl apps spec validate .do/app.yaml
+doctl apps update --spec .do/app.yaml 3adf38e8-ed0c-418f-9a57-53be79f3dacb
+```
 
 ## Developing function
 
@@ -38,25 +90,4 @@ run function: `doctl serverless functions invoke core/login`
   "__ow_path": "",
   "name": "Bobby"
 }
-```
-
-## CONFIGURATION
-
-### project.yml
-
-Pomoci neho asi DO pozna, ze jde o repo s funkcema, ale dost mozna pozdeji uz nebude treba?
-
-### .do/app.yaml
-
-Tohle je app-spec, ktery urcuje, jak bude appka deploynute poprve.
-Dal ale nema zadnej vliv AFAIK.
-
-```
-doct auth init
-doctl apps list
-doctl apps spec get 3adf38e8-ed0c-418f-9a57-53be79f3dacb
-
-
-doctl apps spec validate .do/app.yaml
-doctl apps update --spec .do/app.yaml 3adf38e8-ed0c-418f-9a57-53be79f3dacb
 ```
