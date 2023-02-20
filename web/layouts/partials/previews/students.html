@@ -1,6 +1,5 @@
-{{ $child_pages := .Pages }}
 <ul>
-  {{ range $child_pages.ByTitle }}
+  {{ range sort .Pages.ByTitle }}
   <li>
     {{if gt 5 (len .Content)}}
       {{ .Title }}
