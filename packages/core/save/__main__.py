@@ -95,8 +95,9 @@ def save(sourceFilePath: str, content: str, username: str):
 
     prev_content = b64decode(data).decode('utf-8')
     metadata = parseMarkdownMetadata(prev_content)
-    if metadata.get('owner') != username:
-        return False, "Authenticated user is not owner of this file"
+    owner = metadata.get('owner')
+    if owner != username:
+        return False, f"Authenticated user is not owner of this file: {username} != {owner}"
 
     result = "---\n"
     for key, value in metadata.items():
