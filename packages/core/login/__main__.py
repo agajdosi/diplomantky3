@@ -17,7 +17,7 @@ def main(args):
     username = args.get('username')
     password = args.get('password')
     if username is None or password is None:
-        response['body'] = {"result": "no credentials"}
+        response['body'] = {'result': 'no credentials'}
         return response
 
     client = MongoClient(MONGO_CONNECTION_STRING, connectTimeoutMS=200)
@@ -26,19 +26,22 @@ def main(args):
 
     user = users.find_one({'username': username}, max_time_ms=100)
     if user is None:
-        response['body'] = {"result": "user does not exist"}
+        response['body'] = {'result': 'user does not exist'}
         return response
 
     if password != user.get('password'):
-        response['body'] = {"result": "wrong credentials"}
+        response['body'] = {'result': 'wrong credentials'}
         return response
 
     data = {
         'username': username,
-        "exp": datetime.now(tz=timezone.utc) + timedelta(days=30),
-    }
-    
+        'exp': datetime.now(tz=timezone.utc) + timedelta(days=30)}
     token = jwt.encode(data, SECRET_KEY, 'HS256')
-    response['body'] = {"result": "ok", "token": token, "loggedAs": username}
     response['statusCode'] = HTTPStatus.OK
+    response['body'] = {
+        'result': 'ok',
+        'token': token,
+        'loggedAs': username,
+        'redirectUrl': user.get('url'),
+        }
     return response

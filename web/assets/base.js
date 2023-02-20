@@ -53,7 +53,11 @@ function validate_login_response(data) {
         document.cookie = `jwt=${token}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
         document.cookie = `loggedAs=${loggedAs}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
         report.innerText = 'Successfully logged in!';
-        return
+        let redirectUrl = data['redirectUrl'];
+        if (redirectUrl) {
+            window.location.href = redirectUrl;
+        }
+        return;
     }
     report.innerText = 'Wrong credentials, please try again.'
 };
