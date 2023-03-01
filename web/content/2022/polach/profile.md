@@ -16,7 +16,7 @@ study: mga
 <p>Designer. Born. Lives.</p>
 <h2>&nbsp;</h2>
 <h2>CV</h2>
-<p>Studied design.</p>
+<p>bjnj</p>
 <p>&nbsp;</p>
 <h2>Portfolio</h2>
 <p>Did design.</p>
