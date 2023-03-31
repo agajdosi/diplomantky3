@@ -10,3 +10,14 @@ surname: Gajdošík
 year: 2022
 study: mga
 ---
+{{< raw_html >}}
+<h1>CV</h1>
+<p>bla</p>
+<p>bla</p>
+<p>bla</p>
+<p>&nbsp;</p>
+<h1>Portfolio</h1>
+<p>blu</p>
+<p>blu</p>
+<p>blud</p>
+{{< /raw_html >}}
