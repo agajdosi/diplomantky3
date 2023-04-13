@@ -81,7 +81,6 @@ footer {
 }
 
 #content {
-    padding: 0 40px;
     display: flex;
     flex-direction: column;
 }
@@ -99,7 +98,13 @@ footer {
 .contitem .half {
     flex-grow: 1;
     min-width: 400px;
-    flex: 50%;
+    flex: 40%;
+    padding: 0 40px 0 40px;
+}
+
+.exhibition {
+    display: flex;
+    flex-direction: column;
 }
 
 .graduates {

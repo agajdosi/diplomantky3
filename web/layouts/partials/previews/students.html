@@ -1,11 +1,9 @@
-<ul>
-  {{ range sort .Pages.ByTitle }}
-  <li>
-    {{if gt 5 (len .Content)}}
-      {{ .Title }}
-    {{ else }}                                 
-    <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
-    {{ end }}
-  </li>
+{{ range sort .Pages.ByTitle }}
+<h2>
+  {{if gt 5 (len .Content)}}
+    {{ .Title }}
+  {{ else }}                                 
+  <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
   {{ end }}
-</ul>
+</h2>
+{{ end }}
