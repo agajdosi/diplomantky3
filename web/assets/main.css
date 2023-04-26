@@ -23,6 +23,10 @@ h1 {
     font-size: 3rem;
 }
 
+p {
+    font-size: 1.25rem;
+}
+
 .button {
     padding: .5rem 1rem;
     margin: 0.5rem 0rem;
@@ -51,7 +55,7 @@ h1 {
 
 footer {
     position: fixed;
-    height: 40px;
+    height: 60px;
     width: 100vw;
     bottom: 0;
     background-color: #000000;
@@ -63,7 +67,7 @@ footer {
 }
 
 .menu {
-    margin: 0 40px;
+    margin: 15px 40px;
     display: flex;
     justify-content: space-between;  
 }
