@@ -4,30 +4,34 @@ html { font-family: 'Inter', sans-serif; }
   html { font-family: 'Inter var', sans-serif; }
 }
 
-html {
+html{
     background-color: #000000;
     color: #ffffff;
     font-size: 12px;
 }
 
-body {
+body{
     margin: 0;
 }
 
-a, a:visited, a:hover, a:active {
+a, a:visited, a:hover, a:active{
     color: inherit;
 }
 
-h1 {
+h1{
     font-weight: 400;
     font-size: 3rem;
 }
 
-p {
+p{
     font-size: 1.25rem;
 }
 
-.button {
+ul{
+    padding: 0;
+}
+li {
+    list-style-type: none;
     padding: .5rem 1rem;
     margin: 0.5rem 0rem;
     text-align: center;
@@ -43,18 +47,16 @@ p {
     color: rgb(0,0,0);
 }
 
-
-#header {
+#header{
     color: #9D9C9C;
     margin: 15px 40px;
     display: flex;
     justify-content: space-between;
 }
-
-#header a {
+#header a{
     text-decoration-line: none;
 }
-#header button {
+#header button{
     all: unset;
     cursor: pointer;
 }
@@ -116,9 +118,17 @@ footer {
     padding: 0 40px 0 40px;
 }
 
-.exhibition {
+.exhibition{
     display: flex;
     flex-direction: column;
+    font-size: 1.25rem;
+}
+.exhibition h2{
+    all: unset;
+    font-size: 1.25rem;
+    color: #9D9C9C;
+    border-bottom: #9D9C9C solid 1px;
+    padding: 1.25rem 0 1rem 0;
 }
 
 .graduates {

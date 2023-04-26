@@ -20,7 +20,15 @@ hours: "út – ne 10 – 18 h"
 map: "https://mapy.cz/zakladni?x=16.6066325&y=49.1929030&z=19&source=coor&id=16.606699585914583%2C49.19299500063662"
 address: "Dům pánů z Kunštátu: Dominikánská 9, Brno - Střed"
 ---
+📍 Dům pánů z Kunštátu, Dominikánská 9, Brno  
+📅 30.06-31.07.2022  
+🕒 út–ne 10–18hod  
+🎫 Vstup zdarma  
 
+## Kurátorský tým
+Ateliér fotografie FaVU VUT v Brně
+
+## O výstavě 
 V jeskyni FaVU se nová generace umělců\*kyň pokouší popsat fragmentovanou realitu skrze hledání odpovědí na lidské, mezilidské i mimolidské otázky.
 
 Přechod z jeskyně je spojen se silami, které prorážejí svět a uvádějí nás do estetiky reklamního světa, pomyslné demokracie, pohádkových snů a halucinací, humanistické citlivosti a vztahů.
@@ -38,6 +46,4 @@ Koncept prezentace práce diplomantek\*tů je úzce spjat s frustrací a solidar
 
 --- 
 
-*Lokace: Dům pánů z Kunštátu, Dominikánská 9, Brno*  
-*Trvání: 30.06-31.07.2022, út–ne 10–18 h*  
-*Vernisáž: 29.06.2022 16:00*  
+

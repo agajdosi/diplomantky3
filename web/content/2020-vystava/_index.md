@@ -7,3 +7,19 @@ weight: 2
 
 url: "vystava-2020"
 ---
+
+Decentralizovaná výstava diplomantek FaVU v prvním pandemickém roce 2020.
+7 lokací, 7 vernisáží, 22 diplomantek.
+
+Kurátorky: Martina Růžičková, Andreas Gajdošík
+Design: Jakub Polách
+
+## Dokumentace lokací
+
+- [Kanál](/kanal)
+- [Zahrádka](/zahradka)
+- [Městský byt](/byt)
+- [Káznice](/kaznice)
+- [Klubovna](/klubovna)
+- [FaVU](/favu)
+- [Dům pánů z Kunštátu](/kunstat)
