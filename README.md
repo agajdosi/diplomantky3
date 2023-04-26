@@ -1,5 +1,10 @@
 # HOW TO
 
+```
+cd web
+hugo serve
+```
+
 ## Zmena portfolia - perspektiva diplomantky
 1. diplomantka klikne na LOGIN na homepage a logne se
 2. uspesne lognuti ji presmeruje na jeji profil
