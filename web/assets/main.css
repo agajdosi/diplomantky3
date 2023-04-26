@@ -46,11 +46,20 @@ p {
 
 #header {
     color: #9D9C9C;
-    padding: 1rem 40px;
+    margin: 15px 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #header a {
     text-decoration-line: none;
+}
+#header button {
+    all: unset;
+    cursor: pointer;
+}
+#headerright a{
+    margin: 0px 0px 0px 4rem;
 }
 
 footer {

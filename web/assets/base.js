@@ -13,20 +13,20 @@ function addLoginOpenPopupButton() {
     let loginButton = document.createElement('button');
     loginButton.setAttribute('id', 'login_open_popup');
     loginButton.addEventListener("click", loginPopupButtonClicked);
-    loginButton.innerText = 'LOGIN';
-    document.getElementById('header').appendChild(loginButton);
+    loginButton.innerText = 'login';
+    document.getElementById('headerright').prepend(loginButton);
 }
 
 function loginPopupButtonClicked(event) {
     //TODO: Add popup window
     let popup = document.getElementById('login_popup');
     let button = event.target;
-    if (button.innerText === 'LOGIN') {
-        button.innerText = 'CLOSE';
+    if (button.innerText === 'login') {
+        button.innerText = 'close';
         popup.style.display = "block";
         return;
     }
-    button.innerText = 'LOGIN';
+    button.innerText = 'login';
     popup.style.display = "none";
 };
 

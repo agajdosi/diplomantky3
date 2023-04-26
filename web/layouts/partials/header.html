@@ -1,9 +1,11 @@
 <div id="header">
-    <a href="/">Výstava a databáze diplomantek FaVU</a>
+    <div class="menuleft">
+        <a href="/">Výstava a databáze diplomantek FaVU</a>
+    </div>
 
-    {{ range .Translations }}
-    <a class="lang" href="{{ .Permalink }}">
-      {{.Language}}
-    </a>
-  {{ end}}
+    <div id="headerright">
+        {{ range .Translations }}
+        <a class="lang" href="{{ .Permalink }}">{{.Language}}</a>
+        {{ end}}
+    </div>
 </div>
