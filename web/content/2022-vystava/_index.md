@@ -21,7 +21,7 @@ map: "https://mapy.cz/zakladni?x=16.6066325&y=49.1929030&z=19&source=coor&id=16.
 address: "Dům pánů z Kunštátu: Dominikánská 9, Brno - Střed"
 ---
 📍 Dům pánů z Kunštátu, Dominikánská 9, Brno  
-📅 30.06-31.07.2022  
+📅 30. 6. 2022 - 31. 7. 2022  
 🕒 út–ne 10–18hod  
 🎫 Vstup zdarma  
 
@@ -43,7 +43,3 @@ Dalo by se říci, že AFO kurátorská synergie v procesu vytvořila nečekanou
 Vznikla nová situace, kterou lze nazvat Lost Focus.
 
 Koncept prezentace práce diplomantek\*tů je úzce spjat s frustrací a solidaritou. Výsledkem je proces zaměřený na spolupráci a lepší vzájemné poznávání.
-
---- 
-
-

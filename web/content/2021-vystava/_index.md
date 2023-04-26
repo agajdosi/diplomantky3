@@ -1,24 +1,18 @@
 ---
 title: "Výstava diplomantek FaVU 2021"
-shortTitle: "Výstava 2021"
+shortTitle: "RE_PREZENTACE - výstava 2021"
 date: 2022-06-17T15:02:56+02:00
 draft: false
 url: "vystava-2021"
 weight: "4"
-
-images: [
-    ["1.jpg", ""],
-    ["2.jpg", ""],
-    ["3.jpg", ""],
-    ["4.jpg", ""],
-    ["5.jpg", ""],
-]
-
-opening: "19.06.2022 16:00"
-duration: "30.06-31.07.2022"
-hours: "út – ne 10 – 18 h"
-map: "https://mapy.cz/zakladni?x=16.6066325&y=49.1929030&z=19&source=coor&id=16.606699585914583%2C49.19299500063662"
-address: "Dům pánů z Kunštátu: Dominikánská 9, Brno - Střed"
 ---
+📍 Dům pánů z Kunštátu, Dominikánská 9, Brno  
+📅 15. 7. 2021 – 15. 8. 2021  
+🕒 út–ne 10–18hod  
+🎫 Vstup zdarma  
 
-TODO: pridat kuratorsky text.
+## Kurátorský tým
+Luděk Rathouský & Svätopluk Mikyta
+
+## O výstavě
+Reprezentace je pojem teorie znaků. Zjednodušeně řečeno je to určitá relace mezi dvěma entitami – tím, koho reprezentuje, tedy reprezentujícím, a tím, co je reprezentováno, reprezentovaným. Je běžné chápat umělecká díla jako znaky, jejichž význam podléhá interpretaci. Kdyby umělecká díla nic nereprezentovala, nebylo by možné je interpretovat, nebyla by o ničem, byla by prázdná, nezajímavá. Východiskem pro naši participaci na letošní výstavě diplomantů FaVU je fakt, že se jedná o zaběhnutou přehlídku všech diplomových prací, které v daném roce na půdě fakulty vznikly. Vzdáváme se ambice jednotlivé práce hodnotit či přeskupovat do nových kategorií a tematicky je zastřešovat. Rozsah jednotlivých oborů reprezentovaných ateliérovou příslušností a rozdílností přístupů s důrazem na svobodu vyjádření predikuje i svobodu prezentace poslední studijní práce.
