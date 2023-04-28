@@ -21,6 +21,7 @@ a, a:visited, a:hover, a:active{
 h1{
     font-weight: 400;
     font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 p{
@@ -106,7 +107,7 @@ footer {
     flex-wrap: wrap;
 }
 
-.contitem h1 {
+.contitem .expandable {
     position: relative;
     left: -40px;
 }
@@ -151,3 +152,9 @@ footer {
     transform: translate(-50%, -50%);
 }
 
+.portfolio{
+    flex-grow: 1;
+    min-width: 400px;
+    flex: 40%;
+    padding: 0 40px 0 40px;
+}

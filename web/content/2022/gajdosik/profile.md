@@ -11,7 +11,10 @@ year: 2022
 study: mga
 ---
 {{< raw_html >}}
-<h1>Andreas Gajdo&scaron;&iacute;k</h1>
+<h1>Andreas Gajdosik</h1>
+<p>*1992, Brno<br>
+<a href="mailto:andreas@gajdosik.org">andreas@gajdosik.org</a><br>
+AGD2</p>
 <h2>CV</h2>
 <p>bla</p>
 <p>bla</p>

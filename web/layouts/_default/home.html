@@ -7,14 +7,14 @@
   {{if (modBool $index 2) }}
   <div class="contitem">
     <div class="exhibition half">
-      <h1><span>➔ </span>{{ .Params.ShortTitle }}</h1>
+      <h1 class="expandable"><span>➔ </span>{{ .Params.ShortTitle }}</h1>
       {{ .Page.Content }}
     </div>
   {{ end }}
 
   {{if not (modBool $index 2) }}
     <div class="graduates half">
-      <h1>
+      <h1 class="expandable">
         <span>➔ </span>{{ .Params.ShortTitle }}
       </h1>
       <ul>{{ partial "previews/students.html" . }}</ul>
