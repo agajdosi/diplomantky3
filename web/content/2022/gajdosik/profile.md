@@ -11,12 +11,13 @@ year: 2022
 study: mga
 ---
 {{< raw_html >}}
-<h1>CV</h1>
+<h1>Andreas Gajdo&scaron;&iacute;k</h1>
+<h2>CV</h2>
 <p>bla</p>
 <p>bla</p>
 <p>bla</p>
 <p>&nbsp;</p>
-<h1>Portfolio</h1>
+<h2>Portfolio</h2>
 <p>blu</p>
 <p>blu</p>
 <p>bluduybuhbn</p>
