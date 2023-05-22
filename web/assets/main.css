@@ -112,11 +112,11 @@ footer {
     left: -40px;
 }
 
-.contitem .half {
+.contitem .half, .contitem .tox-tinymce {
     flex-grow: 1;
     min-width: 400px;
     flex: 40%;
-    padding: 0 40px 0 40px;
+    margin: 0 40px 0 40px;
 }
 
 .exhibition{

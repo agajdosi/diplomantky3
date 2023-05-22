@@ -80,7 +80,7 @@ function addSaveButton() {
 }
 
 function initTinyMCE() {
-  let mainContainer = document.getElementById('main');
+  let mainContainer = document.getElementById(EDITED_DIV_ID).parentNode;
   editor = document.createElement('textarea');
   editor.setAttribute('id', 'editor');
   mainContainer.prepend(editor);
@@ -88,7 +88,7 @@ function initTinyMCE() {
   editor.style.display = 'none';
   tinymce.init({
     selector: 'textarea#editor',
-    height: '80vh',
+    height: '85vh',
     style_formats : [
       { title : 'Normal text', block: 'p'},
       { title : 'Title Big', block: 'h1'},
@@ -117,6 +117,7 @@ function enterEditorMode(event) {
   editor.style.display = 'block';
   event.target.innerText = 'PREVIEW';
   document.getElementById(EDITED_DIV_ID).innerHTML = '';
+  document.getElementById(EDITED_DIV_ID).style.display = 'none';
   tinymce.activeEditor.show();
 }
 
@@ -126,6 +127,7 @@ function enterPreviewMode(event) {
   editor.style.display = 'none';
   event.target.innerText = 'EDIT';
   document.getElementById(EDITED_DIV_ID).innerHTML = tinymce.activeEditor.getContent();
+  document.getElementById(EDITED_DIV_ID).style.display = 'block';
   addSaveButton();
 }
 
