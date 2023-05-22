@@ -31,6 +31,11 @@ p{
 ul{
     padding: 0;
 }
+
+li {
+    list-style-type: none;
+}
+
 li {
     list-style-type: none;
     padding: .5rem 1rem;
@@ -43,9 +48,23 @@ li {
     max-width: 285px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
     text-decoration: none;
-    color: rgb(0,0,0);
+    color: #000000;
+}
+
+li.active {
+    display: block;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+li a{
+    text-decoration: none;
+}
+
+li.disabled {
+    background-color: unset;
+    color: unset
 }
 
 #header{

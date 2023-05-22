@@ -1,9 +1,11 @@
 {{ range sort .Pages.ByTitle }}
-<li>
   {{if gt 5 (len .Content)}}
-    {{ .Title }}
-  {{ else }}                                 
-  <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+    <li class="disabled">
+      <div>{{ .Title }}</div>
+    </li>
+  {{ else }}
+    <li class="active" onclick="window.location='{{ .RelPermalink }}'">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
   {{ end }}
-</li>
 {{ end }}

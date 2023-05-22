@@ -10,6 +10,9 @@ surname: Gajdošík
 year: 2022
 study: mga
 ---
+# Algame
+Simulator algoritmu socialni site.
+<!-- SECTION BREAK -->
 {{< raw_html >}}
 <h1>Andreas Gajdosik</h1>
 <p>*1992, Brno<br><a href="mailto:andreas@gajdosik.org">andreas@gajdosik.org</a><br>AGD2</p>
