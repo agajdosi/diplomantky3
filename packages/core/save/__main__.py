@@ -12,6 +12,7 @@ REPO = 'diplomantky3'
 SECRET_KEY = environ['SECRET_KEY']
 MONGO_CONNECTION_STRING = environ['MONGO_CONNECTION_STRING']
 GH_TOKEN = environ['GH_TOKEN']
+SPLITTER = "<!-- SECTION BREAK -->"
 
 def main(args):
     response = {
@@ -99,15 +100,13 @@ def save(sourceFilePath: str, content: str, username: str):
     if owner != username:
         return False, f"Authenticated user is not owner of this file: {username} != {owner}"
 
-    result = "---\n"
-    for key, value in metadata.items():
-        result += f"{key}: {value}\n"
-    result += "---\n"
-    result += "{{< raw_html >}}\n"
-    result += content + "\n"
-    result += "{{< /raw_html >}}\n"
+    parts = prev_content.split(SPLITTER)
+    final_file = parts[0] + "\n" + SPLITTER + "\n"
+    final_file += "{{< raw_html >}}\n"
+    final_file += content + "\n"
+    final_file += "{{< /raw_html >}}\n"
 
-    byte_result = bytes(result, 'utf-8')
+    byte_result = bytes(final_file, 'utf-8')
     encoded_file = b64encode(byte_result).decode('utf-8')
     data = {
         "message":f"{username} updating {sourceFilePath}",
@@ -138,7 +137,4 @@ def parseMarkdownMetadata(content: str):
         value = parts[1].strip()
         metadata[key] = value
     return metadata
-
-#ok, results = save("2020/gajdosik/gajdosik.md", "dasdad", '"xvgajdosik"')
-#print(results)
 

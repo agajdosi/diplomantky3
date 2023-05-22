@@ -1,5 +1,6 @@
 import * as params from '@params';
 
+const EDITED_DIV_ID = 'bio';
 window.addEventListener('load', editorPageLoaded);
 
 function editorPageLoaded() {
@@ -34,7 +35,7 @@ function save() {
       "content": content,
       "sourceFile": sourceFile,
       "sourceDir": sourceDir,
-  }; 
+  };
   fetch(params.FUNCS_URL + '/core/save', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json',},
@@ -83,8 +84,7 @@ function initTinyMCE() {
   editor = document.createElement('textarea');
   editor.setAttribute('id', 'editor');
   mainContainer.prepend(editor);
-  let content = document.getElementById('content');
-  editor.innerHTML = content.innerHTML;
+  editor.innerHTML = document.getElementById(EDITED_DIV_ID).innerHTML;
   editor.style.display = 'none';
   tinymce.init({
     selector: 'textarea#editor',
@@ -113,21 +113,19 @@ function initTinyMCE() {
 
 function enterEditorMode(event) {
   let editor = document.getElementById('editor');
-  let content = document.getElementById('content');
   editor = document.getElementById('editor');
   editor.style.display = 'block';
   event.target.innerText = 'PREVIEW';
-  content.innerHTML = '';
+  document.getElementById(EDITED_DIV_ID).innerHTML = '';
   tinymce.activeEditor.show();
 }
 
 function enterPreviewMode(event) {
   tinymce.activeEditor.hide();
   let editor = document.getElementById('editor');
-  let content = document.getElementById('content');
   editor.style.display = 'none';
   event.target.innerText = 'EDIT';
-  content.innerHTML = tinymce.activeEditor.getContent();
+  document.getElementById(EDITED_DIV_ID).innerHTML = tinymce.activeEditor.getContent();
   addSaveButton();
 }
 

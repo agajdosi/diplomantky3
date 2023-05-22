@@ -10,6 +10,16 @@ surname: Gajdošík
 year: 2022
 study: mga
 ---
+
+# Algame
+Simulator algoritmu socialni site.
+
+## About
+
+Hra, ve ktere jednate za algoritmus socialni site.
+Stante se algoritmem Facebooku a objevte, jak funguje algoritmus.
+
+<!-- SECTION BREAK -->
 {{< raw_html >}}
 <h1>Andreas Gajdosik</h1>
 <p>*1992, Brno<br>
