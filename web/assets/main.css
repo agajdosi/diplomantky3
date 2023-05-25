@@ -76,7 +76,7 @@ li a{
     all: unset;
     cursor: pointer;
 }
-#headerright a{
+#headerright a, #headerright button{
     margin: 0px 0px 0px 4rem;
 }
 
