@@ -1,6 +1,10 @@
 import * as params from '@params';
 
 const EDITED_DIV_ID = 'bio';
+const EDIT_TEXT = 'edit';
+const PREVIEW_TEXT = 'preview';
+const SAVE_TEXT = 'save';
+
 window.addEventListener('load', editorPageLoaded);
 
 function editorPageLoaded() {
@@ -15,11 +19,11 @@ function editorPageLoaded() {
 
 function editButtonClicked(event){
   let currentText = event.target.innerText;
-  if (currentText === 'EDIT') {
+  if (currentText === EDIT_TEXT) {
     enterEditorMode(event);
     return;
   }
-  if (currentText === 'PREVIEW') {
+  if (currentText === PREVIEW_TEXT) {
     enterPreviewMode(event);
     return;
   }
@@ -63,7 +67,7 @@ function addEditButton() {
   let editButton = document.createElement('button');
   editButton.setAttribute('id', 'edit_button');  
   editButton.addEventListener("click", editButtonClicked);
-  editButton.innerText = 'EDIT';
+  editButton.innerText = EDIT_TEXT;
   let footerMenu = document.getElementById('header');
   footerMenu.append(editButton);
 }
@@ -75,7 +79,7 @@ function addSaveButton() {
   saveButton = document.createElement('button');
   saveButton.setAttribute('id', 'save_button');
   saveButton.onclick = save;
-  saveButton.innerText = 'SAVE';
+  saveButton.innerText = SAVE_TEXT;
   headerMenu.append(saveButton);
 }
 
@@ -115,7 +119,7 @@ function enterEditorMode(event) {
   let editor = document.getElementById('editor');
   editor = document.getElementById('editor');
   editor.style.display = 'block';
-  event.target.innerText = 'PREVIEW';
+  event.target.innerText = PREVIEW_TEXT;
   document.getElementById(EDITED_DIV_ID).innerHTML = '';
   document.getElementById(EDITED_DIV_ID).style.display = 'none';
   tinymce.activeEditor.show();
@@ -125,11 +129,9 @@ function enterPreviewMode(event) {
   tinymce.activeEditor.hide();
   let editor = document.getElementById('editor');
   editor.style.display = 'none';
-  event.target.innerText = 'EDIT';
+  event.target.innerText = EDIT_TEXT;
   document.getElementById(EDITED_DIV_ID).innerHTML = tinymce.activeEditor.getContent();
   document.getElementById(EDITED_DIV_ID).style.display = 'block';
   addSaveButton();
 }
-
-
 
