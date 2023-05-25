@@ -1,7 +1,10 @@
 import * as params from '@params';
 
 window.addEventListener('load', anyPageLoaded);
-document.getElementById("login_submit").onclick = login;
+document.getElementById('login_form').addEventListener('submit', function(event) {
+    login(event);
+});
+
 
 function anyPageLoaded() {
     if (window.location.pathname === '/') {
@@ -31,7 +34,8 @@ function loginPopupButtonClicked(event) {
 };
 
 
-function login() {
+function login(event) {
+    event.preventDefault();
     let data = {
         "username": document.getElementById("username").value,
         "password": document.getElementById("password").value,

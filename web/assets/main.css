@@ -32,7 +32,7 @@ ul{
     padding: 0;
 }
 
-li {
+li, #login_submit{
     list-style-type: none;
     padding: .5rem 1rem;
     margin: 0.5rem 0rem;
@@ -157,14 +157,23 @@ footer {
 }
 
 #login_popup{
+    padding: 3rem 6rem;
     background-color: grey;
     display: none;
     position: fixed;
-    height: 200px;
-    width: 400px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+#login_popup input{
+    width: 200px;
+}
+#login_report{
+    min-height: 3rem;
+}
+#login_submit{
+    width: 100%;
+    cursor: pointer;
 }
 
 .portfolio{
