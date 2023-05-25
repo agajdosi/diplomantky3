@@ -34,10 +34,6 @@ ul{
 
 li {
     list-style-type: none;
-}
-
-li {
-    list-style-type: none;
     padding: .5rem 1rem;
     margin: 0.5rem 0rem;
     text-align: center;
@@ -50,21 +46,21 @@ li {
     border-color: rgb(255, 255, 255);
     text-decoration: none;
     color: #000000;
+    background-color: #ffffff;
 }
 
 li.active {
-    display: block;
-    background-color: #ffffff;
     cursor: pointer;
+}
+
+li.disabled {
+    color: unset;
+    background-color: unset;
 }
 
 li a{
     text-decoration: none;
-}
-
-li.disabled {
-    background-color: unset;
-    color: unset
+    display: block;
 }
 
 #header{
