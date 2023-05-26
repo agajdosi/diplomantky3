@@ -115,6 +115,7 @@ footer {
 #content {
     display: flex;
     flex-direction: column;
+    margin: 0 0 80px 0;
 }
 
 .contitem {
@@ -181,4 +182,33 @@ footer {
     min-width: 400px;
     flex: 40%;
     padding: 0 40px 0 40px;
+}
+
+
+.fullpage{
+    margin: 0 40px;
+}
+.centered-list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.centered-list li {
+    width: 285px;
+}
+
+
+
+.swiper {
+    height: 100%;
+}
+.swiper-slide {
+    background-size: cover;
+    background-position: 50%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
