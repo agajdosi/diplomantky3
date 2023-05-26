@@ -183,6 +183,12 @@ footer {
     flex: 40%;
     padding: 0 40px 0 40px;
 }
+#diploma figure {
+    margin: 1rem 0;
+}
+#diploma img {
+    width: 100%;
+}
 
 
 .fullpage{
