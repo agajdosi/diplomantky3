@@ -9,10 +9,12 @@ window.addEventListener('load', editorPageLoaded);
 
 function editorPageLoaded() {
   let loggedAs = getLoggedAsCookie();
+  let userRole = getUserRoleCookie();
+  console.log(`logged as: ${loggedAs} with role ${userRole}`);
   if (!loggedAs) return;
   let pageOwner = document.querySelector("meta[name='owner']").getAttribute('content');
   if (!pageOwner) return;
-  if (loggedAs !== pageOwner) return;
+  if (loggedAs != pageOwner && role != "admin") return;
   addEditButton();
   initTinyMCE();
 }
@@ -52,9 +54,17 @@ function save() {
 }
 
 function getLoggedAsCookie() {
+  return getCookieValue('loggedAs');
+}
+
+function getUserRoleCookie() {
+  return getCookieValue('userRole');
+}
+
+function getCookieValue(cookieName) {
   let cookie = document.cookie;
   let cookies = cookie.split('; ');
-  let row = cookies.find(row => row.startsWith('loggedAs='));
+  let row = cookies.find(row => row.startsWith(`${cookieName}=`));
   if (!row) return;
 
   let value = row.split('=');

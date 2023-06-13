@@ -42,6 +42,7 @@ def main(args):
         'result': 'ok',
         'token': token,
         'loggedAs': username,
+        'userRole': user.get('role', 'user'),
         'redirectUrl': user.get('url'),
         }
     return response

@@ -54,8 +54,11 @@ function validate_login_response(data) {
     if (data['result'] === 'ok'){
         let token = data['token'];
         let loggedAs = data['loggedAs'];
+        let userRole = data['userRole'];
+        if (userRole == null) userRole = 'user';
         document.cookie = `jwt=${token}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
         document.cookie = `loggedAs=${loggedAs}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
+        document.cookie = `userRole=${userRole}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
         report.innerText = 'Successfully logged in!';
         let redirectUrl = data['redirectUrl'];
         if (redirectUrl) {
