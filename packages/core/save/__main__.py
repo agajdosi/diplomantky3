@@ -137,7 +137,7 @@ def save(sourceFilePath: str, bio: str, username: str, artwork: str):
 ---
 {{{{< raw_html >}}}}
 {bio}
-{{{{< /raw_html >\}}}}
+{{{{< /raw_html >}}}}
 {SPLITTER}
 {artwork}
 """
