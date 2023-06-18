@@ -32,7 +32,7 @@ ul{
     padding: 0;
 }
 
-li, #login_submit{
+.exhibition li, .graduates li {
     list-style-type: none;
     padding: .5rem 1rem;
     margin: 0.5rem 0rem;
@@ -43,25 +43,28 @@ li, #login_submit{
     border-width: 2px;
     max-width: 285px;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
     text-decoration: none;
-    color: #000000;
-    background-color: #ffffff;
-}
-
-li.active {
     cursor: pointer;
+    border-color: rgb(255, 255, 255);
 }
 
-li.disabled {
-    color: unset;
-    background-color: unset;
-}
-
-li a{
+.exhibition li a, .graduates li a {
     text-decoration: none;
     display: block;
 }
+
+.exhibition li:hover, .graduates .active:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+li.disabled {
+    color: rgb(118, 118, 118);
+    border-color: rgb(118, 118, 118);
+    cursor: default;
+}
+
+
 
 #header{
     color: #9D9C9C;
@@ -190,6 +193,10 @@ footer {
     width: 100%;
 }
 
+#bio, #diploma{
+    font-size: 1.25rem;
+}
+
 
 .fullpage{
     margin: 0 40px;
@@ -204,8 +211,6 @@ footer {
     width: 285px;
 }
 
-
-
 .swiper {
     height: 100%;
 }
@@ -217,4 +222,21 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#login_submit{
+    list-style-type: none;
+    padding: .5rem 1rem;
+    margin: 0.5rem 0rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: normal;
+    border-radius: 10px;
+    border-width: 2px;
+    max-width: 285px;
+    border-style: solid;
+    text-decoration: none;
+    border-color: rgb(255, 255, 255);
+    color: #000000;
+    background-color: #ffffff;
 }
