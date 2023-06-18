@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Tomáš Lorenc
 \* 1983, Prostějov  
 email: tolor@seznam.cz
 
@@ -22,7 +22,9 @@ email: tolor@seznam.cz
 * 2017–2021 Fakulta výtvarných umění VUT v Brně, Ateliér performance
 * 2015–2016 Fakulta výtvarných umění VUT v Brně, Ateliér intermédií
 
-## Šachová partie
+
+<!-- SECTION BREAK -->
+# Šachová partie
 
 Tato práce se věnuje tématu přechodového rituálu, při kterém se z učedníka stává mistr.
 Jde o fyzickou i duchovní přeměnu při performanci v prostoru barokní kaple.

@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Kateřina Molišová
 \* 1993, Brno  
 email: kmolisova@seznam.cz
 
@@ -23,7 +23,9 @@ email: kmolisova@seznam.cz
 * 2018–2020 Fakulta výtvarných umění VUT v Brně, Ateliér tělového designu – Lenka Klodová
 * 2016–2018 Fakulta výtvarných umění VUT v Brně, Ateliér sochařství 1 – Michal Gabriel
 
-## NEO 2. Úkryt
+
+<!-- SECTION BREAK -->
+# NEO 2. Úkryt
 
 ![](/2021/molisova/1.jpg)
 

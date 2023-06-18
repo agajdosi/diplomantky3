@@ -15,7 +15,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Natálie Bálková
 \* 1995, Opava  
 telefon: 774 280 195  
 mail: nataliebalkova@gmail.com
@@ -30,7 +30,8 @@ mail: nataliebalkova@gmail.com
 * 2019–2021 Fakulta výtvarných umění VUT v Brně, Ateliér produktového designu (magisterské studium)
 * 2015–2019 Fakulta výtvarných umění VUT v Brně, Ateliér produktového designu (bakalářské studium)
 
-## Obytný přívěs
+<!-- SECTION BREAK -->
+# Obytný přívěs
 
 ![](/2021/balkova/1.jpg)
 

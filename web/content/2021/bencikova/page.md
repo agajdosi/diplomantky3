@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Barbora Benčíková
 \* 1993, Zlín  
 email: bencikova.b@gmail.com
 
@@ -29,8 +29,8 @@ email: bencikova.b@gmail.com
 * 2016 Accademia di belle arti di Brera Milano, Italy (Erasmus), Ateliér malby
 * 2014–2018 Fakulta výtvarných umění VUT v Brně, Ateliér videa (bakalářské studium)
 
-
-## ZaBřehem
+<!-- SECTION BREAK -->
+# ZaBřehem
 ![](/2021/bencikova/1.jpg)
 
 Moje závěrečná diplomová práce se týká mého životního projektu ZaBřehem a mé aktivity v tomto projektu, která má charakter spolupráce, organizace, DIY, bytového designu, webdesignu, malířství, řemesla a časem i kulturní organizace až kurátorství.

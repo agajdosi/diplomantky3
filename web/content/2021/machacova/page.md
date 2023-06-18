@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Nikola Machačová
 \* 1994, Hranice  
 email: nikola.machacova@seznam.cz  
 portfolio: obyvakcreativestudio.com
@@ -30,7 +30,9 @@ portfolio: obyvakcreativestudio.com
 * 2016 University of West Bohemia, Art Camp pod vedením fotografa Miry Švolíka
 * 2014–2018 Univerzita Tomáše Bati ve Zlíně, Multimédia a design – reklamní fotografie (bakalářské studium)
 
-## Podobnosti v latentnosti
+
+<!-- SECTION BREAK -->
+# Podobnosti v latentnosti
 
 ![](/2021/machacova/1.jpg)
 

@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Elena Giertlová
 \* 1996, Brezno  
 email: giertlova.elena@gmail.com  
 portfolio: behance.net/erietteg  
@@ -24,7 +24,8 @@ portfolio: behance.net/erietteg
 * 2017–2019 Fakulta multimediálních komunikací Univerzity Tomáše Bati, Zlín, Ateliér digitálního designu
 * 2016–2017 Fakulta informačních technologií VUT v Brně, Počítačová grafika a interakce (magisterské studium)
 
-## Enough
+<!-- SECTION BREAK -->
+# Enough
 
 ![](/2021/giertlova/1.jpg)
 

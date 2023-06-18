@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Petr Mucha
 \* 1983, Brno  
 mail: mail@petrmucha.cz  
 portfolio: [petrmucha.cz](https://petrmucha.cz)
@@ -25,7 +25,9 @@ portfolio: [petrmucha.cz](https://petrmucha.cz)
 ### Studium
 * 2014–2021 Fakulta výtvarných umění VUT v Brně, Ateliér sochařství 1
 
-## Monáda
+
+<!-- SECTION BREAK -->
+# Monáda
 
 ![](/2021/mucha/1.jpg)
 

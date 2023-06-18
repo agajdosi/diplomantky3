@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Kateřina Rafaelová
 \* 1994, Brno  
 mail: katka.rafaelova@gmail.com  
 instagram: [@katerinarafaelova](https://www.instagram.com/katerinarafaelova/)
@@ -30,7 +30,9 @@ instagram: [@katerinarafaelova](https://www.instagram.com/katerinarafaelova/)
 * 2015–2018 Fakulta výtvarných umění VUT v Brně, Ateliér malířství 1
 * 2014–2015 Fakulta výtvarných umění VUT v Brně, Ateliér environmentu
 
-## As long as I don’t remember who is wearing trousers anymore 
+
+<!-- SECTION BREAK -->
+# As long as I don’t remember who is wearing trousers anymore 
 
 ![](/2021/rafaelova/1.jpg)
 

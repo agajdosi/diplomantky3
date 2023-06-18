@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Barbora Fišerová
 \* 1995, Stod  
 email: fiserovabarbor@gmail.com
 
@@ -22,7 +22,9 @@ email: fiserovabarbor@gmail.com
 * 2019–2021 Fakulta výtvarných umění VUT v Brně, Ateliér grafického designu 1/X (magisterské studium)
 * 2015–2019 Fakulta výtvarných umění VUT v Brně, Ateliér grafického designu 1 (bakalářské studium)
 
-## Service Design
+
+<!-- SECTION BREAK -->
+# Service Design
 
 ![](/2021/fiserova/1.jpg)
 

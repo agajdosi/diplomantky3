@@ -13,6 +13,7 @@ dimensions: ""
 year: "2021"
 study: "mga"
 ---
+# Kristýna Žáčková
 
 ### Studium
 * 2019–2021 FaVU VUT, Ateliér grafického designu 2, magisterské studium
@@ -22,7 +23,9 @@ study: "mga"
 ### Kontakty
 email: zackovatyna@gmail.com 
 
-## HandJet
+
+<!-- SECTION BREAK -->
+# HandJet
 
 ![mobilní tiskárna HandJet EBS 260.](/2021/zackova/1.jpg)
 

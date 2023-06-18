@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Adam Hejduk
 \* 1992, Opava  
 email: adam.hey@seznam.cz  
 portfolio: [adamaevo.com](http://adamaevo.com)
@@ -32,7 +32,9 @@ portfolio: [adamaevo.com](http://adamaevo.com)
 * 2014 Fakulta výtvarných umění VUT v Brně, Ateliér sochařství 1 – Michael Gabriel
 * 2009–2013 Uměleckoprůmyslová škola, Opava
 
-## Transparentnost hlasu a světla
+
+<!-- SECTION BREAK -->
+# Transparentnost hlasu a světla
 
 ![](/2021/hejduk/1.jpg)
 

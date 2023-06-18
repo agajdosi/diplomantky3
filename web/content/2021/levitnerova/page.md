@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Judita Levitnerová
 \* 1994, Opočno  
 email: levitnerova.judita@gmail.com
 
@@ -30,7 +30,9 @@ email: levitnerova.judita@gmail.com
 * 2018 Fakulta výtvarných umění VUT v Brně, Ateliér malby 2 – Luděk Rathouský
 * 2015–2018 Ostravská univerzita, Ateliér malby – Daniel Balabán
 
-## Ruka v rukávu
+
+<!-- SECTION BREAK -->
+# Ruka v rukávu
 
 ![](/2021/levitnerova/1.jpg)
 

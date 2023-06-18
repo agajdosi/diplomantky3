@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Anna Tesařová
 \* 1994, Prachatice  
 mail: avecalvariam@gmail.com  
 portfolio: [environment.ffa.vutbr.cz/cs/anna-tesarova](http://environment.ffa.vutbr.cz/cs/anna-tesarova)
@@ -28,7 +28,9 @@ portfolio: [environment.ffa.vutbr.cz/cs/anna-tesarova](http://environment.ffa.vu
 * 2014–2021 Fakulta výtvarných umění VUT v Brně, Ateliér environmentu – Barbora Klímová, Matěj Smetana
 * 2013–2014 Filozofická fakulta Jihočeské univerzity, České Budějovice, Estetika
 
-## Rozložení přítomnosti / Laying Out of Presence
+
+<!-- SECTION BREAK -->
+# Rozložení přítomnosti / Laying Out of Presence
 
 ![](/2021/tesarova/1.jpg)
 

@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Barbora Smékalová
 \* 1995, Vítkov  
 mail: barkasmekalka@seznam.cz  
 facebook: [facebook.com/wearenewkus](https://facebook.com/wearenewkus)
@@ -29,7 +29,9 @@ Spoluautorka: Sara Wollasch.
 ### Studium
 * 2015–2021 Fakulta výtvarných umění VUT v Brně, Ateliér tělového designu – Lenka Klodová
 
-## NEWkus — Sára a Bára/Bára a Sára, Žít s námi, ne vedle nás
+
+<!-- SECTION BREAK -->
+# NEWkus — Sára a Bára/Bára a Sára, Žít s námi, ne vedle nás
 
 ![](/2021/smekalova/1.jpg)
 

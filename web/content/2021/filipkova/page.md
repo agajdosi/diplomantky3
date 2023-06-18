@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Valentýna Filípková
 Studentka/absolventka Ateliéru produktového designu zajímající se o inovativní materiály a ekologickou tvorbu.
 
 [online portfolio](https://www.behance.net/filipkova)  
@@ -31,8 +31,8 @@ Studentka/absolventka Ateliéru produktového designu zajímající se o inovati
 
 email: filipkovalentyna@gmail.com    
 
-
-## Odpovědný design
+<!-- SECTION BREAK -->
+# Odpovědný design
 ![](/2021/filipkova/1.jpg)
 
 Projekt vznikl s cílem sdílet podklady se studenty designu a designéry, kterým není lhostejné zacházení s materiálovými zdroji a kteří by se chtěli vydat novou odpovědnější cestou, ale neví, kde a jak začít. Výstupem je online platforma [consciousdesign.cz](https://consciousdesign.cz) skládající se z volně přístupné databáze inovativních materiálů, výzkumných textů, tematických odkazů a rozhovorů s designéry, materiálovými specialisty, vědci a technology. 

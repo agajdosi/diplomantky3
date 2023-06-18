@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Monika Rygálová
 \* 1994, Kroměříž  
 mail: monika.rygalova@gmail.com  
 osobní portfolio: [animal.ffa.vutbr.cz/~xvrygalova/](http://animal.ffa.vutbr.cz/~xvrygalova/)  
@@ -28,7 +28,9 @@ web skupiny: [lilky.wtf](https://lilky.wtf)
 * 2015–2021 Fakulta výtvarných umění VUT v Brně, Ateliér intermédií – Pavel Sterec
 * 2014–2015 Fakulta výtvarných umění VUT v Brně, Ateliér intermédií – Václav Stratil
 
-## Steal Me Your €motion
+
+<!-- SECTION BREAK -->
+# Steal Me Your €motion
 
 ![](/2021/rygalova/1.jpg)
 

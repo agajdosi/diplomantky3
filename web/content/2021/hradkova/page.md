@@ -15,7 +15,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Jana Hrádková
 Jana Hrádková je absolventka Ateliéru Grafického designu 2. Věnuje se ilustraci, knižní grafice a webové tvorbě. Její práce je zaměřena především na prolínání tradičních a nových postupů (viz. Anthology of Unspoken níže) se zaměřením na teorii, research a jeho formu. 
 
 ### Studium
@@ -30,7 +30,8 @@ Jana Hrádková je absolventka Ateliéru Grafického designu 2. Věnuje se ilust
 
 email: janahrdkov@gmail.com    
 
-## Anthology of Unspoken
+<!-- SECTION BREAK -->
+# Anthology of Unspoken
 
 ![](/2021/hradkova/1.jpg)
 

@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Daria Serebrianska
 \* 1993, Oděsa  
 mail: indigo.gu.ash@gmail.com  
 portfolio: [artstation.com/gu_ash](https://www.artstation.com/gu_ash)
@@ -25,7 +25,9 @@ portfolio: [artstation.com/gu_ash](https://www.artstation.com/gu_ash)
 * 2016–2017 Fakulta informačních technologií VUT v Brně, Počítačová grafika a interakce (magisterské studium)
 * 2010–2015 Odessa National Polytechnic University, Oděsa (Bachelor of Computer science)
 
-## Nav
+
+<!-- SECTION BREAK -->
+# Nav
 
 ![](/2021/serebrianska/1.jpg)
 

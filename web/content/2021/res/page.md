@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Martin Res
 Odjakživa žiju v Brně :) Zabývám se grafickým designem, a to zejména interaktivním – weby a aplikace.
 
 ### Studium
@@ -25,7 +25,9 @@ Odjakživa žiju v Brně :) Zabývám se grafickým designem, a to zejména inte
 email: martin.h.res@email.cz  
 portfolio: https://www.behance.net/martinhres5c46
 
-## Testovací Lhota
+
+<!-- SECTION BREAK -->
+# Testovací Lhota
 
 ![](/2021/res/1.jpg)
 

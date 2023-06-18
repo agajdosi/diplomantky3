@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Vendula Kolářová
 \* 1995, Opava  
 email: vendy.kolarova@gmail.com
 
@@ -27,7 +27,8 @@ email: vendy.kolarova@gmail.com
 * 2018–2020 Bludný kámen, Opava
 * 2014–2018 Fakulta výtvarných umění VUT v Brně (bakalářské studium), Ateliér sochařství 2 / Ateliér tělového designu
 
-## Presence
+<!-- SECTION BREAK -->
+# Presence
 
 ![](/2021/kolarova/1.jpg)
 

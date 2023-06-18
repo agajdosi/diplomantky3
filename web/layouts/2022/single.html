@@ -16,10 +16,10 @@
 
   {{- if gt (len $rawContentSections) 1 -}}
     <div class="half" id="bio">
-      {{ index $rawContentSections 1 | .RenderString }}
+      {{ index $rawContentSections 0 | .RenderString }}
     </div>
     <div class="half" id="diploma">
-      {{ index $rawContentSections 0 | .RenderString }}
+      {{ index $rawContentSections 1 | .RenderString }}
     </div>
 
   {{- else -}}

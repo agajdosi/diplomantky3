@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Martina Valchářová
 \* 1995, Vsetín  
 mobil: +420 728 463 059  
 mail: martina.valchi@seznam.cz  
@@ -29,7 +29,9 @@ instagram: [@martinavalcharova](https://www.instagram.com/martinavalcharova/)
 * 2016–2020 Fakulta výtvarných umění VUT v Brně, Ateliér malířství 2 – Luděk Rathouský
 * 2015–2016 Fakulta výtvarných umění VUT v Brně, Ateliér malby 1 – Vasil Artamonov
 
-## Spiknutí / Conspiracy
+
+<!-- SECTION BREAK -->
+# Spiknutí / Conspiracy
 
 ![](/2021/valcharova/1.jpg)
 

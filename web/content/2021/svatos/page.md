@@ -14,6 +14,8 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
+# Jan Svatoš
+
 Ve své tvorbě se dlouhodobě zabývám několika tématy. Stěžejní je můj vztah k přírodě, která je pro mě velkým inspiračním zdrojem
 a východiskem pro většinu mé práce. Zásadní je pro mě tvoření na základě vlastního prožitku a zkušenosti. Intenzita vnímání přírody bývá katalyzátorem výběru motivů. 
 S přírodou souvisí můj dlouholetý zájem o mineralogii a geologii. Ten mě kromě jiného vždy vedl k uvažování o krajině a jejímu
@@ -46,7 +48,9 @@ email: jan-svatos@post.cz
 web: [https://www.svatojan.com](https://www.svatojan.com)  
 instagram: [@svatojan](https://www.instagram.com/svatojan/)  
 
-## Portrét skály
+
+<!-- SECTION BREAK -->
+# Portrét skály
 
 ![](/2021/svatos/1.jpg)
 
