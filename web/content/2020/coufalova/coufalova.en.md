@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "I created a sound collage from them which makes for uneasy listening. By installing the collage in a sound studio with perfect acoustics designed for listening in top quality and its reproduction by high quality sound equipment I create a paradox and hint at the deformation and loss of data during transmission over the internet."
 draft: false
 url: "kristyna-coufalova"
-
+owner: admin
 name: "Kristýna"
 surname: "Coufalová"
 artwork: "Mechanical Wave of Air Particles Set to Motion by a Vibrating Body"

@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Home—Topia is an ongoing research and exhibition project concentrating on current forms of migration, uprooting and life between cultures. Home—Topia examines the notion of home, the feeling of belonging and the bonds with a physical space."
 draft: false
 url: "barbora-demovicova"
-
+owner: admin
 name: "Barbora"
 surname: "Demovičová"
 artwork: "Home-Topia"

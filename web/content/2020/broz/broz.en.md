@@ -4,6 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "The series narrates fragments of stories unwinding in the wings of romantic fantasy sceneries and combined with contemporary subculture and leisure motifs. My art is based on extensive experience with the PC gaming worlds and a deep emotional bond with Central European landscape."
 draft: false
 url: "stepan-broz"
+owner: admin
 
 name: "Štěpán"
 surname: "Brož"

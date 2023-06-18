@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Ve své diplomové práci se zabývám pojmem „přirozenost“. Zajímá mě, co společnost pokládá za přirozené a co ne. Pro tento „výzkum“ jsem si vypůjčila taneční žánr vogue, který byl vynalezen trans subkulturou jako oslava jinakosti sexuálních identit."
 draft: false
 url: "adela-venturova"
-
+owner: admin
 name: "Adéla"
 surname: "Venturová"
 artwork: "Voguing Is Not White, Honey"
