@@ -22,6 +22,7 @@ function addLoginOpenPopupButton() {
 
 function loginPopupButtonClicked(event) {
     //TODO: Add popup window
+    console.log('FUNCS_URL: ' + params.FUNCS_URL);
     let popup = document.getElementById('login_popup');
     let button = event.target;
     if (button.innerText === 'login') {
@@ -35,6 +36,7 @@ function loginPopupButtonClicked(event) {
 
 
 function login(event) {
+    console.log('FUNCS_URL: ' + params.FUNCS_URL);
     event.preventDefault();
     let data = {
         "username": document.getElementById("username").value,

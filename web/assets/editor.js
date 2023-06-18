@@ -20,6 +20,7 @@ function editorPageLoaded() {
 }
 
 function editButtonClicked(event){
+  console.log('FUNCS_URL: ' + params.FUNCS_URL);
   let currentText = event.target.innerText;
   if (currentText === EDIT_TEXT) {
     enterEditorMode(event);
@@ -32,6 +33,7 @@ function editButtonClicked(event){
 }
 
 function save() {
+  console.log('FUNCS_URL: ' + params.FUNCS_URL);
   let jwt = document.cookie.split('; ').find(row => row.startsWith('jwt=')).split('=')[1];
   let content = tinymce.activeEditor.getContent();
   let sourceFile = document.querySelector("meta[name='sourceFile']").getAttribute('content');
