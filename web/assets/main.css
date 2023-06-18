@@ -186,6 +186,17 @@ footer {
     flex: 40%;
     padding: 0 40px 0 40px;
 }
+
+#diploma {
+    height: 85vh; /* Adjust this value as per your requirements */
+    overflow: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+#diploma::-webkit-scrollbar { /* WebKit */
+      display: none;
+}
+
 #diploma figure {
     margin: 1rem 0;
 }
@@ -196,7 +207,6 @@ footer {
 #bio, #diploma{
     font-size: 1.25rem;
 }
-
 
 .fullpage{
     margin: 0 40px;
