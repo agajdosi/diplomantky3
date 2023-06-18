@@ -4,6 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Tato diplomová práce vychází z osobní prožité zkušenosti vyhoření a stagnace v umělecké praxi. V několika vrstvách pracuje s institucionální kritikou, existenciální tísní a podprahovým humorem, lze ji tedy vnímat z více pohledů nežli jen jako generační výpověď dnešních studentů zahlcených a vyčerpaných kulturním provozem."
 draft: false
 url: "martin-cab"
+owner: admin
 
 name: "Martin"
 surname: "Cáb"

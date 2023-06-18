@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Flax Facts (Len Len) is about a process. One rooted in environmental issues and reflecting the processuality of the creation of a work of art."
 draft: false
 url: "lucia-sadecka"
-
+owner: admin
 name: "Lucia"
 surname: "Sádecká"
 artwork: "Flax Facts (Len len)"

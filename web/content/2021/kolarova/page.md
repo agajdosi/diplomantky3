@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Magisterská práce se zabývá posunem od vizuálního k multisenzorickému vnímání."
 draft: false
 url: "vendula-kolarova"
-
+owner: admin
 name: "Vendula"
 surname: "Kolářová"
 artwork: "Presence"

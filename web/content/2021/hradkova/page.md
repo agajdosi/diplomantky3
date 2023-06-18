@@ -5,7 +5,7 @@ description: "Diplomová práce Anthology of Unspoken je forma osobní terapie, 
 deprese a melancholie v rámci historického, uměleckého a částečně tak vědeckého diskurzu."
 draft: false
 url: "jana-hradkova"
-
+owner: admin
 name: "Jana"
 surname: "Hrádková"
 artwork: "Anthology of Unspoken"

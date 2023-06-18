@@ -4,6 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Projekt se především zabývá otázkou, zda v současnosti existuje hranice mezi poutnictvím a náboženským turismem. Zkoumá současné principy náboženských rituálů a reflektuje aktuální přístupy k uchopení pojmu poutních míst."
 draft: false
 url: "sabina-chrastilova"
+owner: admin
 
 name: "Sabina"
 surname: "Chrastilová"

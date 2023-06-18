@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Cílem diplomové práce je pokus o znovunavázání jistého dialogu mezi Kubou a Českou republikou (dříve ČSSR), tedy mezi zeměmi, které dnes mohou být v mnoha ohledech odlišné, či dokonce navzájem odcizené."
 draft: false
 url: "ilona-hovezakova"
-
+owner: admin
 name: "Ilona"
 surname: "Hověžáková"
 artwork: "Dialog"

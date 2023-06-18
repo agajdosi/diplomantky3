@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Ve své diplomové práci se věnuji pracovním podmínkám v oblasti grafického designu, jejich kritice a hledání způsobů, jak si nastavit udržitelné podmínky pro vlastní práci a život – tedy jak nebýt závislý pouze na zakázkách od zadavatele a jak diverzifikovat vlastní práci."
 draft: false
 url: "bara-ruzickova"
-
+owner: admin
 name: "Bára"
 surname: "Růžičková"
 artwork: "Credit Cards Accepted"

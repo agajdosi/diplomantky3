@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Během pandemie koronaviru jsem sbírala nekvalitní zvukové nahrávky – ozvěnu, pazvuky a různé další nežádoucí šumy, systémové zvuky aplikací a podobně, které se pro mě staly symboly sociální izolace. Vytvořila jsem z nich zvukovou koláž nepříjemnou na poslech."
 draft: false
 url: "kristyna-coufalova"
-
+owner: admin
 name: "Kristýna"
 surname: "Coufalová"
 artwork: "Mechanické vlnění vzduchových částeček uvedených do pohybu chvějícím se tělesem"

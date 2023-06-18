@@ -14,7 +14,7 @@ function editorPageLoaded() {
   if (!loggedAs) return;
   let pageOwner = document.querySelector("meta[name='owner']").getAttribute('content');
   if (!pageOwner) return;
-  if (loggedAs != pageOwner && role != "admin") return;
+  if (loggedAs != pageOwner && userRole != "admin") return;
   addEditButton();
   initTinyMCE();
 }

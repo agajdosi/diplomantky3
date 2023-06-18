@@ -4,6 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Beton je diplomovým projektem, který se nachází na pomezí diskurzu interactive art a počítačové hry. Dílo se skládá z autorského kontroleru (interaktivního objektu) a digitálního obsahu, který je tímto kontrolerem ovlivňován."
 draft: false
 url: "marek-andrysek"
+owner: admin
 
 name: "Marek"
 surname: "Andrýsek"

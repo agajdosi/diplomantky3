@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Proces tvorby u mě začínal hledáním souvztažnosti mezi přirozeným, přírodním a umělým. Zkoumal jsem vrstvení při kresbě tužkou jedním tahem a proměnami, které způsobuje celkové držení těla, poloha ruky."
 draft: false
 url: "matej-jindrak"
-
+owner: admin
 name: "Matěj"
 surname: "Jindrák"
 artwork: "Křehký svět"

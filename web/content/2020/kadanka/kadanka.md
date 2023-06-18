@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Ústředním tématem práce je interpretace pocitů týkajících se mizejících krajinných hodnot z důvodu neřízeného extenzivního rozvoje příměstských oblastí."
 draft: false
 url: "petr-kadanka"
-
+owner: admin
 name: "Petr"
 surname: "Kadaňka"
 artwork: "Sasha"

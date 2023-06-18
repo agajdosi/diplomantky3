@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "In my diploma work I deal with the term “naturalness”. I am interested in knowing what society considers natural and what not."
 draft: false
 url: "adela-venturova"
-
+owner: admin
 name: "Adéla"
 surname: "Venturová"
 artwork: "Voguing Is Not White, Honey"

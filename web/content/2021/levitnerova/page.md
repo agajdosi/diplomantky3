@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Název diplomové práce Ruka v rukávu odkazuje k frázi označující úspěšnou dohodu mezi dvěma stranami. Výhodnost takové dohody však nemusí být oboustranná."
 draft: false
 url: "judita-levitnerova"
-
+owner: admin
 name: "Judita"
 surname: "Levitnerová"
 artwork: "Ruka v rukávu"

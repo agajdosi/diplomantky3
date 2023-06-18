@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Projekt Stuff that can make me sad tematizuje obsahový rámec pocitů tělesné nekonformity, úzkosti a nutkavých pocitů mentálního nepohodlí a nestability."
 draft: false
 url: "kristyna-kazdova"
-
+owner: admin
 name: "Kristýna"
 surname: "Kazdová"
 artwork: "Stuff That Can Make Me Sad"

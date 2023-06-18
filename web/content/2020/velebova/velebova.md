@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Diplomová práce Možná se tak narodila je o mé kosmetice. O předmětech a činnostech spojených s povrchností a zbytečností."
 draft: false
 url: "leona-velebova"
-
+owner: admin
 name: "Leona"
 surname: "Velebová"
 artwork: "Možná se tak narodila"

@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Hlavní motivace zabývat se tímto tématem pramenila z mého dlouhodobého zájmu o pokročilé technologie a tvorbu interiérového designu. Snažil jsem se najít zajímavý způsob, jakým bych tyto dvě oblasti dokázal propojit."
 draft: false
 url: "matej-picek"
-
+owner: admin
 name: "Matěj"
 surname: "Picek"
 artwork: "Generativní nábytek"

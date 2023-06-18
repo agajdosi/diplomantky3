@@ -4,6 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Concrete is a diploma project situated on the boundary between a discourse of interactive art and a computer game. The work consists of an original controller (interactive object) and digital content, which is influenced by the controller. It is presented in the state of a functional prototype."
 draft: false
 url: "marek-andrysek"
+owner: admin
 
 name: "Marek"
 surname: "Andrýsek"

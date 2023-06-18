@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "HUMAIN je projekt, konference a platforma otevírající, sdružující, propojující témata a odborníky z oblastí umělé inteligence, umění, designu a humanitních věd."
 draft: false
 url: "alina-matejova"
-
+owner: admin
 name: "Alina"
 surname: "Matějová"
 artwork: "Humain – o designu, humanitních vědách, umění a umělé inteligenci"

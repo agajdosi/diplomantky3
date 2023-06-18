@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Tématem mé diplomové práce je vytvoření počítačové hry v žánru platformer s názvem Nav."
 draft: false
 url: "daria-serebrianska"
-
+owner: admin
 name: "Daria"
 surname: "Serebrianska"
 artwork: "Nav"

@@ -5,7 +5,7 @@ description: "V diplomové práci se zaměřuji na možná půdorysná řešení
 V této souvislosti se zabývám také různými způsoby jeho obývání a užívání."
 draft: false
 url: "natalie-balkova"
-
+owner: admin
 name: "Natálie"
 surname: "Bálková"
 artwork: "Obytný přívěs"

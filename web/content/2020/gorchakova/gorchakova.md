@@ -4,7 +4,7 @@ date: 2020-08-17T15:02:56+02:00
 description: "Můj návrh se týká problému bydlení a chce reflektovat současné nároky a požadavky pomocí využití sériové modulární výroby. Umožňuje výzkum modulárních prefabrikovaných systémů překročit tradiční rámec rodinného domu a vyvíjet nové atypické koncepce bydlení?"
 draft: false
 url: "kseniia-gorchakova"
-
+owner: admin
 name: "Kseniia"
 surname: "Gorchakova"
 artwork: "Modulární bydlení"
