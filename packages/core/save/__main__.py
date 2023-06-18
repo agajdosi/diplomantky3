@@ -5,70 +5,84 @@ from requests import get, put
 from base64 import b64encode, b64decode
 from hashlib import sha1
 from collections import OrderedDict
+from pymongo import MongoClient
 
 
-ORG = 'agajdosi'
-REPO = 'diplomantky3'
-SECRET_KEY = environ['SECRET_KEY']
-MONGO_CONNECTION_STRING = environ['MONGO_CONNECTION_STRING']
-GH_TOKEN = environ['GH_TOKEN']
+ORG = "agajdosi"
+REPO = "diplomantky3"
+SECRET_KEY = environ["SECRET_KEY"]
+MONGO_CONNECTION_STRING = environ["MONGO_CONNECTION_STRING"]
+GH_TOKEN = environ["GH_TOKEN"]
 SPLITTER = "<!-- SECTION BREAK -->"
+
 
 def main(args):
     response = {
-        'statusCode': HTTPStatus.BAD_REQUEST,
-        'headers': {'Content-Type': 'application/json'},
-        'body': {},
+        "statusCode": HTTPStatus.BAD_REQUEST,
+        "headers": {"Content-Type": "application/json"},
+        "body": {},
     }
-    token = args.get('token')
-    content = args.get('content')
-    sourceFilePath = args.get('sourceFile')
+    token = args.get("token")
+    content = args.get("content")
+    sourceFilePath = args.get("sourceFile")
     if token is None:
-        response['body'] = {"result": "no token"}
+        response["body"] = {"result": "no token"}
         return response
     if content is None:
-        response['body'] = {"result": "no content"}
+        response["body"] = {"result": "no content"}
         return response
     if sourceFilePath is None:
-        response['body'] = {"result": "no sourceFilePath"}
+        response["body"] = {"result": "no sourceFilePath"}
         return response
 
     try:
         options = {"require": ["exp"]}
-        claims = decode(token, SECRET_KEY, algorithms=['HS256'], options=options)
+        claims = decode(token, SECRET_KEY, algorithms=["HS256"], options=options)
     except exceptions.ExpiredSignatureError as e:
-        response['body'] = {"result": "token expired", "message": str(e)}
+        response["body"] = {"result": "token expired", "message": str(e)}
         return response
     except exceptions.InvalidTokenError as e:
-        response['body'] = {"result": "invalid token", "message": str(e)}
-        return response  
+        response["body"] = {"result": "invalid token", "message": str(e)}
+        return response
     except Exception as e:
-        response['body'] = {"result": "token error", "message": str(e)}
+        response["body"] = {"result": "token error", "message": str(e)}
         return response
 
-    username = claims.get('username')
+    username = claims.get("username")
     if username is None:
-        response['body'] = {"result": "missing username in token"}
+        response["body"] = {"result": "missing username in token"}
         return response
 
     ok, msg = save(sourceFilePath, content, username)
     if not ok:
-        response['body'] = {"result": "save failed", "message": msg}
+        response["body"] = {"result": "save failed", "message": msg}
         return response
 
-    response['statusCode'] = HTTPStatus.OK
-    response['body'] = {"result": "ok"}
+    response["statusCode"] = HTTPStatus.OK
+    response["body"] = {"result": "ok"}
     return response
 
 
 def githash(data: bytes) -> str:
-    """Unused right now. Compute the git hash of a blob of data. 
+    """Unused right now. Compute the git hash of a blob of data.
     Call like:  sha = githash(prev_string.encode('utf-8'))
     """
     s = sha1()
-    s.update((f"blob {len(data)}\0").encode('utf-8'))
+    s.update((f"blob {len(data)}\0").encode("utf-8"))
     s.update(data)
     return s.hexdigest()
+
+
+def verifyAdmin(username: str) -> bool:
+    client = MongoClient(MONGO_CONNECTION_STRING, connectTimeoutMS=200)
+    database = client.get_database("diplomantky")
+    users = database.get_collection("users")
+    user = users.find_one({"username": username})
+    if user is None:
+        return False
+    if user.get("role") != "admin":
+        return False
+    return True
 
 
 def save(sourceFilePath: str, content: str, username: str):
@@ -78,7 +92,7 @@ def save(sourceFilePath: str, content: str, username: str):
         "Accept": "application/vnd.github+json",
         "Authorization": f"Bearer {GH_TOKEN}",
         "X-GitHub-Api-Version": "2022-11-28",
-        }
+    }
     resp = get(url, headers=headers)
     if resp.status_code != 200:
         return False, f"GET file failed: {resp.text}"
@@ -87,18 +101,22 @@ def save(sourceFilePath: str, content: str, username: str):
     except Exception as e:
         return False, str(e)
 
-    prev_sha = data.get('sha')
-    data = data.get('content')
+    prev_sha = data.get("sha")
+    data = data.get("content")
     if prev_sha is None:
         return False, "Missing previous SHA"
     if data is None:
         return False, "Missing content"
 
-    prev_content = b64decode(data).decode('utf-8')
+    prev_content = b64decode(data).decode("utf-8")
     metadata = parseMarkdownMetadata(prev_content)
-    owner = metadata.get('owner')
+    owner = metadata.get("owner")
     if owner != username:
-        return False, f"Authenticated user is not owner of this file: {username} != {owner}"
+        if not verifyAdmin(username):
+            return (
+                False,
+                f"Authenticated user is not admin or owner of this file: {username} != {owner}",
+            )
 
     parts = prev_content.split(SPLITTER)
     final_file = parts[0] + "\n" + SPLITTER + "\n"
@@ -106,17 +124,17 @@ def save(sourceFilePath: str, content: str, username: str):
     final_file += content + "\n"
     final_file += "{{< /raw_html >}}\n"
 
-    byte_result = bytes(final_file, 'utf-8')
-    encoded_file = b64encode(byte_result).decode('utf-8')
+    byte_result = bytes(final_file, "utf-8")
+    encoded_file = b64encode(byte_result).decode("utf-8")
     data = {
-        "message":f"{username} updating {sourceFilePath}",
+        "message": f"{username} updating {sourceFilePath}",
         "committer": {
-            "name":"Fakulta Vytvarna",
-            "email":"andreas.gajdosik+diplomantkycz@gmail.com",
-            },
+            "name": "Fakulta Vytvarna",
+            "email": "andreas.gajdosik+diplomantkycz@gmail.com",
+        },
         "content": encoded_file,
         "sha": prev_sha,
-        }
+    }
 
     resp = put(url, headers=headers, json=data)
     if resp.status_code != 200:
@@ -137,4 +155,3 @@ def parseMarkdownMetadata(content: str):
         value = parts[1].strip()
         metadata[key] = value
     return metadata
-
