@@ -14,7 +14,7 @@ year: "2021"
 study: "mga"
 # Zde jsou uvedená metadata, která se přímo nezobrazují, ale slouží při generování webu - tagů pro Facebook a Twitter, atd.
 ---
-
+# Zita Elznic
 \* 1992, Praha  
 email: zita@kyno.cz
  
@@ -25,7 +25,8 @@ email: zita@kyno.cz
 ### Studium
 * 2015–2020 Fakulta výtvarných umění VUT v Brně, Ateliér malířství 2 – Luděk Rathouský
 
-## Víš, co udělá ryba, když vyběhne na kopec?
+<!-- SECTION BREAK -->
+# Víš, co udělá ryba, když vyběhne na kopec?
 
 ![](/2021/elznic/1.jpg)
 
