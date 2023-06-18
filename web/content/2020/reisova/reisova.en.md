@@ -14,7 +14,7 @@ year: "2020"
 study: "mga"
 location: "zahradka"
 ---
-
+# Kristína Reisová
 My primary theme is the commonplace. I like to make ordinariness visible and to underline how important, delicate and negligible it is. It often runs between our fingers and we lose touch with its miracle. 
 
 I work with text. I created various objects, audio stories and sound installations. At the moment I am getting closer to artisan techniques, such as hand-made paper, wax batik and natural dyeing. 
@@ -22,7 +22,8 @@ I work with text. I created various objects, audio stories and sound installatio
 I have studied in the Studio of Body Design, and I completed a study placement in the Environmental Studio.
 
 
-## A Hedgehog Is Running across the Pavement
+<!-- SECTION BREAK -->
+# A Hedgehog Is Running across the Pavement
 
 ![](/2020/reisova/1.jpg)
 

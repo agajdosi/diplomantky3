@@ -14,7 +14,7 @@ year: "2020"
 study: "mga"
 location: "kunstat"
 ---
-
+# Bára Růžičková
 graphic designer and illustrator  
 mail@bara.fun  
 https://bara.fun/
@@ -26,7 +26,8 @@ https://bara.fun/
 2014 — 2018 – bachelor’s degree, Studio of Graphic Design 1, FaVU
 
 
-## Credit Cards Accepted
+<!-- SECTION BREAK -->
+# Credit Cards Accepted
 
 ![](/2020/ruzickova/1.jpg)
 

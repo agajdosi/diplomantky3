@@ -14,11 +14,12 @@ year: "2020"
 study: "mga"
 location: "byt"
 ---
-
+# Matěj Picek
 Studuji sedmým rokem v Ateliéru produktového designu, kde momentálně dokončuji studia. Obecně jsem se vždycky zajímal o moderní technologie, interiérový design a tvorbu 3D grafiky. Mám rád poctivé řemeslo a práci s tradičními materiály, stejně tak inovativní přístupy k designu a snahu o nalezení netradičních řešení.
 
 
-## Generativní nábytek
+<!-- SECTION BREAK -->
+# Generativní nábytek
 
 ![](/2020/picek/1.jpg)
 

@@ -14,12 +14,14 @@ year: "2020"
 study: "mga"
 location: "kunstat"
 ---
-
+# Katarína Maceňková
 I come from Eastern Slovakia, from a small town called Strážske. Currently I live and study in Brno. I completed studies for a bachelor’s degree in painting at the Faculty of Fine Arts in Banská Bystrica in the studio of Professor Stanislav Balko and later Ján Triaško. I took advantage of the Erasmus+ programme, when I had a chance to spend the whole semester at the Akadémia Sztuk Pieknych in Warsaw under tutorship of Professor Wojciech Zubala. During my study for a master’s degree at the Faculty of Fine Arts of Brno University of Technology in the Painting 1 studio led by Vasil Artamonov, I concurrently finished an Expressive Therapy course focusing on art therapy at Masaryk University in Brno. I primarily work in the medium of painting where I have presently fixed myself on the exploration of oil painting. It provides me with a host of so far unknown opportunities both in terms of the technical and chemical aspects. 
 
 contact: katarina.macenkova@gmail.com
 
-## The Change
+
+<!-- SECTION BREAK -->
+# The Change
 
 Medium: oil painting on canvas
 

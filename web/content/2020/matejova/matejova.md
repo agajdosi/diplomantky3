@@ -14,8 +14,7 @@ year: "2020"
 study: "mga"
 location: "kunstat"
 ---
-
-Alina Matějová
+# Alina Matějová
 Absolventka FF MU, obor teorie interaktivních médií
 Studentka/absolventka Ateliéru grafického designu 2
 
@@ -26,7 +25,8 @@ tanečnice
 žijící, tančící, tvořící v Brně
 
 
-## Humain – o designu, humanitních vědách, umění a umělé inteligenci
+<!-- SECTION BREAK -->
+# Humain – o designu, humanitních vědách, umění a umělé inteligenci
 
 Médium:
 - tiskoviny (plakáty, programy, formuláře)

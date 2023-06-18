@@ -15,14 +15,14 @@ year: "2020"
 study: "mga"
 location: "kanal"
 ---
-
+# Sabina Chrastilová
 CLOTHING X BODY, BODY X PERSONALITY, PERSONALITY X STORY, STORY X CLOTHING
 
 * mail: s.chrastilova@seznam.cz  
 * portfolio: [sabinachrastilovaportfolio.tumblr.com](https://sabinachrastilovaportfolio.tumblr.com/)
 
-
-## Pilgrimage Site 2020
+<!-- SECTION BREAK -->
+# Pilgrimage Site 2020
 
 ![](/2020/chrastilova/1.jpg)
 

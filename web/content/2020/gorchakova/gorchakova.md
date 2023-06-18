@@ -14,14 +14,14 @@ year: "2020"
 study: "mga"
 location: "byt"
 ---
-
+# Kseniia Gorchakova
 Jsem designérka z Ruska a věnuji se zejména bytové architektuře a bytovému zařízení. Původně jsem vystudovala obor architektura na Státní univerzitě architektury, designu a umění v Novosibirsku. Po ukončení bakalářského studia jsem se zabývala návrhem interiérů a autorského nábytku. Při svém magisterském studiu jsem se rozhodla prohloubit vlastní znalosti v oboru designu, a to z trochu jiného hlediska. Zvolila jsem proto Ateliér produktového designu na FaVU VUT. 
 
 Ve vlastních návrzích se snažím klást důraz nejenom na funkčnost a užitečnost, ale také na potěšení a příjemný zážitek uživatelů. V praxi mě nejvíce baví práce se zákazníky a možnost navrhovat jedinečné projekty, které se přizpůsobují potřebám klientů a reflektují jejich osobnost. 
 
 
-
-## Modulární bydlení
+<!-- SECTION BREAK -->
+# Modulární bydlení
 
 médium: architektura, design
 

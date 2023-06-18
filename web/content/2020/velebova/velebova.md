@@ -17,7 +17,7 @@ year: "2020"
 study: "mga"
 location: "byt"
 ---
-
+# Leona Velebová
 Studovala jsem v Ateliéru malířství 3 u Petra Kvíčaly. Celé bakalářské studium mě provázelo téma o mém dědovi spojené s kutilstvím/domácí výrobou a sběratelstvím/sběračstvím. Většinu času jsem se věnovala malbě. Typické pro mé obrazy je kolážovitý způsob práce, při němž kombinuji malbu s jinými materiály.
 
 V magisterském studiu se má tvorba hodně proměnila díky odjezdu na stáže do Polska a Španělska. Zde jsem vystřídala několik ateliérů od malby, kresby až po interdisciplinární studio.
@@ -26,7 +26,9 @@ V diplomové práci se věnuji novému tématu, které mě nasměrovalo k použi
 
 [leonavelebova.com](http://leonavelebova.com)
 
-## Možná se tak narodila
+
+<!-- SECTION BREAK -->
+# Možná se tak narodila
 
 ![Maybe She’s born with it, video, 2:56 min](/2020/velebova/1.jpg)
 

@@ -15,14 +15,14 @@ year: "2020"
 study: "mga"
 location: "kanal"
 ---
-
+# Sabina Chrastilová
 Oděv x tělo, tělo x osobnost, osobnost x příběh, příběh x oděv
 
 * mail: s.chrastilova@seznam.cz  
 * portfolio: [sabinachrastilovaportfolio.tumblr.com](https://sabinachrastilovaportfolio.tumblr.com/)
 
-
-## Poutní místo 2020
+<!-- SECTION BREAK -->
+# Poutní místo 2020
 
 ![](/2020/chrastilova/1.jpg)
 

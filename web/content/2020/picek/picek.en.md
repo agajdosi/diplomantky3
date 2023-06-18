@@ -14,11 +14,12 @@ year: "2020"
 study: "mga"
 location: "byt"
 ---
-
+# Matěj Picek
 I am studying in my seventh year in the Studio of Product Design where I am currently finishing my studies. In general I have always been interested in modern technology, interior design and creating 3D graphics. I like solid craftsmanship and working with traditional materials, as much as innovative approaches to design and finding untraditional solutions.
 
 
-## Generative Furniture
+<!-- SECTION BREAK -->
+# Generative Furniture
 
 ![](/2020/picek/1.jpg)
 

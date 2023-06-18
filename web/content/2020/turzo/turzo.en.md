@@ -14,7 +14,7 @@ year: "2020"
 study: "mga"
 location: "kaznice"
 ---
-
+# Adam Turzo
 born in Martin, Slovakia
 
 ### Higher education
@@ -24,7 +24,8 @@ Bachelor’s degree, Glass Design Studio
 Master’s degree, Drawing and Graphics Studio
 
 
-## Lapidarium: Food and Shelter
+<!-- SECTION BREAK -->
+# Lapidarium: Food and Shelter
 
 ![](/2020/turzo/1.jpg)
 

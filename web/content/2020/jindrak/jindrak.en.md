@@ -16,7 +16,7 @@ year: "2020"
 study: "mga"
 location: "favu"
 ---
-
+# Matěj Jindrák
 After school leaving exams at Lepař Grammar School in Jičín in 2011, I enrolled in the Faculty of Architecture of Brno University of Technology, from where I graduated in 2019 with the work Milíčeves, Slatiny – A Residential Site within a Landscape under the supervision of Barbora Ponešová Krejčová. Afterwards I was accepted in the master’s degree study at the Faculty of Fine Arts in the Sculpture 2 Studio led by Professor Jan Ambrůz, where I also created my diploma work called Fragile World.
 
 ### Workshops
@@ -30,7 +30,9 @@ After school leaving exams at Lepař Grammar School in Jičín in 2011, I enroll
 * 2016 2nd prize - Best Urban Project Prize in 2016 - University Island Povegllia, Venice, Italy
 * 2016 2nd prize - Superstudio, Idea project of transformation of underused ski resorts into Bitcoin mining Farms, collaboration with Norbert Obršál and Tereza Kvapilová
 
-## Fragile World
+
+<!-- SECTION BREAK -->
+# Fragile World
 
 medium: sculpture/installation/performance
 

@@ -14,12 +14,14 @@ year: "2020"
 study: "mga"
 location: "kanal"
 ---
-
+# Petr Kadaňka
 (b. 82) Visual artist in general, presently mainly independent film-maker — director, photographer, art director — with broad coverage reflecting previous study of architecture and art (intermedia and digital creations). In his work he concentrates on processing the analogue image and its subsequent confrontation with contemporary means of expression and technologies. He is the co-founder of the independent film production company Rattlecinake focusing exclusively on raw film material and its specific characteristic — granularity. An indelible part of audiovisual creations is the original sound and music component, both presented under the Yeti Magic moniker. Apart from audiovisual production the most obvious interest is in interaction between a certain form of surface representation and a relief. As a result his complex artistic approach straddles the line between photography (film), painting and sculpture.
 
 [www.rattlecinake.com](https://www.rattlecinake.com)
 
-## Sasha
+
+<!-- SECTION BREAK -->
+# Sasha
 
 ![](/2020/kadanka/1.jpg)
 

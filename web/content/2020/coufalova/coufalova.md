@@ -14,7 +14,7 @@ year: "2020"
 study: "mga"
 location: "byt"
 ---
-
+# Kristýna Coufalová
 Na Univerzitě Tomáše Bati ve Zlíně jsem vystudovala bakalářský obor fashion design. Na Fakultě výtvarných umění jsem byla první rok v Ateliéru intermédií, poté druhý rok v Ateliéru tělového designu. Už několik let dělám hudební sety na míru fashion designérům na přehlídky, dále pak hudební režii různých eventů. Jsem zároveň i dýdžejka. Moje práce vždy balancují na hranici umění a popkultury, jsou intuitivní a vznikají na základě pocitů a emocí. Zajímám se o zvuk a ráda motám kabely.
 
 * instagram: [@kristyna_coufal](https://www.instagram.com/kristyna_coufal/)
@@ -22,7 +22,8 @@ Na Univerzitě Tomáše Bati ve Zlíně jsem vystudovala bakalářský obor fash
 * kristyna.coufalova@gmail.com
 
 
-## Mechanické vlnění vzduchových částeček uvedených do pohybu chvějícím se tělesem
+<!-- SECTION BREAK -->
+# Mechanické vlnění vzduchových částeček uvedených do pohybu chvějícím se tělesem
 
 ![](/2020/coufalova/1.jpg)
 

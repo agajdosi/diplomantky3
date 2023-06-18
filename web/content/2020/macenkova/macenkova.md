@@ -14,12 +14,14 @@ year: "2020"
 study: "mga"
 location: "kunstat"
 ---
-
+# Katarína Maceňková
 Pochádzam z východného Slovenska, z malého mestečka s názvom Strážske. Momentálne žijem a študujem v Brne. Bakalárske štúdium som ukončila na Fakulte výtvarných umení v Banskej Bystrici v ateliéri u prof. akademického maliara Stanislava Balka a neskôr doc. Mgr. art. Jána Triašku, ArtD., odbor maľba. V priebehu tohto štúdia som využila program Erasmus +, kde som mala možnosť stráviť celý semester na Akadémii výtvarných umení vo Varšave pod vedením prof. Wojciecha Zubalu. Počas môjho magisterského štúdia na FaVU VUT, v Ateliéri maliarstva 1, pod vedením MgA. Vasila Artamonova, som súbežne absolvovala Expresívnu terapiu so zameraním na arteterapiu na Masarykovej univerzite v Brne. Vo svojej tvorbe sa venujem najmä médiu maľby, kde som momentálne svoje bádanie ukotvila na olejomaľbu. Tá mi ponúka množstvo pre mňa zatiaľ nepoznaných možností či už po technickej, alebo chemickej stránke.
 
 kontakt: katarina.macenkova@gmail.com
 
-## Zmena/The Change
+
+<!-- SECTION BREAK -->
+# Zmena/The Change
 
 Médium: Olejomaľba na plátne
 

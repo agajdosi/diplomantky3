@@ -17,7 +17,7 @@ year: "2020"
 study: "mga"
 location: "zahradka"
 ---
-
+# Michal Mitro
 Post-medial tendencies, sculpturality and visuality are defining pillars of my current practice. My working method is best described as artistic research and its outputs often take a hybrid artScience shape. Topics that resonate often in my works explore the present and future states of our planet, politico-economic societal constellations and the relationship between the human and non-human. I strive to utilise artistic practice as a specific platform for sharing information and to that end I utilise various immersive and narrative strategies. 
 
  
@@ -26,7 +26,9 @@ In recent years I've exhibited and performed mainly in Czechia (Vasulka Kitchen,
 portfolio: [michalmitro.com](https://www.michalmitro.com)  
 mail: info@michalmitro.com
 
-## Planetary Thermodynamics: Energy Justice
+
+<!-- SECTION BREAK -->
+# Planetary Thermodynamics: Energy Justice
 
 ![](/2020/mitro/1.jpg)
 

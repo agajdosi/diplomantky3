@@ -15,6 +15,15 @@ study: "mga"
 location: "kunstat"
 ---
 
+# Zuzana Rišianová
+
+Krátko po tom, ako som absolvovala bakalárske štúdium v rámci voľného umenia, konkrétne v Ateliéri maliarstva 1 (FaVU VUT), som sa rozhodla absolvovať svoje štúdium v Ateliéri herných médií. Prešla som si klasickou olejovou a digitálnou maľbou, ktorá sa časom pretransformovala do viacerých smerov, nových koncepcií a objektových inštalácií. Dlhodobo sa zaujímam o témy portrétov, mainstreamu a pop kultúry, ktoré prepojujem s osobnou mytológiou. Námety spracovávam vlastnou vizuálnou štylizáciou, kde kladiem dôraz na remeselnosť a príznačnosť zvoleného média k vybranej tematike.
+
+* portfolio: [hernimedia.ffa.vutbr.cz/studentstvo/zuzana-risianova](http://hernimedia.ffa.vutbr.cz/studentstvo/zuzana-risianova/)
+* instagram: [@sjuzaana](https://www.instagram.com/sjuzaana/)
+* zuzana.risianova@me.com
+
+<!-- SECTION BREAK -->
 # Move
 
 ![](/2020/risianova/1.jpg)
@@ -24,16 +33,3 @@ Diplomový projekt Move je prototyp digitálnej hry, ktorý má atmosfericko-med
 ![](/2020/risianova/2.jpg)
 ![](/2020/risianova/3.jpg)
 ![](/2020/risianova/4.jpg)
-
-<!-- SECTION BREAK -->
-# Zuzana Rišianová
-
-Krátko po tom, ako som absolvovala bakalárske štúdium v rámci voľného umenia, konkrétne v Ateliéri maliarstva 1 (FaVU VUT), som sa rozhodla absolvovať svoje štúdium v Ateliéri herných médií. Prešla som si klasickou olejovou a digitálnou maľbou, ktorá sa časom pretransformovala do viacerých smerov, nových koncepcií a objektových inštalácií. Dlhodobo sa zaujímam o témy portrétov, mainstreamu a pop kultúry, ktoré prepojujem s osobnou mytológiou. Námety spracovávam vlastnou vizuálnou štylizáciou, kde kladiem dôraz na remeselnosť a príznačnosť zvoleného média k vybranej tematike.
-
-* portfolio: [hernimedia.ffa.vutbr.cz/studentstvo/zuzana-risianova](http://hernimedia.ffa.vutbr.cz/studentstvo/zuzana-risianova/)
-* instagram: [@sjuzaana](https://www.instagram.com/sjuzaana/)
-* zuzana.risianova@me.com
-
-
-{{< raw_html >}}
-{{</ raw_html >}}

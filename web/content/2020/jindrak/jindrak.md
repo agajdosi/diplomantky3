@@ -16,7 +16,7 @@ year: "2020"
 study: "mga"
 location: "favu"
 ---
-
+# Matěj Jindrák
 Po maturitě na Lepařově gymnáziu v Jičíně v roce 2011 jsem byl přijat na Fakultu architektury VUT v Brně, kde jsem v roce 2019 studium dokončil prací Milíčeves, Slatiny – sídlo v krajině pod vedením Barbory Ponešové Krejčové. Poté jsem byl přijat na magisterské studium na FaVU do Ateliéru sochařství 2 k prof. Janu Ambrůzovi, ve kterém vznikla i moje diplomová práce Křehký svět.
 
 ### Workshops
@@ -30,7 +30,9 @@ Po maturitě na Lepařově gymnáziu v Jičíně v roce 2011 jsem byl přijat na
 * 2016 2nd prize – Best Urban Project Prize in 2016 – University island Povegllia, Venice, Italy
 * 2016 2nd prize – Superstudio, Idea project of transformation underused ski resorts into Bitcoin mining Farms, collaboration with Norbert Obršál and Tereza Kvapilová
 
-## Křehký svět
+
+<!-- SECTION BREAK -->
+# Křehký svět
 
 médium: socha/instalace/performance
 

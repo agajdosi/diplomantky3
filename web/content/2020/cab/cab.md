@@ -16,6 +16,8 @@ study: "mga"
 location: "kunstat"
 ---
 
+# Martin Cáb
+
 \* 22/9/1987  
 +420 737 462 426  
 martin.cab@email.cz
@@ -45,7 +47,7 @@ Intermédia (Václav Stratil, Pavel Sterec)
 * 2016 EmoXicon, Galerie Evoluční, Praha
 * 2016 Afterlife, Tschechisches Zentrum Berlin, Berlin
 
-
+<!-- SECTION BREAK -->
 ## Bez názvu (Levou zadní)
 
 ![](/2020/cab/1.jpg)

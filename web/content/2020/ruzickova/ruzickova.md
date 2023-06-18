@@ -14,7 +14,7 @@ year: "2020"
 study: "mga"
 location: "kunstat"
 ---
-
+# Bára Růžičková
 grafická designérka a ilustrátorka  
 mail@bara.fun  
 https://bara.fun/
@@ -26,7 +26,8 @@ https://bara.fun/
 * 2014–2018 – bakalářské studium, Ateliér grafického designu 1, FaVU
 
 
-## Credit Cards Accepted
+<!-- SECTION BREAK -->
+# Credit Cards Accepted
 
 ![](/2020/ruzickova/1.jpg)
 

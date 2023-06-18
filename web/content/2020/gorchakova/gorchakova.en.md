@@ -14,13 +14,13 @@ year: "2020"
 study: "mga"
 location: "byt"
 ---
-
+# Kseniia Gorchakova
 My name is Ksenia Gorchakova. I am a Russian designer specialising in interior architecture and furnishing. I originally studied architecture at the State University of Architecture, Design and Art in Novosibirsk. After completing my bachelor’s degree I worked as a designer of interiors and original furniture. In my study for a master’s degree I decided to extend my knowledge of the discipline of design from a slightly different perspective and I opted for the Studio of Product Design at the Faculty of Fine Arts of Brno University of Technology.  
 
 In my own designs I strive to emphasise both functionality and utility and the sense of feeling the pleasure and pleasant experience of the users. In my practice I enjoy most working with customers and the opportunity to design original projects adapted to the needs of the clients and reflecting their personality. 
 
-
-## Modular Housing
+<!-- SECTION BREAK -->
+# Modular Housing
 
 medium: architecture, design
 

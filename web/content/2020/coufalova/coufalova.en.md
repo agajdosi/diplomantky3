@@ -14,13 +14,15 @@ year: "2020"
 study: "mga"
 location: "byt"
 ---
-
+# Kristýna Coufalová
 I have a bachelor’s degree from Tomáš Baťa University in Zlín, where I studied Fashion Design. I spent the first year at the Faculty of Fine Arts in the Intermedia Studio, and the second year in the Studio of Body Design. For several years I have been doing music sets tailored to fashion designers and their shows, and working as a music director at various events. At the same time I am a DJ. My works have always balanced between art and pop culture, they are intuitive and are created based on feelings and emotions. I am interested in sound and love to wind up cables. For booking write to kristyna.coufalova@gmail.com
 
 * instagram: [@kristyna_coufal](https://www.instagram.com/kristyna_coufal/)
 * [soundcloud.com/kristyna_coufal](https://soundcloud.com/kristyna_coufal)
 
-## Mechanical Wave of Air Particles Set to Motion by a Vibrating Body
+
+<!-- SECTION BREAK -->
+# Mechanical Wave of Air Particles Set to Motion by a Vibrating Body
 
 ![](/2020/coufalova/1.jpg)
 

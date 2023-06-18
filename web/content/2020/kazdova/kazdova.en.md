@@ -14,14 +14,16 @@ year: "2020"
 study: "mga"
 location: "kanal"
 ---
-
+# Kristýna Kazdová
 My work is primarily based on drawing and with possible formal crossovers. In my creations I use drawing and graphic techniques to make spatial objects and object installations which often thematicise drawing in itself. The second significant point in my work is the question of material form and its circularity. I look at the world as a cluster of recycling material elements which permanently rotate in an infinite combinatoric number of forms. In this world destruction does not mean an end, but rather it opens up space for a new beginning. 
 
 Apart from drawing and traditional graphic techniques I often use specific found natural objects that I transform by incorporating them in my installations.
 
 mail: kazdovak@gmail.com
 
-## Stuff That Can Make Me Sad
+
+<!-- SECTION BREAK -->
+# Stuff That Can Make Me Sad
 
 ![](/2020/kazdova/1.jpg)
 

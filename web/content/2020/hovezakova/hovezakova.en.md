@@ -14,11 +14,11 @@ year: "2020"
 study: "mga"
 location: "klubovna"
 ---
-
+# Ilona Hověžáková
 Ilona Hověžáková (b. 1991) completed studies for a bachelor's degree in film direction and scriptwriting at the Faculty of Multimedia in Zlín. She continued to study video at the Faculty of Fine Arts of Brno University of Technology. During her studies for a master's degree she became engaged in gallery work and curating. She completed an internship at the Galería de Arte Servando in Havana. Her personal experience and observations from the journey are elaborated on in her diploma work. Presently she lives and works in Brno. Since 2013 she has diversified her work to also include promotion, production and marketing. She has collaborated in audio-visual projects in different formats from short films via video to commercials. She is currently working in the position of production and PR at the TIC Gallery in Brno and continues to be involved in the audio-visual medium. During her working activities she tries to continually extend her knowledge in the field of curating, organising exhibitions and gallery operations. 
 
-
-## Dialogue
+<!-- SECTION BREAK -->
+# Dialogue
 
 ![](/2020/hovezakova/1.jpg)
 

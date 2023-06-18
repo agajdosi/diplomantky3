@@ -14,7 +14,7 @@ year: "2020"
 study: "mga"
 location: "byt"
 ---
-
+# Leona Velebová
 I studied in Studio of Painting 3 under Petr Kvíčala. Throughout the whole bachelor’s degree course I was accompanied by the theme of my grandad in connection with DIY and collecting. I devoted most of the time to painting. My paintings are typified by the collage method of work where I combine painting with other materials. 
 
 My work underwent a deep transformation during the master’s degree course when I left for placements in Poland and Spain. I sojourned in several studios from painting, drawing to an interdisciplinary studio. 
@@ -23,7 +23,9 @@ In my diploma work I deal with a new theme that directed me towards using what a
 
 [leonavelebova.com](http://leonavelebova.com)
 
-## Maybe She’s Born With It
+
+<!-- SECTION BREAK -->
+# Maybe She’s Born With It
 
 ![Maybe She’s Born With It, video, 2:56 min](/2020/velebova/1.jpg)
 

@@ -14,7 +14,7 @@ year: "2020"
 study: "mga"
 location: "kunstat"
 ---
-
+# Alina Matějová
 Graduate of the Faculty of Arts of Masaryk University, course Theory of Interactive Media
 Student/graduate of Studio of Graphic Design 2
 
@@ -25,7 +25,8 @@ dancer
 living, dancing and creating in Brno.
 
 
-## Humain - On Design, Humanities, Art and Artificial Intelligence
+<!-- SECTION BREAK -->
+# Humain - On Design, Humanities, Art and Artificial Intelligence
 
 Medium:
 - printed material (posters, programmes and forms)

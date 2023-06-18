@@ -14,11 +14,11 @@ year: "2020"
 study: "mga"
 location: "klubovna"
 ---
-
+# Ilona Hověžáková
 Narozena 1991. Dokončila bakalářské studium na Multimediální fakultě ve Zlíně – obor režie a scenáristika. Na brněnské FaVU studovala obor video. Během magisterského studia se zabývala galerijní činností a kurátorstvím. Absolvovala zahraniční pracovní stáž v instituci Galería de Arte Servando v Havaně. Osobní zkušenosti a poznatky z cesty rozvíjí ve své diplomové práci. Nyní žije a pracuje v Brně. Od roku 2013 se pracovně zaměřuje i na reklamní činnost, produkci a marketing. Spolupracovala na audiovizuálních projektech s různým zaměřením od krátkometrážních filmů přes videa až po reklamu. Aktuálně pracuje na pozici produkce a PR v Galerii TIC v Brně a stále se věnuje audiovizuálnímu médiu. Při pracovních aktivitách se snaží stále rozvíjet znalosti v oblasti kurátorství, výstavnictví i galerijním provozu. 
 
-
-## Dialog
+<!-- SECTION BREAK -->
+# Dialog
 
 ![](/2020/hovezakova/1.jpg)
 

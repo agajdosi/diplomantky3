@@ -14,13 +14,13 @@ year: "2020"
 study: "mga"
 location: "byt"
 ---
-
+# Kristýna Coufalová
 Barbora Demovičová is a Slovak graphic designer currently based  in Berlin. She studied in the Studio of Graphic Design 2 at the Faculty of Fine Arts of Brno University of Technology. During her six-year-long studies she went on study placements at the Staatliche Akademie der bildenden Künste in Stuttgart (DE), the Hochschule für Grafik und Buchkunst in Leipzig (DE) and on an internship in the Studio Manuel Raeder in Berlin. She is interested in independent publishing, the politics of design and the outreach of design into other disciplines.
 
 Part of her Home–Topia diploma work was displayed in the Raum für drastische Maßnahmen gallery in Berlin.
 
-
-## Home-Topia
+<!-- SECTION BREAK -->
+# Home-Topia
 
 ![](/2020/demovicova/1.jpg)
 

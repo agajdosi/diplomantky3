@@ -14,13 +14,14 @@ year: "2020"
 study: "mga"
 location: "byt"
 ---
+# Barbora Demovičová
 
 Barbora Demovičová je slovenská grafická dizajnérka, ktorá momentálne pôsobí v Berlíne. Študovala v Ateliéri grafického designu 2 na Fakulte výtvarných umení VUT v Brne. Počas šesťročného štúdia absolvovala stáže na Staatliche akademie der bildenden Künste v Stuttgarte (DE), Hochschule für Grafik und Buchkunst v Lipsku (DE) a pracovnú stáž v štúdiu Manuel Raeder v Berlíne. Zaujíma sa o nezávislé publikovanie, politiku designu a presahy designu do iných odborov.
 
 Časť jej diplomovej práce Home–Topia bola vystavená v berlínskej galérii Raum für drastische Maßnahmen.
 
-
-## Home-Topia
+<!-- SECTION BREAK -->
+# Home-Topia
 
 ![](/2020/demovicova/1.jpg)
 

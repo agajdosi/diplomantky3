@@ -14,7 +14,7 @@ year: "2020"
 study: "mga"
 location: "kunstat"
 ---
-
+# Zuzana Rišiánová
 Immediately after I finished my bachelor’s degree study of non-commissioned art, specifically in the Studio of Painting 1 (Faculty of Fine Arts of Brno University of Technology), I decided to complete my master’s degree in the Studio of Game Media. I received training in classical oil and digital painting which over time transformed into multiple directions, new concepts and object installations. I have a long-lasting interest in the subjects of portraiture, mainstream and pop culture, which I link with personal mythology. I process the ideas with my own visual stylisation emphasising craftsmanship and appropriateness of the applied medium for the selected theme.
 
 * portfolio: [hernimedia.ffa.vutbr.cz/studentstvo/zuzana-risianova](http://hernimedia.ffa.vutbr.cz/studentstvo/zuzana-risianova/)
@@ -22,7 +22,8 @@ Immediately after I finished my bachelor’s degree study of non-commissioned ar
 * zuzana.risianova@me.com
 
 
-## Move
+<!-- SECTION BREAK -->
+# Move
 
 ![](/2020/risianova/1.jpg)
 

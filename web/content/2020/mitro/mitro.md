@@ -15,7 +15,7 @@ year: "2020"
 study: "mga"
 location: "zahradka"
 ---
-
+# Michal Mitro
 Pre moju súčasnú tvorbu sú charakteristické post-mediálne tendencie s dôrazom na skulpturálnosť a vizuálnu estetiku diela. Môj pracovný postup možno popísať ako umelecký výskum a výstup práce ako hybridný tvar „artScience“. V mojich dielach rezonujú témy globálneho charakteru spojené so súčasným a budúcim stavom planéty, politicko-ekonomickým usporiadaním spoločnosti a vzťahu človeka a jeho okolia. Usilujem tiež o istý typ nelineárnej narativity v snahe využiť umelecké dielo ako špecifický nosič informácie.
 
 V uplynulých rokoch som prezentoval v Česku (Vasulka Kitchen, Studio Letná, Korespondance, Prototyp), na Slovensku (VUNU, Kasárne, DIG gallery) i v zahraničí (Gamma Festival, Petrohrad; Mediamatic, Amsterdam; JRM, Paríž; Trafó, Budapešť; Genius Loci, Weimar; Grey Space, den Haag; AV depot, Londýn). Okrem zmienených aktivít som členom výskumného telesa STELLA, ktoré mapuje prienik technológií a pohybového umenia v krajinách V4, a kurátorom priestoru ssesi.space.
@@ -23,7 +23,9 @@ V uplynulých rokoch som prezentoval v Česku (Vasulka Kitchen, Studio Letná, 
 portfolio: [michalmitro.com](https://www.michalmitro.com)  
 mail: info@michalmitro.com
 
-## Planetárna termodynamika: Energetická spravodlivosť
+
+<!-- SECTION BREAK -->
+# Planetárna termodynamika: Energetická spravodlivosť
 
 ![](/2020/mitro/1.jpg)
 

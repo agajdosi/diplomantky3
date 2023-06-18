@@ -14,7 +14,7 @@ year: "2020"
 study: "mga"
 location: "zahradka"
 ---
-
+# Kristína Reisová
 Mojou primárnou témou je všednosť. Rada všednosť zviditeľňujem a poukazujem na to, aká je dôležitá, jemná a pominuteľná. Často nám uniká pomedzi prsty a my strácame kontakt s jej zázračnosťou. 
 
 Pracujem s textom. Vytvárala som rôzne objekty, audio príbehy, zvukové inštalácie. Teraz sa však viac približujem k remeselným technikám, ako ručný papier, vosková batika a prírodné farbenie. 
@@ -22,7 +22,8 @@ Pracujem s textom. Vytvárala som rôzne objekty, audio príbehy, zvukové inšt
 Študovala som v Ateliéri telového designu, absolvovala som stáž v Ateliéri environmentu.
 
 
-## Cez chodník prebehuje ježko
+<!-- SECTION BREAK -->
+# Cez chodník prebehuje ježko
 
 ![](/2020/reisova/1.jpg)
 

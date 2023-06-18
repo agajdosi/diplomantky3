@@ -14,14 +14,16 @@ year: "2020"
 study: "mga"
 location: "kanal"
 ---
-
+# Kristýna Kazdová
 Moje práce se odvíjí převážně od kresby a jejích možných formálních přesahů. V tvorbě využívám kresby a grafických technik k vytváření prostorových objektů a objektových instalací, které často tematizují téma kresby samo o sobě. Druhým podstatným bodem v mé práci je otázka materiální formy a její cirkularity. Dívám se na svět jako na shluk recyklujících se materiálních prvků, které neustále rotují v nekonečném kombinatorickém množství podob. V tomto světě neznamená zánik konec, ale otevírá prostor pro nový začátek. 
 
 Pracuji převážně s kresbou a klasickými grafickými technikami. Často využívám specifické nalezené přírodní objekty, které přetvářím nebo vkládám do svých instalací.
 
 mail: kazdovak@gmail.com
 
-## Stuff That Can Make Me Sad
+
+<!-- SECTION BREAK -->
+# Stuff That Can Make Me Sad
 
 ![](/2020/kazdova/1.jpg)
 

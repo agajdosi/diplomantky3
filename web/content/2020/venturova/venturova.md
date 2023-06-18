@@ -14,13 +14,15 @@ year: "2020"
 study: "mga"
 location: "zahradka"
 ---
-
+# Adéla Venturová
 V Ateliéru tělového designu vznikla z organického těla a několika nalezených syntetických materiálů nová bytost. Tato bytost smýšlí ekofeministicky, ale zároveň si je vědoma toho, že vznikla ze znečištění a hmotného nadbytku postkapitalistické společnosti. Objevila se na třech místech a ve třech státech. Nejprve v Rainbow Gallery v Prostějově, potom v polském městě Zakopané ve Wladyslaw Hasior Gallery a nakonec na festivalu Kruhovka ve Vrbové na Slovensku. Jedná se o arogantního tvora, který se s diváky dorozumívá pomocí voguingu bez ohledu na to, zda mu okolí rozumí.
 
 * a.venturova@seznam.cz
 * portfolio: [adelaventurova.tumblr.com](https://adelaventurova.tumblr.com/)
 
-## Voguing Is Not White, Honey
+
+<!-- SECTION BREAK -->
+# Voguing Is Not White, Honey
 
 ![](/2020/venturova/1.jpg)
 
