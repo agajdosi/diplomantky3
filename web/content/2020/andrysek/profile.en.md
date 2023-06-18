@@ -15,7 +15,7 @@ year: "2020"
 study: "mga"
 location: "kunstat"
 ---
-
+# Marek Andrýsek
 In my work I combine aspects of technology and craftsmanship with an intuitive approach to the aesthetic side of the work. Familiarity with the method of application of the selected technology creates a pre-defined field for the effect of the aesthetic and this effect reclaims adapting the technology for its needs. A typical format of the work is a spatial installation incorporating sound and video. A frequently used element in my creations is an interactive form of content, which allows the viewer to influence the operation. The combination of the requirements for adaptability of the technology and the work’s interactivity led me to a departure into the discourse of computer games while preserving the continuity with my
 previous experience.
 
@@ -23,7 +23,8 @@ I received a master’s degree in Multimedia Composition at the Janáček Academ
 
 Portfolio: [hernimedia.ffa.vutbr.cz/studentstvo/marek-andrysek](http://hernimedia.ffa.vutbr.cz/studentstvo/marek-andrysek/)
 
-## Concrete
+<!-- SECTION BREAK -->
+# Concrete
 
 ![](/2020/andrysek/1.jpg)
 

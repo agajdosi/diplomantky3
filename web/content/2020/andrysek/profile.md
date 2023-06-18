@@ -16,13 +16,16 @@ study: "mga"
 location: "kunstat"
 ---
 
+# Marek Andrýsek
+
 Ve své tvorbě propojuji aspekty technologie a řemeslné dovednosti s intuitivním přístupem k estetické stránce díla. Znalost a způsob použití zvolené technologie vytváří předem definované pole pro působení estetiky a toto působení si zpětně klade nároky na přizpůsobení technologie svým potřebám. Typickou formou díla je prostorová instalace zahrnující zvuk a video. Často používaným prvkem v mé tvorbě je interaktivní forma obsahu, díky kterému může divák průběh díla ovlivňovat. Kombinace nároků na přizpůsobitelnost technologie a interaktivitu díla vedla k odklonu mé tvorby do diskurzu počítačových her se zachováním kontinuity s předešlými zkušenostmi.
 
 Absolvoval jsem magisterské studium oboru multimediální kompozice na JAMU, během kterého jsem strávil jeden semestr na Universität der Künste v Berlíně v ateliéru Computational Art. Aktuálně ukončuji studium v Ateliéru herních médií na FaVU.
 
 Portfolio: [hernimedia.ffa.vutbr.cz/studentstvo/marek-andrysek](http://hernimedia.ffa.vutbr.cz/studentstvo/marek-andrysek/)
 
-## Beton
+<!-- SECTION BREAK -->
+# Beton
 
 ![](/2020/andrysek/1.jpg)
 

@@ -53,7 +53,7 @@ def main(args):
         response["body"] = {"result": "missing username in token"}
         return response
 
-    ok, msg = save(sourceFilePath, content, username)
+    ok, msg = save(sourceFilePath, content, username, artwork=args.get("artwork"))
     if not ok:
         response["body"] = {"result": "save failed", "message": msg}
         return response
@@ -85,7 +85,7 @@ def verifyAdmin(username: str) -> bool:
     return True
 
 
-def save(sourceFilePath: str, content: str, username: str):
+def save(sourceFilePath: str, bio: str, username: str, artwork: str):
     """Here we will save the data."""
     url = f"https://api.github.com/repos/{ORG}/{REPO}/contents/web/content/{sourceFilePath}"
     headers = {
@@ -108,8 +108,12 @@ def save(sourceFilePath: str, content: str, username: str):
     if data is None:
         return False, "Missing content"
 
-    prev_content = b64decode(data).decode("utf-8")
-    metadata = parseMarkdownMetadata(prev_content)
+    text = b64decode(data).decode("utf-8")
+    header, content = separate_header_content(text)
+    if header is None or content is None:
+        return False, f"Could not separate header and content from: {text}"
+
+    metadata = parse_markdown_metadata(header)
     owner = metadata.get("owner")
     if owner != username:
         if not verifyAdmin(username):
@@ -118,12 +122,25 @@ def save(sourceFilePath: str, content: str, username: str):
                 f"Authenticated user is not admin or owner of this file: {username} != {owner}",
             )
 
-    parts = prev_content.split(SPLITTER)
-    final_file = parts[0] + "\n" + SPLITTER + "\n"
-    final_file += "{{< raw_html >}}\n"
-    final_file += content + "\n"
-    final_file += "{{< /raw_html >}}\n"
+    content_parts = content.split(SPLITTER)
+    if len(content_parts) != 2:
+        return False, f"Could not split by {SPLITTER} in content: {content}"
+    
+    if bio == None:
+        bio = content_parts[0]
+    
+    if artwork == None:
+        artwork = content_parts[1]
 
+    final_file = f"""---
+{header}
+---
+{{< raw_html >}}
+{bio}
+{{< /raw_html >}}
+{SPLITTER}
+{artwork}
+"""
     byte_result = bytes(final_file, "utf-8")
     encoded_file = b64encode(byte_result).decode("utf-8")
     data = {
@@ -142,10 +159,20 @@ def save(sourceFilePath: str, content: str, username: str):
     return True, "ok"
 
 
-def parseMarkdownMetadata(content: str):
+def separate_header_content(text: str):
+    """Separate header and content from the text of the .md file."""
+    delimiter = "---"
+    parts = text.split(delimiter)
+    if len(parts) != 3:
+        return None, None
+    header = parts[1].strip()
+    content = parts[2].strip()
+    return header, content
+
+
+def parse_markdown_metadata(header: str) -> OrderedDict:
     """Parse the metadata from the markdown string."""
-    heading = content.split("---", 2)[1].strip()
-    lines = heading.splitlines()
+    lines = header.splitlines()
     metadata = OrderedDict()
     for line in lines:
         parts = line.split(": ")
