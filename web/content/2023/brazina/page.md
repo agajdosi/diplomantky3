@@ -6,8 +6,4 @@ draft: false
 url: jan-brazina
 owner: admin
 ---
-# Dílo
 <!-- SECTION BREAK -->
-{{< raw_html >}}
-
-{{< /raw_html >}}
