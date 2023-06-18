@@ -25,10 +25,10 @@ Jako svou diplomovou práci jsem vytvořil sérii expresivních figurativních o
 ![](/2020/broz/4.jpg)
 
 
+
 <!-- SECTION BREAK -->
-
-# Štěpán Brož
-
-Narodil se v roce 1992 ve vesnici Řež blízko Prahy.
-
-Věnuje se hlavně malbě a kresbě, příležitostně také grafice pro kapely a projekty přátel. Momentálně završuje své studium v Ateliéru malířství I (pod vedením Vasila Artamonova) na FaVU VUT v Brně. Těší se z rave hudby, dronování blackmetalových kytar a fantasy příběhů. Aby přežil zápas se životem v pozdně kapitalistické společnosti, hledá možné překryvy mezi magičnem, humorem a vážností.
+{{< raw_html >}}
+<h1 id="&scaron;těp&aacute;n-brož">&Scaron;těp&aacute;n Brož</h1>
+<p>Narodil se v roce 1992 ve vesnici Řež bl&iacute;zko Prahy.</p>
+<p>Věnuje se hlavně malbě a kresbě, př&iacute;ležitostně tak&eacute; grafice pro kapely a projekty př&aacute;tel. Moment&aacute;lně zavr&scaron;uje sv&eacute; studium v Ateli&eacute;ru mal&iacute;řstv&iacute; I (pod veden&iacute;m Vasila Artamonova) na FaVU VUT v Brně. Tě&scaron;&iacute; se z rave hudby, dronov&aacute;n&iacute; blackmetalov&yacute;ch kytar a fantasy př&iacute;běhů. Aby přežil z&aacute;pas se životem v pozdně kapitalistick&eacute; společnosti, hled&aacute; možn&eacute; překryvy mezi magičnem, humorem a v&aacute;žnost&iacute;.</p>
+{{< /raw_html >}}
