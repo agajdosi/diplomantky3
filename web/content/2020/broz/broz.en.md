@@ -15,11 +15,11 @@ year: "2020"
 study: "mga"
 location: "kanal"
 ---
-{< raw_html >}
+{{< raw_html >}}
 <h1 id="&scaron;těp&aacute;n-brož">&Scaron;těp&aacute;n Brož</h1>
 <p>&Scaron;těp&aacute;n Brož was born in 1992 in the village of Řež near Prague.</p>
 <p>He works mainly in painting and drawing and occasionally graphic design for the bands and projects of his friends. Currently he is finishing his study in the Studio of Painting I (tutored by Vasil Artamonov) at the Faculty of Fine Arts of Brno University of Technology. He takes pleasure in rave music, droning black metal guitars and fantasy stories. To survive the struggle with living in a late capitalist society he is looking for possible overlaps between the magical, humour and seriousness.</p>
-{< /raw_html >}
+{{< /raw_html >}}
 <!-- SECTION BREAK -->
 
 # You Must Gather Your Party Before Venturing Forth
