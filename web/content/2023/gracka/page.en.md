@@ -1,12 +1,12 @@
 ---
-title: Jan Bražina
+title: Martin Gračka
 date: 2022-06-24T15:02:56+02:00
 description: ""
 draft: false
-url: jan-brazina
+url: martin-gracka
 owner: admin
 ---
-# Jan Bražina
+# Martin Gračka
 
 <!-- SECTION BREAK -->
 # Piece

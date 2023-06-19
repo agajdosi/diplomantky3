@@ -1,12 +1,12 @@
 ---
-title: Jan Bražina
+title: Lukáš Prokop
 date: 2022-06-24T15:02:56+02:00
 description: ""
 draft: false
-url: jan-brazina
+url: lukas-prokop
 owner: admin
 ---
-# Jan Bražina
+# Lukáš Prokop
 
 <!-- SECTION BREAK -->
 # Piece

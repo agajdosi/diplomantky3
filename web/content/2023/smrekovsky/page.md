@@ -1,12 +1,12 @@
 ---
-title: Jan Bražina
+title: Adam Smrekovský
 date: 2022-06-24T15:02:56+02:00
 description: ""
 draft: false
-url: jan-brazina
+url: adam-smrekovsky
 owner: admin
 ---
-# Jan Bražina
+# Adam Smrekovský
 
 <!-- SECTION BREAK -->
 # Piece

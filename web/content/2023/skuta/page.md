@@ -1,12 +1,12 @@
 ---
-title: Jan Bražina
+title: Vojtěch Škuta
 date: 2022-06-24T15:02:56+02:00
 description: ""
 draft: false
-url: jan-brazina
+url: vojtech-skuta
 owner: admin
 ---
-# Jan Bražina
+# Vojtěch Škuta
 
 <!-- SECTION BREAK -->
 # Piece
