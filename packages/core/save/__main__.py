@@ -23,13 +23,17 @@ def main(args):
         "body": {},
     }
     token = args.get("token")
-    content = args.get("content")
+    content_bio = args.get("content_bio")
+    content_diploma = args.get("content_diploma")
     sourceFilePath = args.get("sourceFile")
     if token is None:
         response["body"] = {"result": "no token"}
         return response
-    if content is None:
-        response["body"] = {"result": "no content"}
+    if content_bio is None:
+        response["body"] = {"result": "no content_bio"}
+        return response
+    if content_diploma is None:
+        response["body"] = {"result": "no content_diploma"}
         return response
     if sourceFilePath is None:
         response["body"] = {"result": "no sourceFilePath"}
@@ -53,7 +57,7 @@ def main(args):
         response["body"] = {"result": "missing username in token"}
         return response
 
-    ok, msg = save(sourceFilePath, content, username, artwork=args.get("artwork"))
+    ok, msg = save(sourceFilePath, username, content_bio, content_diploma)
     if not ok:
         response["body"] = {"result": "save failed", "message": msg}
         return response
@@ -85,7 +89,7 @@ def verifyAdmin(username: str) -> bool:
     return True
 
 
-def save(sourceFilePath: str, bio: str, username: str, artwork: str):
+def save(sourceFilePath: str, username: str, bio: str, diploma: str):
     """Here we will save the data."""
     url = f"https://api.github.com/repos/{ORG}/{REPO}/contents/web/content/{sourceFilePath}"
     headers = {
@@ -122,16 +126,6 @@ def save(sourceFilePath: str, bio: str, username: str, artwork: str):
                 f"Authenticated user is not admin or owner of this file: {username} != {owner}",
             )
 
-    content_parts = content.split(SPLITTER)
-    if len(content_parts) != 2:
-        return False, f"Could not split by {SPLITTER} in content: {content}"
-    
-    if bio == None:
-        bio = content_parts[0]
-    
-    if artwork == None:
-        artwork = content_parts[1]
-
     final_file = f"""---
 {header}
 ---
@@ -139,8 +133,11 @@ def save(sourceFilePath: str, bio: str, username: str, artwork: str):
 {bio}
 {{{{< /raw_html >}}}}
 {SPLITTER}
-{artwork}
+{{{{< raw_html >}}}}
+{diploma}
+{{{{< /raw_html >}}}}
 """
+
     byte_result = bytes(final_file, "utf-8")
     encoded_file = b64encode(byte_result).decode("utf-8")
     data = {

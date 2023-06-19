@@ -1,9 +1,14 @@
 import * as params from '@params';
 
-const EDITED_DIV_ID = 'bio';
+const EDIT_BIO = 'bio';
+const EDIT_ARTWORK = 'diploma';
+
 const EDIT_TEXT = 'edit';
+const EDIT_ARTWORK_TEXT = 'edit:diploma';
 const PREVIEW_TEXT = 'preview';
+const PREVIEW_ARTWORK_TEXT = 'preview:diploma';
 const SAVE_TEXT = 'save';
+const SAVE_ARTWORK_TEXT = 'save:diploma';
 
 window.addEventListener('load', editorPageLoaded);
 
@@ -16,18 +21,20 @@ function editorPageLoaded() {
   if (!pageOwner) return;
   if (loggedAs != pageOwner && userRole != "admin") return;
   addEditButton();
-  initTinyMCE();
+  initTinyMCE(EDIT_ARTWORK);
+  initTinyMCE(EDIT_BIO);
 }
 
 function editButtonClicked(event){
-  console.log('FUNCS_URL: ' + params.FUNCS_URL);
   let currentText = event.target.innerText;
   if (currentText === EDIT_TEXT) {
-    enterEditorMode(event);
+    enterEditorMode(event, EDIT_BIO);
+    enterEditorMode(event, EDIT_ARTWORK);
     return;
   }
   if (currentText === PREVIEW_TEXT) {
-    enterPreviewMode(event);
+    enterPreviewMode(event, EDIT_BIO);
+    enterPreviewMode(event, EDIT_ARTWORK);
     return;
   }
 }
@@ -35,12 +42,14 @@ function editButtonClicked(event){
 function save() {
   console.log('FUNCS_URL: ' + params.FUNCS_URL);
   let jwt = document.cookie.split('; ').find(row => row.startsWith('jwt=')).split('=')[1];
-  let content = tinymce.activeEditor.getContent();
+  let content_bio = tinymce.get(EDIT_BIO+'_editor').getContent();
+  let content_diploma = tinymce.get(EDIT_ARTWORK+'_editor').getContent();
   let sourceFile = document.querySelector("meta[name='sourceFile']").getAttribute('content');
   let sourceDir = document.querySelector("meta[name='sourceDir']").getAttribute('content');
   let data = {
       "token": jwt,
-      "content": content,
+      "content_bio": content_bio,
+      "content_diploma": content_diploma,
       "sourceFile": sourceFile,
       "sourceDir": sourceDir,
   };
@@ -95,15 +104,16 @@ function addSaveButton() {
   headerMenu.prepend(saveButton);
 }
 
-function initTinyMCE() {
-  let mainContainer = document.getElementById(EDITED_DIV_ID).parentNode;
+function initTinyMCE(target_id) {
+  let mainContainer = document.getElementById(target_id).parentNode;
   editor = document.createElement('textarea');
-  editor.setAttribute('id', 'editor');
+  let editor_id = target_id + '_editor';
+  editor.setAttribute('id', editor_id);
   mainContainer.prepend(editor);
-  editor.innerHTML = document.getElementById(EDITED_DIV_ID).innerHTML;
+  editor.innerHTML = document.getElementById(target_id).innerHTML;
   editor.style.display = 'none';
   tinymce.init({
-    selector: 'textarea#editor',
+    selector: '#'+editor_id,
     height: '85vh',
     style_formats : [
       { title : 'Normal text', block: 'p'},
@@ -127,23 +137,26 @@ function initTinyMCE() {
   });
 }
 
-function enterEditorMode(event) {
-  let editor = document.getElementById('editor');
-  editor = document.getElementById('editor');
+function enterEditorMode(event, target_id) {
+  let editor_id = target_id + '_editor';
+  let editor = document.getElementById(editor_id);
+  editor = document.getElementById(editor_id);
   editor.style.display = 'block';
   event.target.innerText = PREVIEW_TEXT;
-  document.getElementById(EDITED_DIV_ID).innerHTML = '';
-  document.getElementById(EDITED_DIV_ID).style.display = 'none';
-  tinymce.activeEditor.show();
+  document.getElementById(target_id).innerHTML = '';
+  document.getElementById(target_id).style.display = 'none';
+  tinymce.get(editor_id).show();
 }
 
-function enterPreviewMode(event) {
-  tinymce.activeEditor.hide();
-  let editor = document.getElementById('editor');
+function enterPreviewMode(event, target_id) {
+  let editor_id = target_id + '_editor';
+  console.log(editor_id)
+  tinymce.get(editor_id).hide();
+  let editor = document.getElementById(editor_id);
   editor.style.display = 'none';
   event.target.innerText = EDIT_TEXT;
-  document.getElementById(EDITED_DIV_ID).innerHTML = tinymce.activeEditor.getContent();
-  document.getElementById(EDITED_DIV_ID).style.display = 'block';
+  document.getElementById(target_id).innerHTML = tinymce.get(editor_id).getContent();
+  document.getElementById(target_id).style.display = 'block';
   addSaveButton();
 }
 
