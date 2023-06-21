@@ -6,7 +6,12 @@ draft: false
 url: vojtech-dvorak
 owner: admin
 ---
-# Vojtěch Dvořák
-
+{{< raw_html >}}
+<h1 id="vojtěch-dvoř&aacute;k">Vojtěch Dvoř&aacute;k</h1>
+{{< /raw_html >}}
 <!-- SECTION BREAK -->
-# Piece
+{{< raw_html >}}
+<h1 class="b-detail__title">"N&aacute;sledov&aacute;n&iacute; vz&aacute;jemnosti"</h1>
+<p>Viděn&iacute; světa jako estetick&eacute;ho probl&eacute;mu. Př&iacute;padně viděn&iacute; světa z pohledu fenomenologie a nominalismu.</p>
+<p>&nbsp;</p>
+{{< /raw_html >}}
