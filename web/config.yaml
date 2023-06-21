@@ -1,4 +1,4 @@
-baseURL : https://devel.diplomantky.cz
+baseURL : https://diplomantky.cz
 languageCode : cz
 title : Diplomantky.cz
 publishDir : ./build
