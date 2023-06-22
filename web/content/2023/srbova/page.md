@@ -8,6 +8,16 @@ owner: admin
 ---
 {{< raw_html >}}
 <h1 id="kateřina-srbov&aacute;">Kateřina Srbov&aacute;</h1>
+<div class="page" title="Page 30">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Kateřina Srbová (* 1997) definuje svoju dizajnérsku prax prostredníctvom spoluúčasti na dianí v Ateliéri grafického designu 1 (pod oficiálnym vedením Zuzany Kubíkovej) a s ním asociovanej platformy AGDX, ktorých je absolventkou. Platformu AGDX vníma ako bezpečný priestor, ktorý umožňuje kultiváciu dlhodobej spolupráce na prienikových témach jej členov. Takto vznikol, v spolupráci&nbsp;s Jakubom Poláchom, web Glossy Research (glossyresearch.org) ako súčasť Srbovej bakalárskej práce, ktorá kriticky reflektovala kategórie jedinečnosti, originality a autenticity ako konkurenčných výhod v kontextoch módneho a grafického designu. Glossy Research, ktorá bola navrhnutá ako kolaboratívna webová platforma, umožňuje zdieľať, nielen Srbovej, ale aj ďalším užívateľom, príspevky&nbsp;k, v bakalárskej práci riešenej, problematike.<br>Srbová sa sústreďuje na tvorbu rešerší pre nadväzujúci, kolektívny dizajnový proces. Tu si kladie otázky po základných podstatách riešených problematík, ku príkladu: &bdquo;Čo môže znamenať varenie?&ldquo;, &bdquo;Čo môže znamenať kaviareň?&ldquo;, v projekte a zoskupení kitchen.agdx. Základnú podstatu sa Srbová následne snaží, v dialógu s ostatnými členy*členkami aktuálnej pracovnej skupiny, navrhovať, formulovať a implementovať do spoločne vytváranej softwarovej infraštruktúry. Vo svojej diplomovej práci writer.axdx (2023) Srbová rešeršuje podklady a buduje argumentáciu pre nástroj umožňujúci tvorbu textu oprosteného od zaužívaných pravidiel formátovania, ktoré sú typické pre súčasné textové editory. writer.axdx má ambíciu vrátiť pozornosť svojho užívateľa k základnej podstate, k samotnému aktu tvorby textu, podľa užívateľových špecifických potrieb, nie podľa hraníc proprietárneho editora.</p>
+<p>Martina Růžičková</p>
+</div>
+</div>
+</div>
+</div>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
