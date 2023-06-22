@@ -8,6 +8,18 @@ owner: admin
 ---
 {{< raw_html >}}
 <h1 id="kl&aacute;ra-l&aacute;zničkov&aacute;">Kl&aacute;ra L&aacute;zničkov&aacute;</h1>
+<div class="page" title="Page 18">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Klára Lázničková (*1995) pracuje v médiu malby, kresby, ilustrace, performance a poezie. Její široký intermediální přístup spojuje zájem o procesy lidského chování, ať už na rovině osobní, nebo celospolečenské. Svými pracemi se snaží rozkrýt, na jakých principech funguje člověk jako utvářející člen společnosti, odkud pramení jeho smýšlení o environmentálních tématech a přístup k ekologii nebo zažité sociální role, přičemž se pro rozkrytí společenských stereotypů často vrací do dětských let. Ve svých sériích dává vzniknout hypotetickým či dystopickým vizím ohledně možné podoby budoucího světa. Diplomová práce Pohádka (2023) zahrnuje performativn&iacute; práci s básní jako deníkovým záznamem a s jeho sdílením. V rámci projektu nabízela Lázničková ke sdílení několik svých narativních básní psaných pohádkovým jazykem, které soustavně vytvářela poslední dva roky. Básně vznikaly primárně jako forma sebeterapie, jsou odrazem určitého životního období autorky. Spontánní volba pohádkového narativu ji zpětně přivedla k hloubkové analýze, do jaké míry nás tradiční pohádkové příběhy, jejich postavy a vztahy (princ, princezna, útrapy, svatba) ovlivňují v dospělosti. Lázničková se zamýšlí nejen nad biopolitickou mocí pohádek, ale především je popisuje jako možný nástroj ke stvrzování pasivního přijetí zažitých vzorců v mezilidských vztazích a tradičních genderových rolí a jako potenciální zdroj pro vznik psychopatologie osobnosti. Na příkladu pohádkového pojetí vztahu prince a princezny, jako hrdiny a trpící ženy, se věnuje otázce partnerských vztahových vazeb, dotýká se jejich toxické podoby například i při problematice domácího násilí. Participativním přístupem, kdy oslovila své širší okolí, aby k jednotlivým částem básní vytvořili ilustraci, prohlubuje terapeutický akt sdílení a řeší schopnosti a možnosti mezilidské interakce a spolupráce.</p>
+<p>Klára Lázničková absolvovala bakalářské studium v Ateliéru malba 1 na Fakultě umění Ostravské univerzity pod vedením Daniela Balabána. V současnosti dokončuje magisterská studia ve stejném ateliéru a zároveň v Ateliéru environmentu na FaVU VUT v Brně&nbsp;u Barbory Klímové a Matěje Smetany. V průběhu studia absolvovala na stejné škole stáže v Ateliéru malířství 2 u Luďka Rathouského, v Ateliéru intermédií u Pavla Sterce a v Ateliéru malířství 3 u Patricie Fexové. Byla zakládající členkou umělecké skupiny Global Genocide Inc. (Martin Žák, Klára Lázničková, Jonáš Svoboda, Andreas Gajdošík a Daniel Nováček; 2019&ndash;2022), která se skrze performance, happeningy a intervence ve veřejném prostoru zaměřovala především na environmentálně a politicky angažované umění.</p>
+<p>S Global Genocide Inc. byla součástí skupinových výstav, například Unscrupulous, Photogether gallery, Zlín (2021); Tady a teď!, Dům umění města Brna, Brno (2021); Konečná řešení dětských otázek, Billboart Gallery, FUD UJEP, Ústí nad Labem (2020); Comfort balcony, Důl Michal, Ostrava (2020). Je členkou skupiny Tchibo Family.</p>
+<p>Anežka Chalupová</p>
+</div>
+</div>
+</div>
+</div>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
