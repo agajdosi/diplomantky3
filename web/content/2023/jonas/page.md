@@ -8,6 +8,18 @@ owner: admin
 ---
 {{< raw_html >}}
 <h1 id="yuliya-jonas">Yuliya Jonas</h1>
+<div class="page" title="Page 16">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Yuliya Jonas (* 1993) je fotografka zabývající se mimo jiné animací, zvukem a intervencemi do veřejného prostoru. Zajímá se o paměť ve vztahu k přítomnosti a budoucnosti. Zpracovává své vlastní vzpomínky, ale i současná společenská témata, jako je ekologická havárie nebo nedobrovolná migrace. Konceptuální uvažování se v její práci prolíná s poetickým viděním a angažovaným přístupem. Vizuální výstupy, nejčastěji v podobě fotografií, objektů nebo instalací, jsou většinou minimalisticky úsporné. Kromě analogové a digitální fotografie se v její práci objevuje zájem o starší postupy ve vytváření obrazové reprezentace, jako je camera obscura nebo ručně kreslená animace.</p>
+<p>V interaktivní videoinstalaci s názvem Box of Idea (2019)<br>si divák mohl pomocí DIY rozhraní přehrávat jednoduché ručně kreslené animace barevných geometrických tvarů, které nápadně připomínaly konkrétní objekty. Minimalistická abstraktní estetika&nbsp;v sobě skrývala konkrétní příběhy. Otáčející se žlutočervená koule vypadala jako dětský míč, šedomodrý kužel jako špičatá kouzelnická čapka. Neustálá transformace podivných tvarů, připomínajících nepovedená platónská tělesa, manifestovala přechod od myšlenky k objektu a zase zpět. Pro kolaborativní projekt polské umělkyně Zuzanny Czebatul vytvořila objekt s názvem When the Wind Blows (2022), model monumentu ve veřejném prostoru ve tvaru zvět- šené dětské hračky. Rudá barva pěticípého větrníku odkazovala na symbol komunismu, který se ve větru dával do pohybu a na chví- li ztrácel svůj původní tvar. Když se vítr utišil, tvar se objevil znovu. Přírodní živel jej očistil od historického nánosu, aktualizoval ho, aby mohl znovu vstoupit do hry. Objekt When the Wind Blows byl součástí skupinové výstavy Adjustable Monuments (2022) v galerii Sammlung Philara v Düsseldorfu. V rámci diplomové výstavy prezentuje svůj magisterský projekt s názvem Bus stop (2023).</p>
+<p>Yuliya Jonas vystudovala bakalářský obor Fotografie na Fakultě umění v Ostravě. Na FaVU VUT v Brně je diplomantkou v Ateliéru environmentu u Barbory Klímové a Matěje Smetany.</p>
+<p>Jiří Havlíček</p>
+</div>
+</div>
+</div>
+</div>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
