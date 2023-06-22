@@ -8,6 +8,17 @@ owner: admin
 ---
 {{< raw_html >}}
 <h1 id="petr-&scaron;kobrtal">Petr &Scaron;kobrtal</h1>
+<div class="page" title="Page 35">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Petr Škobrtal (* 1997) je absolventom Ateliéru grafického designu 1 na FaVU VUT v Brně pod oficiálnym vedením Zuzany Kubíkovej a s týmto ateliérom asociovanej platformy AGDX, ktorá sa zaoberá mediálne nešpecifickým dizajnom, pričom odkazuje na čo najširšie pojatie slova dizajn. Toto je spojené s osobnou motiváciou meniť žitú realitu rôznorodými stratégiami a prostriedkami. Táto tendencia sa odráža aj v Škobrtalovej diplomovej práci SocialMaps Manifesto (2023), ktorá preskúmáva a prekonáva existujúce paradigmy mapových aplikácií.</p>
+<p>Škobrtalov SocialMaps Manifesto je diplomovou prácou vo forme textu. Tento je možné chápať ako výstup z častí dizajnového procesu &ndash; z rešerše, kritickej analýzy existujúcich riešení a ideácie možných alternatív k nim. Škobrtal, v procese navrhovania, vychádza z aktuálne používaných mapových aplikácií. Reflektuje ich s dôrazom na spôsoby, ktorými generujú svojím vlastníkom zisk. Pritom sa snaží modelovať východisko z, pre neho, problematických ekonomických a marketingových modelov. Škobrtalova diplomová práca nadväzuje na jeho bakalársku prácu, v ktorej sa zaoberal prototypovaním aplikácie. V podobe SocialMaps Manifesto tak vznikol analytický podklad, na ktorý môže jeho autor, či ktokoľvek ďalší, nadviazať a použiť ho pre tvorbu alternatívnych mapových aplikácií.</p>
+<p>Martina Růžičková</p>
+</div>
+</div>
+</div>
+</div>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
