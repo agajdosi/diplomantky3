@@ -8,6 +8,19 @@ owner: admin
 ---
 {{< raw_html >}}
 <h1 id="s&aacute;ra-jaro&scaron;ov&aacute;">S&aacute;ra Jaro&scaron;ov&aacute;</h1>
+<div class="page" title="Page 15">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Sára Jarošová (* 1998) se zabývá osobní a kolektivní pamětí ve vztahu k nejrůznějším médiím. Intermediální přístup jí dovoluje zkoumat téma paměti v celé jeho šíři &ndash; od vizuální analýzy společenských rituálů přes inscenované video eseje o vztahu paměti a místa po abstraktní malby, které zachycují osobní vzpomínky pomocí nečitelných znaků a barevných skvrn.</p>
+<p>Ve svých textech skládá fragmenty příběhů, které vyprávějí<br>o realitě neprivilegovaných jazykem ohlodaným na kost. Ve své práci často využívá optiku dítěte, která není naivní ani nostalgická, ale bezprostředně chaotická a někdy až podvratná. Do videofilmů, které vznikají ve spolupráci s Davidem Neumannem, obsazuje dětské protagonisty jako zdroj autentické výpovědi na hraně dokumentu a fikce.</p>
+<p>Ve videu s názvem A co kdyby? (2022) snímala dvojici dětí, jak improvizovaně předvádějí zdánlivě nesmyslné činnosti, které plynule přecházely do rituálního zaříkávání nebo zcizující interakce s objektivem kamery. Dívka i chlapec na sobě měli barevné roztrhané kostýmy, na obličeji líčení a chvílemi spolu komunikovali fiktivním jazykem. Pomocí klíčování se střídavě pohybovali v zasněženém lese nebo na jezerní hladině. Změna měřítka z nich vytvářela drobnou součást biosféry. Ve videu se Jarošová snažila zpochybnit zažitou představu o individuálním tvůrci a nabídla odpověď v podobě kolektivního autorství. Spekulativní otázka z názvu videa se vztahovala k hledání nových možností kooperace živých a neživých složek v rámci otevřené struktury přírodního ekosystému. Jakým způsobem by se proměnila společnost, kdybychom &bdquo;spolupráci&ldquo; definovali jako blízký vztah plný lásky? Je autorství pouhá iluze postkapitalistického diskurzu, která má potvrzovat tradiční dělbu práce? Video A co kdyby? (2022) bylo prezentováno na skupinové výstavě Cuerpo Transparente v Centro de Producción Audiovisual Leonardo Favio v Buenos Aires. Její textová sbírka s názvem Naleštěnej Mercedes (2023) byla publikována na digitální platformě pro současnou poezii Psí víno. V rámci výstavy diplomových prací prezentuje svůj závěrečný projekt Můj teenage dream nikdy nekončí (2023), který se zabývá tématem utopické budoucnosti a irelevantnosti historie. Je zpracován ve 3D digitálně vytvořeném prostředí herního enginu Unreal Engine 5.</p>
+<p>Sára Jarošová vystudovala bakalářský obor Filmová, divadelní, televizní a rozhlasová studia na Filozofické fakultě Univerzity Palackého v Olomouci. Je absolventkou Ateliéru environmentu FaVU VUT v Brně pod vedením Barbory Klímové a Matěje Smetany.</p>
+<p>Jiří Havlíček</p>
+</div>
+</div>
+</div>
+</div>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
