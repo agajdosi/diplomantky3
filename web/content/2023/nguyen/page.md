@@ -8,6 +8,20 @@ owner: admin
 ---
 {{< raw_html >}}
 <h1 id="m&aacute;rio-nguyen">M&aacute;rio Nguyen</h1>
+<div class="page" title="Page 21">
+<div class="section">
+<div class="layoutArea">
+<div class="column">
+<p>Mário Nguyen (*1992) pracuje převážně objektově a sochařsky.<br>Ve své tvorbě vychází z klasičtějších figurálních motivů, speciálně potom v soše a 3D animaci. V posledních letech se uchyluje zvláště k práci v prostoru s mnohovrstevnatými materiály a práci s objektovou instalací. Tak tomu je například v projektu pod názvem Heavy Light Weight (2020), kde k vytvoření díla využívá kinetickou interaktivní instalaci. Jedná se o dva železné objekty připomínající ptačí pera, které jsou obklopené několika tisíci bambusových tyček. Autor zde pracuje s ambivalencí lehkosti ptačího pírka v kontrastu</p>
+<p>s fyzickou tíhou kovového materiálu, ze kterého je vyrobeno. Instalaci tvoří dva šedesátikilové objekty ptačích per, visící přímo nad hlavami diváků*divaček, kteří sami mohou zatáhnout za rukojeť visící&nbsp;v prostoru. Instalace pojednává o tzv. efektu motýlích křídel. Tato symbolika se zde objevuje jako metafora tématu duševního zdraví a jeho křehkosti, je-li narušen i jen zlomek toho, co by osoba bez psychických obtíží mohla považovat za standardní. Instalace tak navozuje pocity strachu a nechává diváctvo nahlédnout do prožívání pocitů úzkosti a těžkosti. Projekt vychází z původní instalace pod názvem Living Space (2016), ve které autor opět použil bambusová brčka tvořící geometrické obrazce v prostoru galerie či také v obytných prostorách. Součástí byla performance, v níž se objevila postava držící dvě zářící světla, která v instalaci tančila. Jednalo se o spojení monumentálních rozměrů instalace s její křehkou zpracovaností.</p>
+<p>Instalace částečně navazovala na motivy bakalářské práce s názvem Katarze Múzy (2018). Zde autor našel inspiraci v reflexi svých vlastních emocí, které se odrážejí v jeho následných uměleckých postupech. Vytvořil objekt, sousoší do sebe vzájemně zapletených ženských těl. Každá část představuje fyzickou podobu jedné ze tří fází procesu tvorby. První fází je rezignace tvořit či cokoliv vytvářet, k čemuž se pojí také frustrace a úzkost. Druhou fází je rozhněvanost a vzdor vůči tvůrčímu procesu, ale také pomalu bující pocit odhodlanosti. Třetí fází je konečné uvolnění a obrovská úleva, která postavu postupně vyvazuje z pout. Monumentální figurální instalace připomíná spíše hybridní tělo. Celá socha je zavěšená v prostoru několik metrů nad zemí.</p>
+<p>Figurální aspekty sochařské praxe uplatnil Nguyen také v práci s názvem Svítíš před očima slepců (2013), kterou vystavil jako veřejnou intervenci na tabuli autobusové zastávky. Zde se zajímá o téma materialismu či konzumerismu a sprejuje bílé masce přes oči vrstvu černého spreje. Popisuje tak práci jako společenskou ztrátu kulturních a duševních hodnot a nasazuje masku nad hlavy lidí čekajících na spoj.</p>
+<p>Mário Nguyen studoval v letech 2014 až 2018 na katedře Socha, objekt a instalace v ateliéru Socha v 3D virtuálním prostoru a architektuře na Akademii výtvarných umění a designu v Bratislavě pod vedením Patrika Kovačovského. Je absolventem Ateliéru sochařství 1 u Michala Gabriela a Tomáše Medka na FaVU VUT v Brně.</p>
+<p>Natálie Kubíková</p>
+</div>
+</div>
+</div>
+</div>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
