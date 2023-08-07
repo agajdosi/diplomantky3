@@ -64,14 +64,19 @@ doctl apps update --spec .do/app.yaml 3adf38e8-ed0c-418f-9a57-53be79f3dacb
 
 ## Developing function
 
+Provide env variables in `.env` file.
 Functions are stored at `packages/<packaga_name>/<function_name>`.
 
+### Build the functions
 Build the functions: `doctl serverless deploy . --remote-build`
 Warning: use the `--remote-build` flag as otherwise the dependencies will not be installed properly.
 
 
-get URL of function: `doctl sls fn get core/login --url`  
-run function: `doctl serverless functions invoke core/login`
+### Try functions
+Get URL of function: `doctl sls fn get core/login --url`.
+Paste this into `web/config/development/params.yaml` so that Hugo can use it.
+
+To run function: `doctl serverless functions invoke core/login`.
 
 
 ```json

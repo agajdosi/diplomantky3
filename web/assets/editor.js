@@ -4,11 +4,8 @@ const EDIT_BIO = 'bio';
 const EDIT_ARTWORK = 'diploma';
 
 const EDIT_TEXT = 'edit';
-const EDIT_ARTWORK_TEXT = 'edit:diploma';
 const PREVIEW_TEXT = 'preview';
-const PREVIEW_ARTWORK_TEXT = 'preview:diploma';
 const SAVE_TEXT = 'save';
-const SAVE_ARTWORK_TEXT = 'save:diploma';
 
 window.addEventListener('load', editorPageLoaded);
 
@@ -39,9 +36,13 @@ function editButtonClicked(event){
   }
 }
 
-function save() {
-  console.log('FUNCS_URL: ' + params.FUNCS_URL);
+function get_jwt() {
   let jwt = document.cookie.split('; ').find(row => row.startsWith('jwt=')).split('=')[1];
+  return jwt;
+}
+
+function save() {
+  let jwt = get_jwt();
   let content_bio = tinymce.get(EDIT_BIO+'_editor').getContent();
   let content_diploma = tinymce.get(EDIT_ARTWORK+'_editor').getContent();
   let sourceFile = document.querySelector("meta[name='sourceFile']").getAttribute('content');
@@ -134,8 +135,39 @@ function initTinyMCE(target_id) {
       {name: 'history', items: ['undo', 'redo', 'cancel']},
     ],
     content_css: "/main.css",
+
+    // IMAGE UPLOAD
+    images_upload_handler: image_upload_handler,
+    images_file_types: 'jpg,jpeg,avif,webp',
   });
 }
+
+const image_upload_handler = (blobInfo, progress) => new Promise((resolve, reject) => {
+  const reader = new FileReader();
+  reader.onloadend = function() {
+    const base64String = reader.result.replace('data:', '').replace(/^.+,/, '');
+    const filename = blobInfo.filename();
+    const source_dir = document.querySelector("meta[name='sourceDir']").getAttribute('content');
+    const jwt = get_jwt();
+    const data = {
+      "blob": base64String,
+      "filename": filename,
+      "source_dir": source_dir,
+      "token": jwt,
+    };
+    
+    fetch(params.FUNCS_URL + '/core/image_upload', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json',},
+      body: JSON.stringify(data),
+    })
+    .then((response) => response.json())
+    .then((data) => {
+      resolve(data.location);
+    });
+  }
+  reader.readAsDataURL(blobInfo.blob());
+});
 
 function enterEditorMode(event, target_id) {
   let editor_id = target_id + '_editor';

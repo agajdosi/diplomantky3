@@ -19,3 +19,10 @@ packages:
           web: true
           limits:
             memory: 128
+        - name: image_upload
+          binary: true
+          main: ""
+          runtime: python:3.11
+          web: true
+          limits:
+            memory: 128
