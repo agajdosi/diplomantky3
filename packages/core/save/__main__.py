@@ -5,16 +5,18 @@ from requests import get, put
 from base64 import b64encode, b64decode
 from hashlib import sha1
 from collections import OrderedDict
-from pymongo import MongoClient
+from pyairtable import api
+from pyairtable.formulas import match
 
 
 ORG = "agajdosi"
 REPO = "diplomantky3"
 SECRET_KEY = environ["SECRET_KEY"]
-MONGO_CONNECTION_STRING = environ["MONGO_CONNECTION_STRING"]
 GH_TOKEN = environ["GH_TOKEN"]
 SPLITTER = "<!-- SECTION BREAK -->"
-
+AIRTABLE_TOKEN = environ["AIRTABLE_TOKEN"]
+AIRTABLE_APP_ID = environ["AIRTABLE_APP_ID"]
+AIRTABLE_TABLE_NAME = "users"
 
 def main(args):
     response = {
@@ -78,13 +80,17 @@ def githash(data: bytes) -> str:
 
 
 def verifyAdmin(username: str) -> bool:
-    client = MongoClient(MONGO_CONNECTION_STRING, connectTimeoutMS=200)
-    database = client.get_database("diplomantky")
-    users = database.get_collection("users")
-    user = users.find_one({"username": username})
+    table = api.Table(AIRTABLE_TOKEN, AIRTABLE_APP_ID, AIRTABLE_TABLE_NAME)
+    formula = match({"username": username})
+    user = table.first(formula=formula)
     if user is None:
         return False
-    if user.get("role") != "admin":
+    
+    fields = user.get("fields")
+    if fields is None:
+        return False
+
+    if fields.get("role") != "admin":
         return False
     return True
 
