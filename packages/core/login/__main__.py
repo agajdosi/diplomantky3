@@ -1,13 +1,14 @@
 from os import environ
-from pymongo import MongoClient
 from http import HTTPStatus
 from datetime import datetime, timezone, timedelta
 import jwt
-
+from pyairtable import api
+from pyairtable.formulas import match
 
 SECRET_KEY = environ["SECRET_KEY"]
-MONGO_CONNECTION_STRING = environ["MONGO_CONNECTION_STRING"]
-
+AIRTABLE_TOKEN = environ["AIRTABLE_TOKEN"]
+AIRTABLE_APP_ID = environ["AIRTABLE_APP_ID"]
+AIRTABLE_TABLE_NAME = "users"
 
 def main(args):
     response = {
@@ -21,18 +22,32 @@ def main(args):
         response["body"] = {"result": "no credentials"}
         return response
 
-    client = MongoClient(MONGO_CONNECTION_STRING, connectTimeoutMS=200)
-    database = client.get_database("diplomantky")
-    users = database.get_collection("users")
+    # Create a Table instance
+    table = api.Table(AIRTABLE_TOKEN, AIRTABLE_APP_ID, AIRTABLE_TABLE_NAME)
 
-    user = users.find_one({"username": username}, max_time_ms=100)
+    # Fetch user data from Airtable
+    formula = match({"username": username})
+    user = table.first(formula=formula)
     if user is None:
-        response["body"] = {"result": "user does not exist"}
+        response["body"] = {"result": "wrong credentials - user not found"}
         return response
 
-    if password != user.get("password"):
-        response["body"] = {"result": "wrong credentials"}
+    fields = user.get("fields")
+    if fields is None:
+        response["body"] = {"result": "wrong credentials - fields not found"}
         return response
+
+    db_password = fields.get("password")
+    if db_password is None:
+        response["body"] = {"result": "wrong credentials - db_password not found"}
+        return response
+
+    if password != db_password:
+        response["body"] = {"result": "wrong credentials - passwords does not match"}
+        return response
+
+    user_role = fields.get("role", "user")
+    redirect_url = fields.get("url")
 
     data = {
         "username": username,
@@ -44,7 +59,7 @@ def main(args):
         "result": "ok",
         "token": token,
         "loggedAs": username,
-        "userRole": user.get("role", "user"),
-        "redirectUrl": user.get("url"),
+        "userRole": user_role,
+        "redirectUrl": redirect_url,
     }
     return response
