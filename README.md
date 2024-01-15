@@ -18,7 +18,6 @@ hugo serve
 - portfolio se uklada na Github, trva to asi 2-5 minut, nez se to zmeni na webu (po refreshi, musime to zminit)
 
 ### TODO
-- zatim neni funkce na nahrani obrazku
 - zatim neni moznost editovat Nazev dila, description (zobrazuje se v title a v preview na FB)
 - zatim neni moznost editovat URL a dalsi metadata
 - zatim neni moznost zmenit heslo, zmenit email
@@ -30,6 +29,8 @@ Nemelo by to zabrat dele nez 30 minut.
 
 ## Administrator perspective
 
+### Editace uzivatelu a hesel
+Pres airtable: https://airtable.com/appguRE6D4sICqeDA/tbl8bHfm2mZwviVjy
 
 # NERD STUFF
 
