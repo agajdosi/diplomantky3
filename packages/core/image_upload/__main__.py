@@ -8,7 +8,6 @@ import uuid
 ORG = "agajdosi"
 REPO = "diplomantky3"
 SECRET_KEY = environ["SECRET_KEY"]
-MONGO_CONNECTION_STRING = environ["MONGO_CONNECTION_STRING"]
 GH_TOKEN = environ["GH_TOKEN"]
 SPLITTER = "<!-- SECTION BREAK -->"
 
