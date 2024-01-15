@@ -3,7 +3,8 @@ packages:
       environment:
         SECRET_KEY: "${SECRET_KEY}"
         GH_TOKEN: "${GH_TOKEN}"
-        MONGO_CONNECTION_STRING: "${MONGO_CONNECTION_STRING}"
+        AIRTABLE_TOKEN: "${AIRTABLE_TOKEN}"
+        AIRTABLE_APP_ID: "${AIRTABLE_APP_ID}"
       functions:
         - name: login
           binary: true
