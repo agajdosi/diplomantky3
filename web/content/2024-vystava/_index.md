@@ -59,5 +59,5 @@ Volkova, Lenka Zadražilová, Marie Zandálková
 Spolupořadatelem výstavy je Dům umění města Brna.
 Mediálním partnerem je Artalk.
 
-https://www.favu.vut.cz/f26745/d259562
-https://www.favu.vut.cz/f26745/d261613
+https://www.favu.vut.cz/f26745/d259562  
+https://www.favu.vut.cz/f26745/d261613  
