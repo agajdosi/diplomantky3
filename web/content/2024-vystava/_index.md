@@ -12,12 +12,12 @@ url: "vystava-2024"
 weight: "10"
 
 ---
-📍 Dům pánů z Kunštátu, Dominikánská 9, Brno
-📍 Distillery, Pekařská 78, Brno
+📍 Dům pánů z Kunštátu, Dominikánská 9, Brno  
+📍 Distillery, Pekařská 78, Brno  
 📅 26. 6. – 28. 7. 2024  
 🎫 Vstup zdarma  
 
-# Realizace
+## Realizace
 Kurátorstvo: Barbora Trnková a Kateřina Olivová  
 Grafický design: Ondřej Zábojník, Daniel Weber  
 Architektura výstavy: Karolína Munková, Eva Truncová  
