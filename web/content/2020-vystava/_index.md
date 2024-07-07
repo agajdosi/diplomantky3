@@ -13,7 +13,7 @@ url: "vystava-2020"
 🎫 Vstup zdarma  
 
 ## Kurátorský tým
-Kurátorky, designérky: Martina Růžičková, Andreas Gajdošík, Jakub Polách
+Kurátorky, designérky: Martina Růžičková, [Andreas Gajdošík](https://gajdosik.org), Jakub Polách
 
 ## O výstavě
 Jako designérky (navrhovatelky) nechceme v omezeném prostoru, který nám byl alokovaný, vytvářet falešný pocit starostlivosti o jednotlivé diplomantky. Proto nevytváříme kurátorský koncept, ale službu a infrastrukturu. Službu, webovou platformu, která bude naplněná samotnými diplomantkami. Ta přežije fyzické výstavy, rozdistribuované po Brně v podobě dočasné výstavní infrastruktury, a pevně věříme, že i grafické trendy budoucnosti.

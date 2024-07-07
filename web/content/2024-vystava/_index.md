@@ -44,20 +44,10 @@ její vernisáž je koncipována jako oslava ukončení studia a přechodu do
 další fáze tvůrčího, kariérního i osobního růstu.
 Kateřina Olivová a Barbora Trnková
 
-## Diplomující
-Ivana Balcaříková, Jan Bendák, Lucia Bergamaschi, Rama Bilal, Kateřina
-Cendelínová, Natália Drevenáková, Jakub Dvořák, Richard Haraším, Petr
-Eric Hofmann, Petra Hrúziková, Eliška Jedličková, Michaela Kachtíková,
-Alexandra Kopúnková, Balbína Králová, Lucie Lienerová, Karolína
-Lubovská, Klára Malo, Jakub Matušek, Anna Medvedska, Berta Myslivcová,
-Bára Nováková, Eva Paterová, Anna Petruželová, Daniela Ponomarevová,
-Denisa Ponomarevová, Michaela Rapava, Terezie Rausová, Markéta Skalková,
-Adam Smolek, Adam Strach, Pavlína Temcsáková, Robert Urbančok, Zoya
-Volkova, Lenka Zadražilová, Marie Zandálková
+
+[Detailní informace k výstavě](https://www.favu.vut.cz/f26745/d261613)  
+[Pozvánka na vernisáž](https://www.favu.vut.cz/f26745/d259562)  
 
 
-Spolupořadatelem výstavy je Dům umění města Brna.
-Mediálním partnerem je Artalk.
-
-https://www.favu.vut.cz/f26745/d259562  
-https://www.favu.vut.cz/f26745/d261613  
+Spolupořadatelem výstavy je [Dům umění města Brna](https://www.dum-umeni.cz/).
+Mediálním partnerem je [Artalk](https://artalk.info).
