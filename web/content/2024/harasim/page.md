@@ -6,5 +6,5 @@ draft: false
 url: richard-harasim
 owner: admin
 ---
-
+# Richard Haraším
 <!-- SECTION BREAK -->

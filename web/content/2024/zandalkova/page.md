@@ -1,10 +1,10 @@
 ---
-title: Jmeno Prijmeni
+title: Marie Zandálková
 date: 2024-06-26T15:02:56+02:00
 description: ""
 draft: false
-url: jan-brazina
+url: marie-zandalkova
 owner: admin
 ---
-
+# Marie Zandálková
 <!-- SECTION BREAK -->

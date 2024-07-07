@@ -8,5 +8,3 @@ owner: admin
 ---
 # Berta Myslivcova
 <!-- SECTION BREAK -->
-
-# Piece
