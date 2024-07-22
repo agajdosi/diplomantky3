@@ -47,12 +47,14 @@ function save() {
   let content_diploma = tinymce.get(EDIT_ARTWORK+'_editor').getContent();
   let sourceFile = document.querySelector("meta[name='sourceFile']").getAttribute('content');
   let sourceDir = document.querySelector("meta[name='sourceDir']").getAttribute('content');
+  let sourceFilePath = document.querySelector("meta[name='sourceFilePath']").getAttribute('content');
   let data = {
       "token": jwt,
       "content_bio": content_bio,
       "content_diploma": content_diploma,
       "sourceFile": sourceFile,
       "sourceDir": sourceDir,
+      "sourceFilePath": sourceFilePath,
   };
   fetch(params.FUNCS_URL + '/core/save', {
       method: 'POST',

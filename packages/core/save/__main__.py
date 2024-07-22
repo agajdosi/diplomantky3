@@ -27,7 +27,7 @@ def main(args):
     token = args.get("token")
     content_bio = args.get("content_bio")
     content_diploma = args.get("content_diploma")
-    sourceFilePath = args.get("sourceFile")
+    sourceFilePath = args.get("sourceFilePath")
     if token is None:
         response["body"] = {"result": "no token"}
         return response
@@ -38,7 +38,7 @@ def main(args):
         response["body"] = {"result": "no content_diploma"}
         return response
     if sourceFilePath is None:
-        response["body"] = {"result": "no sourceFilePath"}
+        response["body"] = {"result": "no sourceFilePath parameter"}
         return response
 
     try:
@@ -97,7 +97,7 @@ def verifyAdmin(username: str) -> bool:
 
 def save(sourceFilePath: str, username: str, bio: str, diploma: str):
     """Here we will save the data."""
-    url = f"https://api.github.com/repos/{ORG}/{REPO}/contents/web/content/{sourceFilePath}"
+    url = f"https://api.github.com/repos/{ORG}/{REPO}/contents/web/{sourceFilePath}"
     headers = {
         "Accept": "application/vnd.github+json",
         "Authorization": f"Bearer {GH_TOKEN}",
