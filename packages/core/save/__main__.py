@@ -105,7 +105,7 @@ def save(sourceFilePath: str, username: str, bio: str, diploma: str):
     }
     resp = get(url, headers=headers)
     if resp.status_code != 200:
-        return False, f"GET file failed: {resp.text}"
+        return False, f"GET file on URL '{url}' failed: {resp.text}"
     try:
         data = resp.json()
     except Exception as e:
