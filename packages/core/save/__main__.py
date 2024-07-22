@@ -97,7 +97,7 @@ def verifyAdmin(username: str) -> bool:
 
 def save(sourceFilePath: str, username: str, bio: str, diploma: str):
     """Here we will save the data."""
-    url = f"https://api.github.com/repos/{ORG}/{REPO}/contents/web/{sourceFilePath}"
+    url = f"https://api.github.com/repos/{ORG}/{REPO}/contents/web/content/{sourceFilePath}"
     headers = {
         "Accept": "application/vnd.github+json",
         "Authorization": f"Bearer {GH_TOKEN}",
