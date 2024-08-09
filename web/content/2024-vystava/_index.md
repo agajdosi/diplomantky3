@@ -5,7 +5,12 @@ schůzkou, vzájemnou komentovanou prohlídkou, oficiálním zahájením,
 alko i nealko, chill-out zónou s dětským koutkem a šatnou pro rodiče,
 afterparty ve sklepě a následným podpůrným programem pro absolventstvo /
 Diplomantstvo FaVU 2024"
-shortTitle: "Oslava zakončení studia - výstava 2024"
+shortTitle: "Oslava zakončení studia, vernisáž diplomantské výstavy s rodičovskou
+schůzkou, vzájemnou komentovanou prohlídkou, oficiálním zahájením,
+šokující performancí, hudebním programem, bohatým rautem zahrnujícím
+alko i nealko, chill-out zónou s dětským koutkem a šatnou pro rodiče,
+afterparty ve sklepě a následným podpůrným programem pro absolventstvo /
+Diplomantstvo FaVU 2024"
 date: 2024-06-25T15:02:56+02:00
 draft: false
 url: "vystava-2024"
