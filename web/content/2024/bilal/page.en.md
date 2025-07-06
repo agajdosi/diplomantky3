@@ -1,9 +1,9 @@
 ---
-title: Jmeno Prijmeni
+title: Rama Bilal
 date: 2024-06-26T15:02:56+02:00
 description: ""
 draft: false
-url: jan-brazina
+url: rama-bilal
 owner: admin
 ---
 
