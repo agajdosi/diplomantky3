@@ -8,7 +8,7 @@ weight: "12"
 
 ---
 📍 Dům pánů z Kunštátu (Dominikánská 9, Brno)  
-📍 Hrad Špilberk (Špilberk 1, Brno) 
+📍 Hrad Špilberk (Špilberk 1, Brno)  
 📅 25. 6. – 27. 7. 2025  
 🎫 Vstup zdarma  
 
