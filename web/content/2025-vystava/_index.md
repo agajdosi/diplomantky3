@@ -13,7 +13,7 @@ weight: "12"
 🎫 Vstup zdarma  
 
 ## Realizace
-Koncepce a design: Kurátorský tým z Ateliéru herních médií FaVU VUT
+Koncepce a design: Kurátorský tým z Ateliéru herních médií FaVU VUT  
 Grafický design: Alina Matějová
 
 ## O výstavě
@@ -21,6 +21,6 @@ Výstava nabídne neopakovatelný exkurz do témat a perspektiv diplomových pra
 Tyto zdánlivě nesourodé oblasti spojuje nejen přirozená sázka na štěstí, ale především schopnost adaptovat se na nepředvídatelné situace v libovolném ekosystému.
 Absolventské projekty současně otevírají potenciál pro spolupráci se všemi oblastmi, ve kterých je citlivost klíčovým hybatelem kulturního, společenského nebo technologického vývoje.
 
-Díla Anety Chalabalové, Kataríny Marošiové a Lukáše Vacka jsou součástí výstavy Moduly v Galerii města Brna a budou na Hradě Špilberk vystavena od 28. 5. do 27. 7. 2025.
+Díla Anety Chalabalové, Kataríny Marošiové a Lukáše Vacka jsou součástí výstavy [Moduly](https://www.muzeumbrna.cz/moduly-vystava-zaverecnych-praci-atelieru-prostorove-tvorby-favu/t2033) v Galerii města Brna a jsou na Hradě Špilberk vystavena od 28. 5. do 27. 7. 2025.
 
 Spolupořadatelem výstavy je [Dům umění města Brna](https://www.dum-umeni.cz/).
