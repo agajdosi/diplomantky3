@@ -21,6 +21,6 @@ The exhibition will offer a unique insight into the topics and perspectives of d
 These seemingly disparate fields are united not only by a natural gamble on luck, but above all by the ability to adapt to unpredictable situations in any ecosystem.
 At the same time, the graduate projects open up the potential for collaboration in all areas where sensitivity is a key driver of cultural, social, or technological development.
 
-The works of Aneta Chalabalová, Katarína Marošiová, and Lukáš Vacek are part of the Moduly exhibition at the Brno City Gallery and will be on display at Špilberk Castle from May 28 to July 27, 2025.
+The works of Aneta Chalabalová, Katarína Marošiová, and Lukáš Vacek are part of the [Moduly exhibition](https://www.muzeumbrna.cz/moduly-vystava-zaverecnych-praci-atelieru-prostorove-tvorby-favu/t2033) at the Brno City Gallery and are on display at Špilberk Castle from May 28 to July 27, 2025.
 
 The exhibition is co-organized by the [Brno House of Arts](https://www.dum-umeni.cz/).
