@@ -54,13 +54,19 @@ function login(event) {
 function validate_login_response(data) {
     let report = document.getElementById("login_report");
     if (data['result'] === 'ok'){
+        console.log('credentials ok');
         let token = data['token'];
         let loggedAs = data['loggedAs'];
         let userRole = data['userRole'];
         if (userRole == null) userRole = 'user';
-        document.cookie = `jwt=${token}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
-        document.cookie = `loggedAs=${loggedAs}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
-        document.cookie = `userRole=${userRole}; secure; sameSite=Lax; expires=Sun, 1 Jan 2025 00:00:00 UTC;`; //TODO: set expiration date
+        console.log('userRole: ' + userRole);
+        
+        // TODO: set expiration date dynamically
+        document.cookie = `jwt=${token}; secure; sameSite=Lax; expires=Mon, 31 Dec 2030 23:59:59 UTC;`;
+        document.cookie = `loggedAs=${loggedAs}; secure; sameSite=Lax; expires=Mon, 31 Dec 2030 23:59:59 UTC;`;
+        document.cookie = `userRole=${userRole}; secure; sameSite=Lax; expires=Mon, 31 Dec 2030 23:59:59 UTC;`;
+        
+        console.log('cookies set');
         report.innerText = 'Successfully logged in!';
         let redirectUrl = data['redirectUrl'];
         if (redirectUrl) {
@@ -68,5 +74,6 @@ function validate_login_response(data) {
         }
         return;
     }
+    console.log('wrong credentials, data: ' + JSON.stringify(data));
     report.innerText = 'Wrong credentials, please try again.'
 };
