@@ -54,7 +54,5 @@ Kateřina Olivová and Barbora Trnková
 [Invitation to the opening](https://www.favu.vut.cz/f26745/d259562)  
 
 
-The exhibition is co-organized by the Brno House of Arts (https://www.dum-umeni.cz/).
-The media partner is Artalk (https://artalk.info).
-
-Translated with DeepL.com (free version)
+The exhibition is co-organized by the [Brno House of Arts](https://www.dum-umeni.cz/).
+The media partner is [Artalk](https://artalk.info).
