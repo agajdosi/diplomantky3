@@ -1,0 +1,89 @@
+
+{{- define "pageimage" -}}{{ $ogImage := path.Join `/locations` .Page.File.TranslationBaseName}}{{absURL $ogImage}}/1.jpg{{- end -}}
+{{ define "pagetitle"}} {{.Title}} {{end}}
+
+{{ define "content"}}
+
+  <h1>
+    {{ .Title }}
+  </h1>
+  
+  <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      {{ $file := .Page.File.TranslationBaseName }}
+      {{ range .Params.images }}
+        {{ index . 1 }}
+        <div class="swiper-slide">
+          <figure>
+            <img src="/2022/{{ index . 0 }}" alt="{{ index . 1 }}">
+            <figcaption>{{ index . 1 }}</figcaption>
+          </figure>
+        </div>
+      {{ end }}
+    </div>
+    <!-- If we need pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+
+  <div class="warning">
+    {{ .Content }}
+  </div>
+
+<h1>
+  {{ T "exhibiting-artists"}}
+</h1>
+
+{{ range sort (where .Site.Pages "Params.year" "2022") ".Params.surname" }}
+  <h2>
+    {{ .Title }}
+    <!-- <a href="{{ .Permalink }}"> {{ .Title }} </a> -->
+  </h2>
+{{ end }}
+
+
+
+{{ end }}
+
+
+{{ define `carousel-lib`}}
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+{{end }}
+
+
+{{ define `carousel-script`}}
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      // Optional parameters
+      //direction: 'vertical',
+      loop: true,
+    
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+      // And if we need scrollbar
+      //scrollbar: {
+      //  el: '.swiper-scrollbar',
+      //},
+    })
+  </script>
+{{ end }}
