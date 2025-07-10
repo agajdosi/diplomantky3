@@ -77,3 +77,20 @@ function validate_login_response(data) {
     console.log('wrong credentials, data: ' + JSON.stringify(data));
     report.innerText = 'Wrong credentials, please try again.'
 };
+
+function handleDisabledProfileClick(url) {
+    // Check if user is logged in by looking for the jwt cookie
+    const cookies = document.cookie.split(';');
+    const jwtCookie = cookies.find(cookie => cookie.trim().startsWith('jwt='));
+    
+    if (jwtCookie) {
+        // User is logged in, redirect to the empty profile page
+        window.location.href = url;
+    } else {
+        // User is not logged in, do nothing
+        console.log('User not logged in, cannot access disabled profile');
+    }
+}
+
+// Make function globally available for onclick attributes
+window.handleDisabledProfileClick = handleDisabledProfileClick;
