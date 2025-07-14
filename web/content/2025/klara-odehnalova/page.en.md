@@ -7,10 +7,10 @@ url: klara-odehnalova
 owner: admin
 ---
 {{< raw_html >}}
-<h1>Kl&aacute;ra Juřen&iacute;kov&aacute;</h1>
-<h2>The Sea, the Sea</h2>
-<p>Intermedia Studio</p>
-<p>All water bodies are alive and the sea is the most alive and powerful of them all. The work is a visual love letter to the sea &ndash; a symbol of freedom, wildness and mystery. The artist explores the personal and archetypal relationship to this force of nature, its impact on emotions and the imagination. Reflecting on this fascination and the inner chaos precipitated by its absence, the work considers this untamable entity as a friend without limit, inviting us to voyage, dare, search and discover.</p>
+<h1>Kl&aacute;ra Odehnalov&aacute;</h1>
+<h2>Solartrap</h2>
+<p>Video Studio</p>
+<p>The work explores alternative club cultures from an environmental perspective, questioning the sustainability of creating electronic music. By means of cover versions of songs by the band Vypsan&aacute; Fixa and a site-specific performance powered by solar energy, the artist reflects on the limits of creation in an era of climate crisis. The work connects a solar punk vision with decentralized approaches to energy sourcing, localism and poetic texts that address borders, value shifts and the search for hope.</p>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
