@@ -17,7 +17,9 @@ weight: "14"
 ## Realizace
 Kurátorský tým: Šimon Kadlčák, Tereza Vinklárková  
 Grafický design: Lucie Siudová, Zuzana Lovászová  
-Architektura výstavy: Sofie Gjuričová, Adam Rýznar (Studio Pipe Dream)
+Architektura výstavy: Sofie Gjuričová, Adam Rýznar (Studio Pipe Dream)  
+Partneři výstavy: Dům umění města Brna, Galerie TIC, Muzeum města Brna
+
 
 ## O výstavě
 Kurátorská dvojice Šimon Kadlčák a Tereza Vinklárková přistupuje k letošní diplomantské výstavě jako k jedinečné konstelaci uměleckých osobností.
@@ -43,5 +45,3 @@ Maedeh Hoseini (Dílo je také součástí výstavy Where Memory Dwells v Galeri
 Hrad Špilberk  
 Po–Ne: 10:00–18:00  
 Mikuláš Mitana (Dílo je také součástí výstavy Moduly II. v Galerii města Brna (Hrad Špilberk), kde bude vystaveno od 27. 5. do 31. 7. 2026.)
-
-Partneři výstavy: Dům umění města Brna, Galerie TIC, Muzeum města Brna.

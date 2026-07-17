@@ -17,7 +17,8 @@ weight: "14"
 ## Production
 Curatorial Team: Šimon Kadlčák, Tereza Vinklárková  
 Graphic Design: Lucie Siudová, Zuzana Lovászová  
-Exhibition Architecture: Sofie Gjuričová, Adam Rýznar (Studio Pipe Dream)
+Exhibition Architecture: Sofie Gjuričová, Adam Rýznar (Studio Pipe Dream)  
+Exhibition partners: Brno House of Arts, TIC Gallery, Brno City Museum
 
 ## About the Exhibition
 The curatorial duo Šimon Kadlčák and Tereza Vinklárková approach this year’s graduation exhibition as a unique constellation of artistic personalities.
@@ -43,5 +44,3 @@ Maedeh Hoseini (This work is also part of the exhibition *Where Memory Dwells* a
 Špilberk Castle  
 Mon–Sun: 10:00 a.m.–6:00 p.m.  
 Mikuláš Mitana (This work is also part of the exhibition *Modules II* at the Brno City Gallery (Špilberk Castle), where it will be on view from May 27 to July 31, 2026.)
-
-Exhibition partners: Brno House of Arts, TIC Gallery, Brno City Museum.
