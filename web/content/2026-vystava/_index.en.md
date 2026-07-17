@@ -8,7 +8,7 @@ weight: "14"
 
 ---
 📍 House of the Lords of Kunštát (Dominikánská 9, Brno)  
-📍 VUT Centre Tržnice (Zelný trh 250, Brno)  
+📍 Center BUT Tržnice (Zelný trh 14, Brno)  
 📍 TIC Gallery (Radnická 4, Brno)  
 📍 Špilberk Castle (Špilberk 1, Brno)  
 📅 June 24 – July 26, 2025  
@@ -17,15 +17,16 @@ weight: "14"
 ## Production
 Curatorial Team: Šimon Kadlčák, Tereza Vinklárková  
 Graphic Design: Lucie Siudová, Zuzana Lovászová  
-Exhibition Architecture: Sofie Gjuričová, Adam Rýznar (Studio Pipe Dream)  
+Exhibition Architecture: Sofie Gjuričová & Adam Rýznar (Studio Pipe Dream)  
 Exhibition partners: Brno House of Arts, TIC Gallery, Brno City Museum
 
 ## About the Exhibition
-The curatorial duo Šimon Kadlčák and Tereza Vinklárková approach this year’s graduation exhibition as a unique constellation of artistic personalities.
-According to them, the exhibition captures the moment when, after years of study, distinct artistic voices take shape and set out on their own trajectories. In addition to the striking diversity of themes, media, and approaches, the exhibition also reveals subtle connections, shared interests, and values that emerge among the individual works.
-A specific navigation system based on six metaphorical elements was also created for this year’s edition. These elements connect works across media and themes, allowing visitors to discover unexpected connections between individual projects.
-“While preparing the exhibition, we sought a way to capture the diversity of the graduation projects without reducing it to disciplinary or media categories.
-The elements serve as a metaphor for the shared moods, themes, and forces that emerge between the individual works. It is only through their mutual resonance that a whole is created—a star system,” explains the curatorial team.
+The starry skies above us thinly flicker with myriad tiny glowing points consisting of the reduced signals emitted by distant, fiery giants.
+Each one emits a message about its unique character in the form of a light ray, like a lonely lighthouse.
+And so do people – every one of us – comprise singular assemblages composed of unique combinations of experience, opinions, memories, ideas and wishes.
+Each person is a cosmos unto its own, and just like stars we – some more than others – like to send messages about our individual uniqueness which others can then receive.
+But never forget, human – you, much like the stars, will never find your place all on your own.
+Everything holds together in an energy field invisible to the human eye, one that connects us to everyone else.
 
 ## Graduates and Locations
 
@@ -37,10 +38,10 @@ BUT Tržnice Center
 Mon–Sun: 1:00 PM–6:00 PM  
 Clara Goldenstein, Andrej Ilič, Adéla Konečná, Terezie Krísová, Josef Mach, Ondřej Merta, Dmitrii Olgin, Karya Öner, Nikoleta Radišić, Vendula Spáčilová, Anna Tichá, Marie Vařeková, Adéla Vyhnálková
 
-Youth Gallery / TIC Gallery. 
-Tue–Fri: 11:00 a.m.–7:00 p.m., Sat: 2:00 p.m.–7:00 p.m.  
+TIC Gallery  
+Tue–Fri: 11:00 AM–7:00 PM, Sat: 2:00 PM–7:00 PM  
 Maedeh Hoseini (This work is also part of the exhibition *Where Memory Dwells* at the TIC Gallery, where it will be on view from May 27 to July 18, 2026.)
 
 Špilberk Castle  
-Mon–Sun: 10:00 a.m.–6:00 p.m.  
+Mon–Sun: 10:00 AM–6:00 PM  
 Mikuláš Mitana (This work is also part of the exhibition *Modules II* at the Brno City Gallery (Špilberk Castle), where it will be on view from May 27 to July 31, 2026.)

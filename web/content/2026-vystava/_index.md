@@ -8,8 +8,8 @@ weight: "14"
 
 ---
 📍 Dům pánů z Kunštátu (Dominikánská 9, Brno)  
-📍 Cetrum VUT Tržnice (Zelný trh 250, Brno)  
-📍 Galerie mladých / Galerie TIC (Radnická 4, Brno)  
+📍 Cetrum VUT Tržnice (Zelný trh 14, Brno)  
+📍 Galerie TIC (Radnická 4, Brno)  
 📍 Hrad Špilberk (Špilberk 1, Brno)  
 📅 24. 6. – 26. 7. 2026  
 🎫 Vstup zdarma  
@@ -17,7 +17,7 @@ weight: "14"
 ## Realizace
 Kurátorský tým: Šimon Kadlčák, Tereza Vinklárková  
 Grafický design: Lucie Siudová, Zuzana Lovászová  
-Architektura výstavy: Sofie Gjuričová, Adam Rýznar (Studio Pipe Dream)  
+Architektura výstavy: Sofie Gjuričová & Adam Rýznar (Studio Pipe Dream)  
 Partneři výstavy: Dům umění města Brna, Galerie TIC, Muzeum města Brna
 
 
