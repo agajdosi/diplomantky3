@@ -8,7 +8,7 @@ weight: "14"
 
 ---
 📍 Dům pánů z Kunštátu (Dominikánská 9, Brno)  
-📍 Cetrum VUT Trřnice (Zelný trh 250, Brno)  
+📍 Cetrum VUT Tržnice (Zelný trh 250, Brno)  
 📍 Galerie mladých / Galerie TIC (Radnická 4, Brno)  
 📍 Hrad Špilberk (Špilberk 1, Brno)  
 📅 24. 6. – 26. 7. 2026  
@@ -28,21 +28,20 @@ Pro letošní ročník vznikl i specifický navigační systém založený na š
 
 ## Diplomující a místa
 
-Dům pánů z Kunštátu
-Út–Ne: 10:00–18:00 (ve středy do 20 h)
+Dům pánů z Kunštátu  
+Út–Ne: 10:00–18:00 (ve středy do 20 h)  
 Štěpánka Adámková, Šimon Bolcek, Tereza Brlicová, Eleonora Cavallini, Bára Gehringerová, Jamie Hrabců, Josef Chovanec, Kateřina Jičinská, Natálie Klimšová, Libuše Kopůncová, Tereza Koudelková, Adam Michálek, Viktor Mikus, Richard Moštěk, Sára Némethová, Zuzana O'Neil, Barbora Pavlasová, Kateřina Procházková, Anna Spáčilová, Kateřina Svobodová, Terezie Tomková, Štěpánka Trčková, Adéla Valchařová, Eva Vaňová
 
-Centrum VUT Tržnice
-Po–Ne: 13:00–18:00
-Clara Goldenstein, Andrej Ilič, Adéla Konečná, Terezie Krísová, Josef Mach, On
-dřej Merta, Dmitrii Olgin, Karya Öner, Nikoleta Radišić, Vendula Spáčilová, Anna Tichá, Marie Vařeková, Adéla Vyhnálková
+Centrum VUT Tržnice  
+Po–Ne: 13:00–18:00  
+Clara Goldenstein, Andrej Ilič, Adéla Konečná, Terezie Krísová, Josef Mach, Ondřej Merta, Dmitrii Olgin, Karya Öner, Nikoleta Radišić, Vendula Spáčilová, Anna Tichá, Marie Vařeková, Adéla Vyhnálková
 
-Galerie Mladých / Galerie TIC
-Út–Pá: 11:00–19:00, So: 14:00–19:00
+Galerie Mladých / Galerie TIC  
+Út–Pá: 11:00–19:00, So: 14:00–19:00  
 Maedeh Hoseini (Dílo je také součástí výstavy Where Memory Dwells v Galerii TIC, kde bude vystaveno od 27. 5. do 18. 7. 2026.)
 
-Hrad Špilberk
-Po–Ne: 10:00–18:00
+Hrad Špilberk  
+Po–Ne: 10:00–18:00  
 Mikuláš Mitana (Dílo je také součástí výstavy Moduly II. v Galerii města Brna (Hrad Špilberk), kde bude vystaveno od 27. 5. do 31. 7. 2026.)
 
 Partneři výstavy: Dům umění města Brna, Galerie TIC, Muzeum města Brna.

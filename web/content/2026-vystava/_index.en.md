@@ -8,7 +8,7 @@ weight: "14"
 
 ---
 📍 House of the Lords of Kunštát (Dominikánská 9, Brno)  
-📍 VUT Centre Trřnice (Zelný trh 250, Brno)  
+📍 VUT Centre Tržnice (Zelný trh 250, Brno)  
 📍 TIC Gallery (Radnická 4, Brno)  
 📍 Špilberk Castle (Špilberk 1, Brno)  
 📅 June 24 – July 26, 2025  
@@ -28,23 +28,20 @@ The elements serve as a metaphor for the shared moods, themes, and forces that e
 
 ## Graduates and Locations
 
-The House of the Lords of Kunštát
-Tue–Sun: 10:00 a.m.–6:00 p.m. (Wednesdays until 8:00 p.m.)
+The House of the Lords of Kunštát  
+Tue–Sun: 10:00 a.m.–6:00 p.m. (Wednesdays until 8:00 p.m.)  
 Štěpánka Adámková, Šimon Bolcek, Tereza Brlicová, Eleonora Cavallini, Bára Gehringerová, Jamie Hrabců, Josef Chovanec, Kateřina Jičinská, Natálie Klimšová, Libuše Kopůncová, Tereza Koudelková, Adam Michálek, Viktor Mikus, Richard Moštěk, Sára Némethová, Zuzana O’Neil, Barbora Pavlasová, Kateřina Procházková, Anna Spáčilová, Kateřina Svobodová, Terezie Tomková, Štěpánka Trčková, Adéla Valchařová, Eva Vaňová
 
-BUT Tržnice Center
-Mon–Sun: 1:00 PM–6:00 PM
+BUT Tržnice Center  
+Mon–Sun: 1:00 PM–6:00 PM  
 Clara Goldenstein, Andrej Ilič, Adéla Konečná, Terezie Krísová, Josef Mach, Ondřej Merta, Dmitrii Olgin, Karya Öner, Nikoleta Radišić, Vendula Spáčilová, Anna Tichá, Marie Vařeková, Adéla Vyhnálková
 
-Youth Gallery / TIC Gallery
-Tue–Fri: 11:00 a.m.–7:00 p.m., Sat: 2:00 p.m.–7:00 p.m.
+Youth Gallery / TIC Gallery. 
+Tue–Fri: 11:00 a.m.–7:00 p.m., Sat: 2:00 p.m.–7:00 p.m.  
 Maedeh Hoseini (This work is also part of the exhibition *Where Memory Dwells* at the TIC Gallery, where it will be on view from May 27 to July 18, 2026.)
 
-Špilberk Castle
-Mon–Sun: 10:00 a.m.–6:00 p.m.
+Špilberk Castle  
+Mon–Sun: 10:00 a.m.–6:00 p.m.  
 Mikuláš Mitana (This work is also part of the exhibition *Modules II* at the Brno City Gallery (Špilberk Castle), where it will be on view from May 27 to July 31, 2026.)
 
 Exhibition partners: Brno House of Arts, TIC Gallery, Brno City Museum.
-
-
-Translated with DeepL.com (free version)
