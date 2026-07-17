@@ -1,12 +1,12 @@
 baseURL : https://diplomantky.cz
-languageCode : cz
+locale : cz
 title : Diplomantky.cz
 publishDir : ./build
 DefaultContentLanguage: cz
 languages:
   cz:
-    languageName: Česky
+    label: Česky
     weight: 1
   en:
-    languageName: English
+    label: English
     weight: 2
