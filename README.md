@@ -26,6 +26,9 @@ hugo serve
 Zatim to nejde pres webove rozhrani, ale jde to pres CLI - pocita se s ucasti Andrease, ktery to bude delat.
 Nemelo by to zabrat dele nez 30 minut.
 
+1. pridat web/content/2026 a web/content/2026-vystava
+2. ve web/content/2026 pridat slozky jednotlivych diplomujicich a zadat basic metadata
+3. POZOR: pridat web/layouts/2026 a web/layouts/2026/vystava, bez tohoto by to hazelo 404 na profilech lidi v rocniku
 
 ## Administrator perspective
 
