@@ -18,6 +18,9 @@ owner: admin
 <p><strong>Tv&eacute; diplomov&eacute; EP pracuje s t&eacute;matem přet&iacute;žen&iacute;, z&aacute;roveň se snaž&iacute; vytv&aacute;řet prostor pro citlivěj&scaron;&iacute; naslouch&aacute;n&iacute; a empatii. Nen&iacute; v tom určit&yacute; paradox &ndash; použ&iacute;vat hluk a intenzitu k tomu, aby člověk znovu vn&iacute;mal jemnost a nuance zvukov&eacute;ho prostřed&iacute;?</strong></p>
 <p>Mysl&iacute;m, že s hled&aacute;n&iacute;m jemnosti můžeme zač&iacute;t už u samotn&eacute;ho hluku, ve kter&eacute;m se nach&aacute;z&iacute; spousta vrstev a detailů. Hluk se může st&aacute;t melodi&iacute; nebo rytmem a začne b&yacute;t třeba nositelem nějak&eacute;ho pocitu. I skrze hluk a intenzitu můžeme prož&iacute;t s&iacute;lu ticha, a to pr&aacute;vě v jeho absenci, v kontrastu k němu.</p>
 <p><img src="https://raw.githubusercontent.com/agajdosi/diplomantky3/main/web/content/2026/konecna/ceedbaaf-d712-4926-9640-11c5c0ce513e_Diplomky_2026_portrety_3000px 1 ve velké velikosti.jpeg" alt="" width="853" height="1280"></p>
+<p><img src="https://raw.githubusercontent.com/agajdosi/diplomantky3/main/web/content/2026/konecna/b489c873-1b08-4667-8504-ae28c0a24abd_Diplomky_2026_2048px_35 ve velké velikosti.jpeg" alt="" width="1280" height="853"></p>
+<p><img src="https://raw.githubusercontent.com/agajdosi/diplomantky3/main/web/content/2026/konecna/11712b1d-31a9-4194-bde5-95a2725d5da3_Diplomky_2026_2048px_34 ve velké velikosti.jpeg" alt="" width="1280" height="853"></p>
+<p>foto: Polina Davydenko</p>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
