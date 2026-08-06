@@ -14,6 +14,8 @@ owner: admin
 <p><strong>Mluv&iacute;&scaron; o pap&iacute;ru jako o druh&eacute; kůži &ndash; stejně jako ona nese stopy času, reaguje&nbsp;na okoln&iacute; podm&iacute;nky i dotek. Mysl&iacute;&scaron; si, že pap&iacute;r a kůže mohou b&yacute;t rovnocenn&yacute;mi m&eacute;dii citlivosti?</strong><br>Vzpomněla jsem si na pap&iacute;rovou kůži, jakou m&iacute;vaj&iacute; babičky. Mysl&iacute;m, že&nbsp;ano &ndash; sice se v něčem li&scaron;&iacute;, ale jak pap&iacute;r, tak kůže jsou vrstevnat&eacute;, zraniteln&eacute;&nbsp;a nesou nějak&eacute; př&iacute;běhy.</p>
 <p><br><strong>Pro sv&eacute; vyj&aacute;dřen&iacute; sis zvolila rtěnku. Objekt jak kulturně, tak i genderově&nbsp;vysoce zat&iacute;žen&yacute;. Zaj&iacute;m&aacute; mě, co tě na n&iacute; přitahuje. Je to jej&iacute; intimita a vztah&nbsp;k tělu, nebo i to, jak&eacute; společensk&eacute; v&yacute;znamy sama nese?</strong><br>Obě roviny jsou mi bl&iacute;zk&eacute; a jsou souč&aacute;st&iacute; d&iacute;la, ale během procesu se uk&aacute;zala&nbsp;jako důležitěj&scaron;&iacute; ot&aacute;zka intimity a těla.</p>
 <p><img src="https://raw.githubusercontent.com/agajdosi/diplomantky3/main/web/content/2026/jicinska/58284d12-a2ed-471e-bdaa-fb3b1cf0aecd_Diplomky_2026_portrety_3000px 21 ve velké velikosti.jpeg" alt="" width="853" height="1280"></p>
+<p><img src="https://raw.githubusercontent.com/agajdosi/diplomantky3/main/web/content/2026/jicinska/3e6e557c-eced-4aa1-983a-85be933f5207_Diplomky_2026_2048px_33 ve velké velikosti.jpeg" alt="" width="853" height="1280"></p>
+<p>foto: Polina Davydenko</p>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
