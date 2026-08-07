@@ -15,6 +15,8 @@ owner: admin
 <p>&nbsp;</p>
 <p><strong>V&yacute;sledn&eacute; malby jsou hladk&eacute;, geometrick&eacute;, působ&iacute; na mě klidn&yacute;m dojmem. Je tenhle klid něco, co ti vždycky bylo vlastn&iacute;, nebo jsi k němu musela hledat cestu?</strong><br>Klid v malb&aacute;ch souvis&iacute; pr&aacute;vě s využit&iacute;m geometrie, k n&iacute;ž jsem se dostala&nbsp;postupně. Byla to pro mě cesta, jak se zbavit přeplněnosti, kter&aacute; na mě&nbsp;dopad&aacute;. Jak z okol&iacute;, tak z vlastn&iacute;ch my&scaron;lenek. V obrazech se tak objevuje&nbsp;paradox, kdy organick&eacute;, živoči&scaron;n&eacute; motivy přev&aacute;d&iacute;m do strukturovan&yacute;ch&nbsp;forem. Geometrie mi tak umožňuje vytvořit si vlastn&iacute; ř&aacute;d, i redukce na&nbsp;jednoduch&eacute; plochy mi přin&aacute;&scaron;&iacute; onen zmiňovan&yacute; klid.</p>
 <p><img src="https://raw.githubusercontent.com/agajdosi/diplomantky3/main/web/content/2026/valcharova/55005e63-935a-4a6b-9efe-560da812e38a_Diplomky_2026_portrety_3000px 6 ve velké velikosti.jpeg" alt="" width="853" height="1280"></p>
+<p><img src="https://raw.githubusercontent.com/agajdosi/diplomantky3/main/web/content/2026/valcharova/0c39b04e-d6cb-4aa9-b000-5389db078cd7_Diplomky_2026_2048px_28 ve velké velikosti.jpeg" alt="" width="1280" height="853"></p>
+<p>foto: Polina Davydenko</p>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
