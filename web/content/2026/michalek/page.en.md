@@ -14,6 +14,7 @@ owner: admin
 <p><strong>A particular kids&rsquo; motif that surfaces in your work is dinosaurs. What other&nbsp;things do they symbolize for you? And how is their &ldquo;return&rdquo; significant&nbsp;for this installation?</strong><br>Dinosaurs are a key moment from my childhood &ndash; colorful, plastic figurines&nbsp;that were immensely valuable for a kid with no toys. This idea converged with&nbsp;reality a month ago when my brother informed me that we used to get them&nbsp;in kindergarten for good behavior. I remembered how I would steal them and&nbsp;how I had a bad conscience because of that (laughs)! They resurface in my&nbsp;graduate work as a visual and significant feature, firstly colored by crayon,&nbsp;and secondly as a metal silhouette. This represents the crossroads between&nbsp;reality and how we remember it.</p>
 <p><img src="https://raw.githubusercontent.com/agajdosi/diplomantky3/main/web/content/2026/michalek/b50aa571-b725-499e-b732-aad445f02568_Diplomky_2026_portrety_3000px 38 ve velké velikosti.jpeg" alt="" width="853" height="1280"></p>
 <p><img src="https://raw.githubusercontent.com/agajdosi/diplomantky3/main/web/content/2026/michalek/8c0f62f4-6929-473a-bf28-a26e00de4fba_Diplomky_2026_2048px_8 ve velké velikosti.jpeg" alt="" width="853" height="1280"></p>
+<p>photo: Polina Davydenko</p>
 {{< /raw_html >}}
 <!-- SECTION BREAK -->
 {{< raw_html >}}
